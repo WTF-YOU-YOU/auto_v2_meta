@@ -1,4 +1,4 @@
-# Update: 2026-05-08 18:08
+# Update: 2026-05-09 17:49
 allow-lan: false
 dns:
   enable: true
@@ -18,126 +18,37 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '[9ms] 🇺🇸_US_美国_14'
-  type: vless
-  server: 172.64.144.74
-  port: 443
-  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
-  udp: true
-  tls: true
-  servername: rukawa.pages.dev
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
+- name: '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  type: vmess
+  server: 104.26.8.44
+  port: 80
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  alterId: 0
+  cipher: auto
   network: ws
+  tls: false
   ws-opts:
-    path: '/?ed=2560'
+    path: /
     headers:
-      Host: rukawa.pages.dev
-  delay: 9
-- name: '[9ms] 🇺🇸_US_美国_16'
-  type: vless
-  server: 198.41.223.110
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+      Host: a.109420.xyz
   udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
+  delay: 1
+- name: '[1ms] 🇺🇸 _US_美国_5'
+  type: vmess
+  server: 104.21.75.246
+  port: 80
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
   network: ws
+  tls: false
   ws-opts:
-    path: '/?ed=2560'
+    path: /
     headers:
-      Host: snip.ere.de5.net
-  delay: 9
-- name: '[9ms] 🇺🇸_US_美国_22'
-  type: vless
-  server: 162.159.252.202
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+      Host: sbl2.shabijichang.com
   udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 9
-- name: '[11ms] 🇺🇸_US_美国_19'
-  type: vless
-  server: 104.19.44.107
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 11
-- name: '[12ms] 🇺🇸_US_美国_9'
-  type: vless
-  server: 104.18.33.181
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 12
-- name: '[12ms] 🇲🇾_MY_马来西亚'
-  type: vless
-  server: 8.39.125.179
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 12
-- name: '[13ms] 🇺🇸_US_美国_1'
-  type: vless
-  server: 108.162.198.38
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 13
-- name: '[13ms] 🇺🇸_US_美国_4'
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国_4'
   type: vless
   server: 108.162.198.31
   port: 443
@@ -153,40 +64,8 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 13
-- name: '[13ms] 🇺🇸_US_美国_10'
-  type: vless
-  server: 162.159.16.63
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  udp: true
-  tls: true
-  servername: l.ayovo.netlib.re
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: l.ayovo.netlib.re
-  delay: 13
-- name: '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
-  type: vmess
-  server: 104.26.8.44
-  port: 80
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: a.109420.xyz
-  udp: true
-  delay: 14
-- name: '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
+  delay: 1
+- name: '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   type: vmess
   server: 104.17.18.26
   port: 80
@@ -200,56 +79,8 @@ proxies:
     headers:
       Host: a.109420.xyz
   udp: true
-  delay: 14
-- name: '[14ms] 🇺🇸 _US_美国_5'
-  type: vmess
-  server: 104.21.75.246
-  port: 80
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: sbl2.shabijichang.com
-  udp: true
-  delay: 14
-- name: '[14ms] 🇺🇸_US_美国'
-  type: vless
-  server: 172.64.52.201
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 14
-- name: '[14ms] 🇺🇸_US_美国_5'
-  type: vless
-  server: 8.35.211.15
-  port: 2087
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  udp: true
-  tls: true
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: l.ayovo.netlib.re
-  delay: 14
-- name: '[14ms] 🇺🇸_US_美国_7'
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国_7'
   type: vless
   server: 173.245.59.209
   port: 443
@@ -265,41 +96,10 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 14
-- name: '[14ms] 🇺🇸_US_美国_18'
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国_9'
   type: vless
-  server: 162.159.152.4
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  udp: true
-  tls: true
-  servername: l.ayovo.netlib.re
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: l.ayovo.netlib.re
-  delay: 14
-- name: '[14ms] 🇺🇸_US_美国_20'
-  type: trojan
-  server: 216.24.57.250
-  port: 443
-  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
-  udp: true
-  skip-cert-verify: true
-  sni: afrcloud1.mmv.kr
-  network: ws
-  ws-opts:
-    path: /5.223.47.32=443
-    headers:
-      Host: afrcloud1.mmv.kr
-  delay: 14
-- name: '[14ms] 🇺🇸_US_美国_21'
-  type: vless
-  server: 162.159.153.13
+  server: 104.18.33.181
   port: 443
   uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   udp: true
@@ -313,8 +113,8 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 14
-- name: '[15ms] 🇺🇸_US_美国_2'
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国_2'
   type: vless
   server: 198.41.223.212
   port: 443
@@ -330,8 +130,59 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 15
-- name: '[15ms] 🇲🇾_MY_马来西亚_1'
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国_10'
+  type: vless
+  server: 162.159.16.63
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  tls: true
+  servername: l.ayovo.netlib.re
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: l.ayovo.netlib.re
+  delay: 1
+- name: '[1ms] 🇲🇾_MY_马来西亚'
+  type: vless
+  server: 8.39.125.179
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国_14'
+  type: vless
+  server: 172.64.144.74
+  port: 443
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
+  udp: true
+  tls: true
+  servername: rukawa.pages.dev
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: rukawa.pages.dev
+  delay: 1
+- name: '[1ms] 🇲🇾_MY_马来西亚_1'
   type: vless
   server: 8.39.125.167
   port: 443
@@ -347,8 +198,137 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 15
-- name: '[15ms] 🇺🇸_US_美国_15'
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国_16'
+  type: vless
+  server: 198.41.223.110
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国_18'
+  type: vless
+  server: 162.159.152.4
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  tls: true
+  servername: l.ayovo.netlib.re
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: l.ayovo.netlib.re
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国_22'
+  type: vless
+  server: 162.159.252.202
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国_21'
+  type: vless
+  server: 162.159.153.13
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国_20'
+  type: trojan
+  server: 216.24.57.250
+  port: 443
+  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
+  udp: true
+  skip-cert-verify: true
+  sni: afrcloud1.mmv.kr
+  network: ws
+  ws-opts:
+    path: /5.223.47.32=443
+    headers:
+      Host: afrcloud1.mmv.kr
+  delay: 1
+- name: '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  type: vless
+  server: 104.17.147.22
+  port: 8880
+  uuid: Parsashonam-Bot-32
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
+    headers:
+      Host: Fi.Parsashonam.CfD.
+  delay: 2
+- name: '[2ms] 🇺🇸_US_美国'
+  type: vless
+  server: 172.64.52.201
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 2
+- name: '[2ms] 🇺🇸_US_美国_5'
+  type: vless
+  server: 8.35.211.15
+  port: 2087
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  tls: true
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: l.ayovo.netlib.re
+  delay: 2
+- name: '[2ms] 🇺🇸_US_美国_15'
   type: vless
   server: 172.64.144.22
   port: 443
@@ -364,44 +344,42 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 15
-- name: '[16ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  delay: 2
+- name: '[2ms] 🇺🇸_US_美国_19'
   type: vless
-  server: 104.17.147.22
-  port: 8880
-  uuid: Parsashonam-Bot-32
+  server: 104.19.44.107
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   udp: true
-  tls: false
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
   encryption: none
   network: ws
   ws-opts:
-    path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
+    path: '/?ed=2560'
     headers:
-      Host: Fi.Parsashonam.CfD.
-  delay: 16
-- name: '[38ms] US【机场推荐：https://a9a.xyz】9'
-  type: vmess
-  server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
+      Host: snip.ere.de5.net
+  delay: 2
+- name: '[3ms] 🇺🇸_US_美国_1'
+  type: vless
+  server: 108.162.198.38
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   udp: true
-  delay: 38
-- name: '[38ms] US【机场推荐：https://a9a.xyz】10'
-  type: vmess
-  server: 82.198.246.250
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  delay: 38
-- name: '[38ms] 英国 V2CROSS.COM_1'
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 3
+- name: '[9ms] US【机场推荐：https://a9a.xyz】4'
   type: vmess
   server: 82.198.246.37
   port: 180
@@ -411,30 +389,8 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 38
-- name: '[38ms] 🇬🇧 英国 V2CROSS.COM'
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  delay: 38
-- name: '[42ms] 英国 V2CROSS.COM'
-  type: vmess
-  server: 82.198.246.9
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: aes-128-gcm
-  network: tcp
-  tls: false
-  udp: true
-  delay: 42
-- name: '[44ms] US【机场推荐：https://a9a.xyz】8'
+  delay: 9
+- name: '[9ms] US【机场推荐：https://a9a.xyz】5'
   type: vmess
   server: 82.198.246.233
   port: 180
@@ -444,8 +400,52 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 44
-- name: '[48ms] 🇺🇸_US_美国_6'
+  delay: 9
+- name: '[9ms] US【机场推荐：https://a9a.xyz】8'
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 9
+- name: '[9ms] US【机场推荐：https://a9a.xyz】3'
+  type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 9
+- name: '[9ms] US【机场推荐：https://a9a.xyz】6'
+  type: vmess
+  server: 82.198.246.214
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 9
+- name: '[11ms] US【机场推荐：https://a9a.xyz】7'
+  type: vmess
+  server: 82.198.246.9
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 11
+- name: '[27ms] 🇺🇸_US_美国_6'
   type: vless
   server: staticdelivery.nexusmods.com
   port: 443
@@ -461,8 +461,8 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 48
-- name: '[74ms] 🇺🇸_US_美国_11'
+  delay: 27
+- name: '[96ms] 🇺🇸_US_美国_11'
   type: vless
   server: clfconnect.pishipishi.pro
   port: 8880
@@ -475,78 +475,80 @@ proxies:
     path: /
     headers:
       Host: hamon.hamimelectronic.ir
-  delay: 74
-- name: '[114ms] NL【机场推荐：https://a9a.xyz】3'
+  delay: 96
+- name: '[149ms] 美国+新泽西州(Merck公司)'
+  type: trojan
+  server: 54.46.123.251
+  port: 2140
+  password: BxceQaOe
+  udp: true
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  delay: 149
+- name: '[153ms] 美国+DXC+Technology_2'
   type: ss
-  server: 82.38.31.134
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  server: admin.c1.havij.co
+  port: 443
+  password: 1kVr0KATIJI7mwOF
   cipher: chacha20-ietf-poly1305
-  delay: 114
-- name: '[114ms] NL【机场推荐：https://a9a.xyz】6'
+  delay: 153
+- name: '[156ms] NL【机场推荐：https://a9a.xyz】2'
   type: ss
   server: 82.38.31.179
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-  delay: 114
-- name: '[114ms] NL【机场推荐：https://a9a.xyz】15'
+  delay: 156
+- name: '[156ms] 节点日期：2026-05-09'
   type: ss
-  server: 82.38.31.135
+  server: 82.38.31.82
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-  delay: 114
-- name: '[115ms] NL【机场推荐：https://a9a.xyz】1'
+  delay: 156
+- name: '[156ms] 美国+DXC+Technology'
   type: ss
-  server: 82.38.31.205
+  server: admin.c1.webramz.co
+  port: 443
+  password: W74XFALLLuw6m5IA
+  cipher: chacha20-ietf-poly1305
+  delay: 156
+- name: '[157ms] 英国+V2CROSS.COM'
+  type: ss
+  server: 82.38.31.214
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-  delay: 115
-- name: '[119ms] NL【机场推荐：https://a9a.xyz】5'
+  delay: 157
+- name: '[161ms] NL【机场推荐：https://a9a.xyz】1'
   type: ss
-  server: 82.38.31.66
+  server: 82.38.31.186
   port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-  delay: 119
-- name: '[120ms] NL【机场推荐：https://a9a.xyz】2'
+  delay: 161
+- name: '[178ms] 美国+DXC+Technology_1'
   type: ss
-  server: 82.38.31.62
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  server: series-a2.samanehha.co
+  port: 443
+  password: W74XFALLLuw6m5IA
   cipher: chacha20-ietf-poly1305
-  delay: 120
-- name: '[120ms] NL【机场推荐：https://a9a.xyz】16'
+  delay: 178
+- name: '[182ms] RU【机场推荐：https://a9a.xyz】11'
   type: ss
-  server: 82.38.31.131
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-  delay: 120
-- name: '[121ms] 节点日期：2026-05-08'
-  type: ss
-  server: 82.38.31.122
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-  delay: 121
-- name: '[134ms] NL【机场推荐：https://a9a.xyz】4'
-  type: ss
-  server: 82.38.31.101
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-  delay: 134
-- name: '[134ms] JP【机场推荐：https://a9a.xyz】17'
-  type: ss
-  server: 185.141.219.21
-  port: 30312
-  password: 99394cfebe6c0906
+  server: 195.58.49.26
+  port: 60129
+  password: 3150466568eda87b
   cipher: aes-256-gcm
-  delay: 134
-- name: '[175ms] 🇺🇸_US_美国_17'
+  delay: 182
+- name: '[187ms] RU【机场推荐：https://a9a.xyz】13'
+  type: ss
+  server: 195.58.49.9
+  port: 60129
+  password: 9f3d1a6d31468599
+  cipher: aes-256-gcm
+  delay: 187
+- name: '[203ms] 🇺🇸_US_美国_17'
   type: vless
   server: registry.cyou
   port: 443
@@ -562,60 +564,8 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 175
-- name: '[189ms] AU【机场推荐：https://a9a.xyz】7'
-  type: ss
-  server: 45.15.185.70
-  port: 990
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  cipher: chacha20-ietf-poly1305
-  delay: 189
-- name: '[227ms] IN【机场推荐：https://a9a.xyz】13'
-  type: vmess
-  server: 172.232.103.186
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  delay: 227
-- name: '[243ms] 🇺🇸_US_美国_12'
-  type: vless
-  server: cloudflare.182682.xyz
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 243
-- name: '[477ms] 🇺🇸_US_美国_8'
-  type: vless
-  server: vip3.kaixincloud.top
-  port: 443
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  udp: true
-  tls: true
-  servername: l.ayovo.netlib.re
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/x-aniu/?ed=2560'
-    headers:
-      Host: l.ayovo.netlib.re
-  delay: 477
-- name: '[548ms] 🇺🇸_US_美国_3'
+  delay: 203
+- name: '[215ms] 🇺🇸_US_美国_3'
   type: vless
   server: blog.811520.xyz
   port: 443
@@ -631,19 +581,8 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 548
-- name: '[631ms] 🇺🇸 美国 东北部七州电讯网'
-  type: vmess
-  server: v30.hdacd.com
-  port: 30830
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  delay: 631
-- name: '[698ms] 🇺🇸_US_美国_13'
+  delay: 215
+- name: '[325ms] 🇺🇸_US_美国_13'
   type: vless
   server: zrf.cf.090227.xyz
   port: 443
@@ -659,7 +598,52 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 698
+  delay: 325
+- name: '[384ms] 🇺🇸_US_美国_12'
+  type: vless
+  server: cloudflare.182682.xyz
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 384
+- name: '[514ms] 🇺🇸 美国 东北部七州电讯网'
+  type: vmess
+  server: v30.hdacd.com
+  port: 30830
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 514
+- name: '[518ms] 🇺🇸_US_美国_8'
+  type: vless
+  server: vip3.kaixincloud.top
+  port: 443
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  tls: true
+  servername: l.ayovo.netlib.re
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/x-aniu/?ed=2560'
+    headers:
+      Host: l.ayovo.netlib.re
+  delay: 518
 proxy-groups:
 - name: 🚀 选择代理
   type: select
@@ -673,159 +657,153 @@ proxy-groups:
   url: 'https://www.google.com/'
   interval: 300
   proxies:
-  - '[9ms] 🇺🇸_US_美国_14'
-  - '[9ms] 🇺🇸_US_美国_16'
-  - '[9ms] 🇺🇸_US_美国_22'
-  - '[11ms] 🇺🇸_US_美国_19'
-  - '[12ms] 🇺🇸_US_美国_9'
-  - '[12ms] 🇲🇾_MY_马来西亚'
-  - '[13ms] 🇺🇸_US_美国_1'
-  - '[13ms] 🇺🇸_US_美国_4'
-  - '[13ms] 🇺🇸_US_美国_10'
-  - '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
-  - '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
-  - '[14ms] 🇺🇸 _US_美国_5'
-  - '[14ms] 🇺🇸_US_美国'
-  - '[14ms] 🇺🇸_US_美国_5'
-  - '[14ms] 🇺🇸_US_美国_7'
-  - '[14ms] 🇺🇸_US_美国_18'
-  - '[14ms] 🇺🇸_US_美国_20'
-  - '[14ms] 🇺🇸_US_美国_21'
-  - '[15ms] 🇺🇸_US_美国_2'
-  - '[15ms] 🇲🇾_MY_马来西亚_1'
-  - '[15ms] 🇺🇸_US_美国_15'
-  - '[16ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[38ms] US【机场推荐：https://a9a.xyz】9'
-  - '[38ms] US【机场推荐：https://a9a.xyz】10'
-  - '[38ms] 英国 V2CROSS.COM_1'
-  - '[38ms] 🇬🇧 英国 V2CROSS.COM'
-  - '[42ms] 英国 V2CROSS.COM'
-  - '[44ms] US【机场推荐：https://a9a.xyz】8'
-  - '[48ms] 🇺🇸_US_美国_6'
-  - '[74ms] 🇺🇸_US_美国_11'
-  - '[114ms] NL【机场推荐：https://a9a.xyz】3'
-  - '[114ms] NL【机场推荐：https://a9a.xyz】6'
-  - '[114ms] NL【机场推荐：https://a9a.xyz】15'
-  - '[115ms] NL【机场推荐：https://a9a.xyz】1'
-  - '[119ms] NL【机场推荐：https://a9a.xyz】5'
-  - '[120ms] NL【机场推荐：https://a9a.xyz】2'
-  - '[120ms] NL【机场推荐：https://a9a.xyz】16'
-  - '[121ms] 节点日期：2026-05-08'
-  - '[134ms] NL【机场推荐：https://a9a.xyz】4'
-  - '[134ms] JP【机场推荐：https://a9a.xyz】17'
-  - '[175ms] 🇺🇸_US_美国_17'
-  - '[189ms] AU【机场推荐：https://a9a.xyz】7'
-  - '[227ms] IN【机场推荐：https://a9a.xyz】13'
-  - '[243ms] 🇺🇸_US_美国_12'
-  - '[477ms] 🇺🇸_US_美国_8'
-  - '[548ms] 🇺🇸_US_美国_3'
-  - '[631ms] 🇺🇸 美国 东北部七州电讯网'
-  - '[698ms] 🇺🇸_US_美国_13'
+  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  - '[1ms] 🇺🇸 _US_美国_5'
+  - '[1ms] 🇺🇸_US_美国_4'
+  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
+  - '[1ms] 🇺🇸_US_美国_7'
+  - '[1ms] 🇺🇸_US_美国_9'
+  - '[1ms] 🇺🇸_US_美国_2'
+  - '[1ms] 🇺🇸_US_美国_10'
+  - '[1ms] 🇲🇾_MY_马来西亚'
+  - '[1ms] 🇺🇸_US_美国_14'
+  - '[1ms] 🇲🇾_MY_马来西亚_1'
+  - '[1ms] 🇺🇸_US_美国_16'
+  - '[1ms] 🇺🇸_US_美国_18'
+  - '[1ms] 🇺🇸_US_美国_22'
+  - '[1ms] 🇺🇸_US_美国_21'
+  - '[1ms] 🇺🇸_US_美国_20'
+  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[2ms] 🇺🇸_US_美国'
+  - '[2ms] 🇺🇸_US_美国_5'
+  - '[2ms] 🇺🇸_US_美国_15'
+  - '[2ms] 🇺🇸_US_美国_19'
+  - '[3ms] 🇺🇸_US_美国_1'
+  - '[9ms] US【机场推荐：https://a9a.xyz】4'
+  - '[9ms] US【机场推荐：https://a9a.xyz】5'
+  - '[9ms] US【机场推荐：https://a9a.xyz】8'
+  - '[9ms] US【机场推荐：https://a9a.xyz】3'
+  - '[9ms] US【机场推荐：https://a9a.xyz】6'
+  - '[11ms] US【机场推荐：https://a9a.xyz】7'
+  - '[27ms] 🇺🇸_US_美国_6'
+  - '[96ms] 🇺🇸_US_美国_11'
+  - '[149ms] 美国+新泽西州(Merck公司)'
+  - '[153ms] 美国+DXC+Technology_2'
+  - '[156ms] NL【机场推荐：https://a9a.xyz】2'
+  - '[156ms] 节点日期：2026-05-09'
+  - '[156ms] 美国+DXC+Technology'
+  - '[157ms] 英国+V2CROSS.COM'
+  - '[161ms] NL【机场推荐：https://a9a.xyz】1'
+  - '[178ms] 美国+DXC+Technology_1'
+  - '[182ms] RU【机场推荐：https://a9a.xyz】11'
+  - '[187ms] RU【机场推荐：https://a9a.xyz】13'
+  - '[203ms] 🇺🇸_US_美国_17'
+  - '[215ms] 🇺🇸_US_美国_3'
+  - '[325ms] 🇺🇸_US_美国_13'
+  - '[384ms] 🇺🇸_US_美国_12'
+  - '[514ms] 🇺🇸 美国 东北部七州电讯网'
+  - '[518ms] 🇺🇸_US_美国_8'
 - name: 🔰 延迟最低
   type: url-test
   url: 'https://www.google.com/'
   interval: 300
   tolerance: 20
   proxies:
-  - '[9ms] 🇺🇸_US_美国_14'
-  - '[9ms] 🇺🇸_US_美国_16'
-  - '[9ms] 🇺🇸_US_美国_22'
-  - '[11ms] 🇺🇸_US_美国_19'
-  - '[12ms] 🇺🇸_US_美国_9'
-  - '[12ms] 🇲🇾_MY_马来西亚'
-  - '[13ms] 🇺🇸_US_美国_1'
-  - '[13ms] 🇺🇸_US_美国_4'
-  - '[13ms] 🇺🇸_US_美国_10'
-  - '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
-  - '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
-  - '[14ms] 🇺🇸 _US_美国_5'
-  - '[14ms] 🇺🇸_US_美国'
-  - '[14ms] 🇺🇸_US_美国_5'
-  - '[14ms] 🇺🇸_US_美国_7'
-  - '[14ms] 🇺🇸_US_美国_18'
-  - '[14ms] 🇺🇸_US_美国_20'
-  - '[14ms] 🇺🇸_US_美国_21'
-  - '[15ms] 🇺🇸_US_美国_2'
-  - '[15ms] 🇲🇾_MY_马来西亚_1'
-  - '[15ms] 🇺🇸_US_美国_15'
-  - '[16ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[38ms] US【机场推荐：https://a9a.xyz】9'
-  - '[38ms] US【机场推荐：https://a9a.xyz】10'
-  - '[38ms] 英国 V2CROSS.COM_1'
-  - '[38ms] 🇬🇧 英国 V2CROSS.COM'
-  - '[42ms] 英国 V2CROSS.COM'
-  - '[44ms] US【机场推荐：https://a9a.xyz】8'
-  - '[48ms] 🇺🇸_US_美国_6'
-  - '[74ms] 🇺🇸_US_美国_11'
-  - '[114ms] NL【机场推荐：https://a9a.xyz】3'
-  - '[114ms] NL【机场推荐：https://a9a.xyz】6'
-  - '[114ms] NL【机场推荐：https://a9a.xyz】15'
-  - '[115ms] NL【机场推荐：https://a9a.xyz】1'
-  - '[119ms] NL【机场推荐：https://a9a.xyz】5'
-  - '[120ms] NL【机场推荐：https://a9a.xyz】2'
-  - '[120ms] NL【机场推荐：https://a9a.xyz】16'
-  - '[121ms] 节点日期：2026-05-08'
-  - '[134ms] NL【机场推荐：https://a9a.xyz】4'
-  - '[134ms] JP【机场推荐：https://a9a.xyz】17'
-  - '[175ms] 🇺🇸_US_美国_17'
-  - '[189ms] AU【机场推荐：https://a9a.xyz】7'
-  - '[227ms] IN【机场推荐：https://a9a.xyz】13'
-  - '[243ms] 🇺🇸_US_美国_12'
-  - '[477ms] 🇺🇸_US_美国_8'
-  - '[548ms] 🇺🇸_US_美国_3'
-  - '[631ms] 🇺🇸 美国 东北部七州电讯网'
-  - '[698ms] 🇺🇸_US_美国_13'
+  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  - '[1ms] 🇺🇸 _US_美国_5'
+  - '[1ms] 🇺🇸_US_美国_4'
+  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
+  - '[1ms] 🇺🇸_US_美国_7'
+  - '[1ms] 🇺🇸_US_美国_9'
+  - '[1ms] 🇺🇸_US_美国_2'
+  - '[1ms] 🇺🇸_US_美国_10'
+  - '[1ms] 🇲🇾_MY_马来西亚'
+  - '[1ms] 🇺🇸_US_美国_14'
+  - '[1ms] 🇲🇾_MY_马来西亚_1'
+  - '[1ms] 🇺🇸_US_美国_16'
+  - '[1ms] 🇺🇸_US_美国_18'
+  - '[1ms] 🇺🇸_US_美国_22'
+  - '[1ms] 🇺🇸_US_美国_21'
+  - '[1ms] 🇺🇸_US_美国_20'
+  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[2ms] 🇺🇸_US_美国'
+  - '[2ms] 🇺🇸_US_美国_5'
+  - '[2ms] 🇺🇸_US_美国_15'
+  - '[2ms] 🇺🇸_US_美国_19'
+  - '[3ms] 🇺🇸_US_美国_1'
+  - '[9ms] US【机场推荐：https://a9a.xyz】4'
+  - '[9ms] US【机场推荐：https://a9a.xyz】5'
+  - '[9ms] US【机场推荐：https://a9a.xyz】8'
+  - '[9ms] US【机场推荐：https://a9a.xyz】3'
+  - '[9ms] US【机场推荐：https://a9a.xyz】6'
+  - '[11ms] US【机场推荐：https://a9a.xyz】7'
+  - '[27ms] 🇺🇸_US_美国_6'
+  - '[96ms] 🇺🇸_US_美国_11'
+  - '[149ms] 美国+新泽西州(Merck公司)'
+  - '[153ms] 美国+DXC+Technology_2'
+  - '[156ms] NL【机场推荐：https://a9a.xyz】2'
+  - '[156ms] 节点日期：2026-05-09'
+  - '[156ms] 美国+DXC+Technology'
+  - '[157ms] 英国+V2CROSS.COM'
+  - '[161ms] NL【机场推荐：https://a9a.xyz】1'
+  - '[178ms] 美国+DXC+Technology_1'
+  - '[182ms] RU【机场推荐：https://a9a.xyz】11'
+  - '[187ms] RU【机场推荐：https://a9a.xyz】13'
+  - '[203ms] 🇺🇸_US_美国_17'
+  - '[215ms] 🇺🇸_US_美国_3'
+  - '[325ms] 🇺🇸_US_美国_13'
+  - '[384ms] 🇺🇸_US_美国_12'
+  - '[514ms] 🇺🇸 美国 东北部七州电讯网'
+  - '[518ms] 🇺🇸_US_美国_8'
 - name: ✅ 手动选择
   type: select
   proxies:
-  - '[9ms] 🇺🇸_US_美国_14'
-  - '[9ms] 🇺🇸_US_美国_16'
-  - '[9ms] 🇺🇸_US_美国_22'
-  - '[11ms] 🇺🇸_US_美国_19'
-  - '[12ms] 🇺🇸_US_美国_9'
-  - '[12ms] 🇲🇾_MY_马来西亚'
-  - '[13ms] 🇺🇸_US_美国_1'
-  - '[13ms] 🇺🇸_US_美国_4'
-  - '[13ms] 🇺🇸_US_美国_10'
-  - '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
-  - '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
-  - '[14ms] 🇺🇸 _US_美国_5'
-  - '[14ms] 🇺🇸_US_美国'
-  - '[14ms] 🇺🇸_US_美国_5'
-  - '[14ms] 🇺🇸_US_美国_7'
-  - '[14ms] 🇺🇸_US_美国_18'
-  - '[14ms] 🇺🇸_US_美国_20'
-  - '[14ms] 🇺🇸_US_美国_21'
-  - '[15ms] 🇺🇸_US_美国_2'
-  - '[15ms] 🇲🇾_MY_马来西亚_1'
-  - '[15ms] 🇺🇸_US_美国_15'
-  - '[16ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[38ms] US【机场推荐：https://a9a.xyz】9'
-  - '[38ms] US【机场推荐：https://a9a.xyz】10'
-  - '[38ms] 英国 V2CROSS.COM_1'
-  - '[38ms] 🇬🇧 英国 V2CROSS.COM'
-  - '[42ms] 英国 V2CROSS.COM'
-  - '[44ms] US【机场推荐：https://a9a.xyz】8'
-  - '[48ms] 🇺🇸_US_美国_6'
-  - '[74ms] 🇺🇸_US_美国_11'
-  - '[114ms] NL【机场推荐：https://a9a.xyz】3'
-  - '[114ms] NL【机场推荐：https://a9a.xyz】6'
-  - '[114ms] NL【机场推荐：https://a9a.xyz】15'
-  - '[115ms] NL【机场推荐：https://a9a.xyz】1'
-  - '[119ms] NL【机场推荐：https://a9a.xyz】5'
-  - '[120ms] NL【机场推荐：https://a9a.xyz】2'
-  - '[120ms] NL【机场推荐：https://a9a.xyz】16'
-  - '[121ms] 节点日期：2026-05-08'
-  - '[134ms] NL【机场推荐：https://a9a.xyz】4'
-  - '[134ms] JP【机场推荐：https://a9a.xyz】17'
-  - '[175ms] 🇺🇸_US_美国_17'
-  - '[189ms] AU【机场推荐：https://a9a.xyz】7'
-  - '[227ms] IN【机场推荐：https://a9a.xyz】13'
-  - '[243ms] 🇺🇸_US_美国_12'
-  - '[477ms] 🇺🇸_US_美国_8'
-  - '[548ms] 🇺🇸_US_美国_3'
-  - '[631ms] 🇺🇸 美国 东北部七州电讯网'
-  - '[698ms] 🇺🇸_US_美国_13'
+  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  - '[1ms] 🇺🇸 _US_美国_5'
+  - '[1ms] 🇺🇸_US_美国_4'
+  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
+  - '[1ms] 🇺🇸_US_美国_7'
+  - '[1ms] 🇺🇸_US_美国_9'
+  - '[1ms] 🇺🇸_US_美国_2'
+  - '[1ms] 🇺🇸_US_美国_10'
+  - '[1ms] 🇲🇾_MY_马来西亚'
+  - '[1ms] 🇺🇸_US_美国_14'
+  - '[1ms] 🇲🇾_MY_马来西亚_1'
+  - '[1ms] 🇺🇸_US_美国_16'
+  - '[1ms] 🇺🇸_US_美国_18'
+  - '[1ms] 🇺🇸_US_美国_22'
+  - '[1ms] 🇺🇸_US_美国_21'
+  - '[1ms] 🇺🇸_US_美国_20'
+  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[2ms] 🇺🇸_US_美国'
+  - '[2ms] 🇺🇸_US_美国_5'
+  - '[2ms] 🇺🇸_US_美国_15'
+  - '[2ms] 🇺🇸_US_美国_19'
+  - '[3ms] 🇺🇸_US_美国_1'
+  - '[9ms] US【机场推荐：https://a9a.xyz】4'
+  - '[9ms] US【机场推荐：https://a9a.xyz】5'
+  - '[9ms] US【机场推荐：https://a9a.xyz】8'
+  - '[9ms] US【机场推荐：https://a9a.xyz】3'
+  - '[9ms] US【机场推荐：https://a9a.xyz】6'
+  - '[11ms] US【机场推荐：https://a9a.xyz】7'
+  - '[27ms] 🇺🇸_US_美国_6'
+  - '[96ms] 🇺🇸_US_美国_11'
+  - '[149ms] 美国+新泽西州(Merck公司)'
+  - '[153ms] 美国+DXC+Technology_2'
+  - '[156ms] NL【机场推荐：https://a9a.xyz】2'
+  - '[156ms] 节点日期：2026-05-09'
+  - '[156ms] 美国+DXC+Technology'
+  - '[157ms] 英国+V2CROSS.COM'
+  - '[161ms] NL【机场推荐：https://a9a.xyz】1'
+  - '[178ms] 美国+DXC+Technology_1'
+  - '[182ms] RU【机场推荐：https://a9a.xyz】11'
+  - '[187ms] RU【机场推荐：https://a9a.xyz】13'
+  - '[203ms] 🇺🇸_US_美国_17'
+  - '[215ms] 🇺🇸_US_美国_3'
+  - '[325ms] 🇺🇸_US_美国_13'
+  - '[384ms] 🇺🇸_US_美国_12'
+  - '[514ms] 🇺🇸 美国 东北部七州电讯网'
+  - '[518ms] 🇺🇸_US_美国_8'
 - name: 🌐 突破锁区
   type: select
   proxies:
@@ -856,66 +834,66 @@ proxy-groups:
 - name: 🗺️ 选择地区
   type: select
   proxies:
-  - 🇯🇵 日本
   - 🇺🇸 美国
   - 🇬🇧 英国
-  - 🇦🇺 澳大利亚
+  - 🇷🇺 俄罗斯
   - 🇮🇳 印度
-- name: 🇯🇵 日本
-  type: select
-  proxies:
-  - '[134ms] JP【机场推荐：https://a9a.xyz】17'
 - name: 🇺🇸 美国
   type: select
   proxies:
-  - '[9ms] 🇺🇸_US_美国_14'
-  - '[9ms] 🇺🇸_US_美国_16'
-  - '[9ms] 🇺🇸_US_美国_22'
-  - '[11ms] 🇺🇸_US_美国_19'
-  - '[12ms] 🇺🇸_US_美国_9'
-  - '[13ms] 🇺🇸_US_美国_1'
-  - '[13ms] 🇺🇸_US_美国_4'
-  - '[13ms] 🇺🇸_US_美国_10'
-  - '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
-  - '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
-  - '[14ms] 🇺🇸 _US_美国_5'
-  - '[14ms] 🇺🇸_US_美国'
-  - '[14ms] 🇺🇸_US_美国_5'
-  - '[14ms] 🇺🇸_US_美国_7'
-  - '[14ms] 🇺🇸_US_美国_18'
-  - '[14ms] 🇺🇸_US_美国_20'
-  - '[14ms] 🇺🇸_US_美国_21'
-  - '[15ms] 🇺🇸_US_美国_2'
-  - '[15ms] 🇺🇸_US_美国_15'
-  - '[16ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[38ms] US【机场推荐：https://a9a.xyz】9'
-  - '[38ms] US【机场推荐：https://a9a.xyz】10'
-  - '[44ms] US【机场推荐：https://a9a.xyz】8'
-  - '[48ms] 🇺🇸_US_美国_6'
-  - '[74ms] 🇺🇸_US_美国_11'
-  - '[175ms] 🇺🇸_US_美国_17'
-  - '[243ms] 🇺🇸_US_美国_12'
-  - '[477ms] 🇺🇸_US_美国_8'
-  - '[548ms] 🇺🇸_US_美国_3'
-  - '[631ms] 🇺🇸 美国 东北部七州电讯网'
-  - '[698ms] 🇺🇸_US_美国_13'
+  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  - '[1ms] 🇺🇸 _US_美国_5'
+  - '[1ms] 🇺🇸_US_美国_4'
+  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
+  - '[1ms] 🇺🇸_US_美国_7'
+  - '[1ms] 🇺🇸_US_美国_9'
+  - '[1ms] 🇺🇸_US_美国_2'
+  - '[1ms] 🇺🇸_US_美国_10'
+  - '[1ms] 🇺🇸_US_美国_14'
+  - '[1ms] 🇺🇸_US_美国_16'
+  - '[1ms] 🇺🇸_US_美国_18'
+  - '[1ms] 🇺🇸_US_美国_22'
+  - '[1ms] 🇺🇸_US_美国_21'
+  - '[1ms] 🇺🇸_US_美国_20'
+  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[2ms] 🇺🇸_US_美国'
+  - '[2ms] 🇺🇸_US_美国_5'
+  - '[2ms] 🇺🇸_US_美国_15'
+  - '[2ms] 🇺🇸_US_美国_19'
+  - '[3ms] 🇺🇸_US_美国_1'
+  - '[9ms] US【机场推荐：https://a9a.xyz】4'
+  - '[9ms] US【机场推荐：https://a9a.xyz】5'
+  - '[9ms] US【机场推荐：https://a9a.xyz】8'
+  - '[9ms] US【机场推荐：https://a9a.xyz】3'
+  - '[9ms] US【机场推荐：https://a9a.xyz】6'
+  - '[11ms] US【机场推荐：https://a9a.xyz】7'
+  - '[27ms] 🇺🇸_US_美国_6'
+  - '[96ms] 🇺🇸_US_美国_11'
+  - '[149ms] 美国+新泽西州(Merck公司)'
+  - '[153ms] 美国+DXC+Technology_2'
+  - '[156ms] 美国+DXC+Technology'
+  - '[178ms] 美国+DXC+Technology_1'
+  - '[203ms] 🇺🇸_US_美国_17'
+  - '[215ms] 🇺🇸_US_美国_3'
+  - '[325ms] 🇺🇸_US_美国_13'
+  - '[384ms] 🇺🇸_US_美国_12'
+  - '[514ms] 🇺🇸 美国 东北部七州电讯网'
+  - '[518ms] 🇺🇸_US_美国_8'
 - name: 🇬🇧 英国
   type: select
   proxies:
-  - '[16ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[38ms] 英国 V2CROSS.COM_1'
-  - '[38ms] 🇬🇧 英国 V2CROSS.COM'
-  - '[42ms] 英国 V2CROSS.COM'
-- name: 🇦🇺 澳大利亚
+  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[157ms] 英国+V2CROSS.COM'
+- name: 🇷🇺 俄罗斯
   type: select
   proxies:
-  - '[189ms] AU【机场推荐：https://a9a.xyz】7'
+  - '[182ms] RU【机场推荐：https://a9a.xyz】11'
+  - '[187ms] RU【机场推荐：https://a9a.xyz】13'
 - name: 🇮🇳 印度
   type: select
   proxies:
-  - '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
-  - '[14ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
-  - '[227ms] IN【机场推荐：https://a9a.xyz】13'
+  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
 rules:
 - 'DOMAIN-SUFFIX,ads.google.com,⛔ 广告拦截'
 - 'DOMAIN-SUFFIX,adservice.google.com,⛔ 广告拦截'
