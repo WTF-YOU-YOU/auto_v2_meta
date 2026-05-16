@@ -1,4 +1,4 @@
-# Update: 2026-05-15 18:21
+# Update: 2026-05-16 17:54
 allow-lan: false
 dns:
   enable: true
@@ -18,9 +18,74 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '[0ms] 美国+加利福尼亚州旧金山市Amazon西海岸数据中心'
+- name: '[8ms] US【机场推荐：https://a9a.xyz】1'
+  type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 8
+- name: '[8ms] US【机场推荐：https://a9a.xyz】2'
+  type: vmess
+  server: 82.198.246.233
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 8
+- name: '[8ms] US【机场推荐：https://a9a.xyz】3'
+  type: vmess
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 8
+- name: '[8ms] 美国+CloudFlare节点'
+  type: vless
+  server: 104.20.5.134
+  port: 2053
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  udp: true
+  tls: true
+  servername: hio-awx.pages.dev
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    headers:
+      Host: hio-awx.pages.dev
+  delay: 8
+- name: '[8ms] 立陶宛+V2CROSS.COM'
+  type: vless
+  server: 185.148.106.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  servername: sni.111000.indevs.in
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?Telegram🇨🇳 @WangCai2='
+    headers:
+      Host: sni.111000.indevs.in
+  delay: 8
+- name: '[8ms] 美国+V2CROSS.COM'
   type: trojan
-  server: 184.169.181.217
+  server: 69.84.182.253
   port: 443
   password: '8r<[9''l6hAO#8ZQi'
   udp: true
@@ -31,68 +96,25 @@ proxies:
     path: '/trTelegram🇨🇳 @WangCai2'
     headers:
       Host: Koma-YT.PAGeS.Dev
-  delay: 0
-- name: '[1ms] 美国+CloudFlare节点_1'
-  type: trojan
-  server: 104.18.32.37
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  client-fingerprint: chrome
-  delay: 1
-- name: '[1ms] 🇺🇸 _US_美国_5'
-  type: vmess
-  server: 104.21.75.246
-  port: 80
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: sbl2.shabijichang.com
-  udp: true
-  delay: 1
-- name: '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
-  type: vmess
-  server: 104.17.18.26
-  port: 80
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: a.109420.xyz
-  udp: true
-  delay: 1
-- name: '[1ms] 美国+CloudFlare节点'
+  delay: 8
+- name: '[8ms] 美国+CloudFlare节点_3'
   type: vless
-  server: 172.64.155.209
-  port: 443
-  uuid: 3c36eadb-747a-4166-8db0-23fec9883ea2
+  server: 104.17.72.206
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
-  servername: harmony-501.pages.dev
+  servername: sni.111000.dynv6.net
   client-fingerprint: chrome
   skip-cert-verify: true
   encryption: none
   network: ws
   ws-opts:
-    path: '/socks5://128.140.46.169:13482'
+    path: '/?Telegram🇨🇳 @WangCai2'
     headers:
-      Host: harmony-501.pages.dev
-  delay: 1
-- name: '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+      Host: sni.111000.dynv6.net
+  delay: 8
+- name: '[8ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
   type: vmess
   server: 104.26.8.44
   port: 80
@@ -106,38 +128,23 @@ proxies:
     headers:
       Host: a.109420.xyz
   udp: true
-  delay: 1
-- name: '[1ms] 巴西圣保罗+CloudFlare节点'
-  type: vless
-  server: 188.114.99.243
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  encryption: none
+  delay: 8
+- name: '[8ms] 🇺🇸 _US_美国_5'
+  type: vmess
+  server: 104.21.75.246
+  port: 80
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
   network: ws
-  ws-opts:
-    path: '/?Telegram@v2rayngzendegimamad='
-    headers:
-      Host: sni.111000.indevs.in
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  type: vless
-  server: 104.17.147.22
-  port: 8880
-  uuid: Parsashonam-Bot-32
-  udp: true
   tls: false
-  encryption: none
-  network: ws
   ws-opts:
-    path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
+    path: /
     headers:
-      Host: Fi.Parsashonam.CfD.
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国'
+      Host: sbl2.shabijichang.com
+  udp: true
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国'
   type: vless
   server: 172.64.52.201
   port: 443
@@ -153,25 +160,8 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国_1'
-  type: vless
-  server: 108.162.198.38
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国_2'
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国_2'
   type: vless
   server: 198.41.223.212
   port: 443
@@ -187,41 +177,8 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国_5'
-  type: vless
-  server: 8.35.211.15
-  port: 2087
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  udp: true
-  tls: true
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: l.ayovo.netlib.re
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国_4'
-  type: vless
-  server: 108.162.198.31
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国_7'
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国_7'
   type: vless
   server: 173.245.59.209
   port: 443
@@ -237,42 +194,8 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国_9'
-  type: vless
-  server: 104.18.33.181
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 1
-- name: '[1ms] 🇲🇾_MY_马来西亚'
-  type: vless
-  server: 8.39.125.179
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国_10'
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国_10'
   type: vless
   server: 162.159.16.63
   port: 443
@@ -288,8 +211,8 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: l.ayovo.netlib.re
-  delay: 1
-- name: '[1ms] 🇲🇾_MY_马来西亚_1'
+  delay: 8
+- name: '[8ms] 🇲🇾_MY_马来西亚_1'
   type: vless
   server: 8.39.125.167
   port: 443
@@ -305,103 +228,8 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国_16'
-  type: vless
-  server: 198.41.223.110
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国_14'
-  type: vless
-  server: 172.64.144.74
-  port: 443
-  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
-  udp: true
-  tls: true
-  servername: rukawa.pages.dev
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: rukawa.pages.dev
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国_19'
-  type: vless
-  server: 104.19.44.107
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 1
-- name: '[2ms] 斯洛文尼亚+V2CROSS.COM'
-  type: vless
-  server: 92.53.190.231
-  port: 443
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  udp: true
-  tls: true
-  servername: babayaga-6i7.pages.dev
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?Telegram🇨🇳@WangCai2='
-    headers:
-      Host: babayaga-6i7.pages.dev
-  delay: 2
-- name: '[2ms] 美国+Interland'
-  type: trojan
-  server: 64.227.62.172
-  port: 2083
-  password: '8r<[9''l6hAO#8ZQi'
-  udp: true
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  network: ws
-  ws-opts:
-    path: '/trTelegram🇨🇳 @WangCai2'
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-  delay: 2
-- name: '[2ms] 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司'
-  type: trojan
-  server: 166.62.111.253
-  port: 443
-  password: '8r<[9''l6hAO#8ZQi'
-  udp: true
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  network: ws
-  ws-opts:
-    path: '/trTelegram🇨🇳 @WangCai2'
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-  delay: 2
-- name: '[2ms] 🇺🇸_US_美国_15'
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国_15'
   type: vless
   server: 172.64.144.22
   port: 443
@@ -417,8 +245,25 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 2
-- name: '[2ms] 🇺🇸_US_美国_18'
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国_16'
+  type: vless
+  server: 198.41.223.110
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国_18'
   type: vless
   server: 162.159.152.4
   port: 443
@@ -434,56 +279,8 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: l.ayovo.netlib.re
-  delay: 2
-- name: '[2ms] 🇺🇸_US_美国_22'
-  type: vless
-  server: 162.159.252.202
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 2
-- name: '[6ms] 🇺🇸_US_美国_6'
-  type: vless
-  server: staticdelivery.nexusmods.com
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 6
-- name: '[6ms] 🇺🇸_US_美国_20'
-  type: trojan
-  server: 216.24.57.250
-  port: 443
-  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
-  udp: true
-  skip-cert-verify: true
-  sni: afrcloud1.mmv.kr
-  network: ws
-  ws-opts:
-    path: /5.223.47.32=443
-    headers:
-      Host: afrcloud1.mmv.kr
-  delay: 6
-- name: '[7ms] 🇺🇸_US_美国_21'
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国_21'
   type: vless
   server: 162.159.153.13
   port: 443
@@ -499,24 +296,38 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 7
-- name: '[8ms] 美国+theplanet'
-  type: trojan
-  server: 174.136.205.75
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国_22'
+  type: vless
+  server: 162.159.252.202
   port: 443
-  password: '8r<[9''l6hAO#8ZQi'
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  encryption: none
   network: ws
   ws-opts:
-    path: '/trTelegram🇨🇳 @WangCai2'
+    path: '/?ed=2560'
     headers:
-      Host: Koma-YT.PAGeS.Dev
+      Host: snip.ere.de5.net
   delay: 8
-- name: '[9ms] 美国+加利福尼亚州洛杉矶QuadraNet数据中心'
+- name: '[9ms] 节点日期：2026-05-16'
+  type: vmess
+  server: 82.198.246.214
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 9
+- name: '[9ms] 美国+V2CROSS.COM_2'
   type: trojan
-  server: 104.223.50.78
+  server: 199.34.230.253
   port: 443
   password: '8r<[9''l6hAO#8ZQi'
   udp: true
@@ -528,73 +339,212 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
   delay: 9
-- name: '[17ms] US【机场推荐：https://a9a.xyz】2'
+- name: '[9ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
   type: vmess
-  server: 82.198.246.233
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  server: 104.17.18.26
+  port: 80
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: a.109420.xyz
   udp: true
-  delay: 17
-- name: '[17ms] US【机场推荐：https://a9a.xyz】4'
-  type: vmess
-  server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
+  delay: 9
+- name: '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  type: vless
+  server: 104.17.147.22
+  port: 8880
+  uuid: Parsashonam-Bot-32
+  udp: true
   tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
+    headers:
+      Host: Fi.Parsashonam.CfD.
+  delay: 9
+- name: '[9ms] 🇺🇸_US_美国_9'
+  type: vless
+  server: 104.18.33.181
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   udp: true
-  delay: 17
-- name: '[18ms] US【机场推荐：https://a9a.xyz】1'
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 9
+- name: '[9ms] 🇺🇸_US_美国_14'
+  type: vless
+  server: 172.64.144.74
+  port: 443
+  uuid: 68c89f56-3a15-46f2-9901-8c00a2546b97
   udp: true
-  delay: 18
-- name: '[18ms] US【机场推荐：https://a9a.xyz】6'
-  type: vmess
-  server: 82.198.246.9
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: aes-128-gcm
-  network: tcp
-  tls: false
+  tls: true
+  servername: rukawa.pages.dev
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: rukawa.pages.dev
+  delay: 9
+- name: '[9ms] 🇺🇸_US_美国_19'
+  type: vless
+  server: 104.19.44.107
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   udp: true
-  delay: 18
-- name: '[19ms] US【机场推荐：https://a9a.xyz】3'
-  type: vmess
-  server: 82.198.246.250
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 9
+- name: '[9ms] 🇺🇸_US_美国_20'
+  type: trojan
+  server: 216.24.57.250
+  port: 443
+  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
   udp: true
-  delay: 19
-- name: '[23ms] US【机场推荐：https://a9a.xyz】5'
-  type: vmess
-  server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
+  skip-cert-verify: true
+  sni: afrcloud1.mmv.kr
+  network: ws
+  ws-opts:
+    path: /5.223.47.32=443
+    headers:
+      Host: afrcloud1.mmv.kr
+  delay: 9
+- name: '[10ms] 🇺🇸_US_美国_5'
+  type: vless
+  server: 8.35.211.15
+  port: 2087
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   udp: true
-  delay: 23
-- name: '[28ms] 🇺🇸_US_美国_11'
+  tls: true
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: l.ayovo.netlib.re
+  delay: 10
+- name: '[11ms] 🇲🇾_MY_马来西亚'
+  type: vless
+  server: 8.39.125.179
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 11
+- name: '[16ms] 🇺🇸_US_美国_1'
+  type: vless
+  server: 108.162.198.38
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 16
+- name: '[16ms] 🇺🇸_US_美国_4'
+  type: vless
+  server: 108.162.198.31
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 16
+- name: '[30ms] CA【机场推荐：https://a9a.xyz】12'
+  type: vless
+  server: e1-f55.pages.dev
+  port: 443
+  uuid: 8b5acf77-2c2e-4eed-9ad1-be81851b99ea
+  udp: true
+  tls: true
+  servername: e1-f55.pages.dev
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: e1-f55.pages.dev
+  delay: 30
+- name: '[33ms] 美国+CloudFlare节点_2'
+  type: vless
+  server: ciallo-egb.pages.dev
+  port: 8443
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  delay: 33
+- name: '[55ms] 🇺🇸_US_美国_6'
+  type: vless
+  server: staticdelivery.nexusmods.com
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 55
+- name: '[69ms] 🇺🇸_US_美国_11'
   type: vless
   server: clfconnect.pishipishi.pro
   port: 8880
@@ -607,22 +557,24 @@ proxies:
     path: /
     headers:
       Host: hamon.hamimelectronic.ir
-  delay: 28
-- name: '[36ms] 北美地区+V2CROSS.COM'
+  delay: 69
+- name: '[82ms] CA【机场推荐：https://a9a.xyz】11'
+  type: ss
+  server: 207.174.40.243
+  port: 8444
+  password: tunnel-dgggd2
+  cipher: chacha20-ietf-poly1305
+  delay: 82
+- name: '[110ms] JP【机场推荐：https://a9a.xyz】4'
+  type: ss
+  server: 47.79.144.115
+  port: 40003
+  password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
+  cipher: aes-256-gcm
+  delay: 110
+- name: '[145ms] 德国+V2CROSS.COM'
   type: trojan
-  server: 23.173.104.196
-  port: 2053
-  password: '8r<[9''l6hAO#8ZQi'
-  udp: true
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  network: ws
-  ws-opts:
-    path: '/trTelegram🇨🇳+@WangCai2'
-  delay: 36
-- name: '[64ms] 美国+V2CROSS.COM'
-  type: trojan
-  server: 4.236.130.132
+  server: 77.37.96.132
   port: 443
   password: '8r<[9''l6hAO#8ZQi'
   udp: true
@@ -633,11 +585,18 @@ proxies:
     path: '/trTelegram🇨🇳 @WangCai2'
     headers:
       Host: Koma-YT.PAGeS.Dev
-  delay: 64
-- name: '[103ms] 日本+东京Digital+VM'
+  delay: 145
+- name: '[149ms] NL【机场推荐：https://a9a.xyz】7'
+  type: ss
+  server: 82.38.31.66
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  delay: 149
+- name: '[152ms] 美国+V2CROSS.COM_1'
   type: trojan
-  server: 45.11.1.118
-  port: 44004
+  server: 70.39.206.127
+  port: 21505
   password: '8r<[9''l6hAO#8ZQi'
   udp: true
   skip-cert-verify: true
@@ -645,12 +604,10 @@ proxies:
   network: ws
   ws-opts:
     path: '/trTelegram🇨🇳 @WangCai2'
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-  delay: 103
-- name: '[112ms] 澳大利亚+V2CROSS.COM'
+  delay: 152
+- name: '[152ms] 香港+电讯盈科有限公司'
   type: trojan
-  server: 140.83.50.165
+  server: 219.76.13.169
   port: 443
   password: '8r<[9''l6hAO#8ZQi'
   udp: true
@@ -661,10 +618,33 @@ proxies:
     path: '/trTelegram🇨🇳 @WangCai2'
     headers:
       Host: Koma-YT.PAGeS.Dev
-  delay: 112
-- name: '[147ms] 欧盟+V2CROSS.COM'
+  delay: 152
+- name: '[163ms] 英国+V2CROSS.COM'
+  type: vless
+  server: 2.26.3.148
+  port: 443
+  uuid: ae8ddd8e-00af-48e5-bd57-05074a1bbffb
+  udp: true
+  tls: true
+  servername: www.deepl.com
+  reality-opts:
+    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
+    short-id: 67ccfc02
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 163
+- name: '[164ms] LV【机场推荐：https://a9a.xyz】10'
+  type: ss
+  server: 155.212.225.150
+  port: 8388
+  password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
+  cipher: chacha20-ietf-poly1305
+  delay: 164
+- name: '[176ms] 香港+阿里云'
   type: trojan
-  server: 45.9.116.82
+  server: 47.82.155.79
   port: 8443
   password: '8r<[9''l6hAO#8ZQi'
   udp: true
@@ -672,23 +652,60 @@ proxies:
   sni: Koma-YT.PAGeS.Dev
   network: ws
   ws-opts:
-    path: '/trTelegram🇨🇳+@WangCai2'
-  delay: 147
-- name: '[149ms] 香港+电讯盈科有限公司'
-  type: trojan
-  server: 219.76.13.180
-  port: 443
-  password: '8r<[9''l6hAO#8ZQi'
-  udp: true
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  network: ws
-  ws-opts:
     path: '/trTelegram🇨🇳 @WangCai2'
     headers:
       Host: Koma-YT.PAGeS.Dev
-  delay: 149
-- name: '[153ms] 🇺🇸_US_美国_17'
+  delay: 176
+- name: '[185ms] TW【机场推荐：https://a9a.xyz】8'
+  type: ss
+  server: r3mrcg007117fb8.cybervena.com
+  port: 50099
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  cipher: chacha20-ietf-poly1305
+  delay: 185
+- name: '[205ms] 安徽省马鞍山市+联通_3'
+  type: ss
+  server: 103.186.154.152
+  port: 38388
+  password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
+  cipher: aes-256-cfb
+  delay: 205
+- name: '[205ms] 安徽省马鞍山市+联通_5'
+  type: ss
+  server: 103.186.155.66
+  port: 38388
+  password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
+  cipher: aes-256-cfb
+  delay: 205
+- name: '[206ms] 安徽省马鞍山市+联通'
+  type: ss
+  server: 103.186.154.34
+  port: 38388
+  password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
+  cipher: aes-256-cfb
+  delay: 206
+- name: '[208ms] 安徽省马鞍山市+联通_1'
+  type: ss
+  server: 103.186.154.32
+  port: 38388
+  password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
+  cipher: aes-256-cfb
+  delay: 208
+- name: '[210ms] 安徽省马鞍山市+联通_2'
+  type: ss
+  server: 103.186.154.213
+  port: 38388
+  password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
+  cipher: aes-256-cfb
+  delay: 210
+- name: '[210ms] 安徽省马鞍山市+联通_4'
+  type: ss
+  server: 103.186.154.186
+  port: 38388
+  password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
+  cipher: aes-256-cfb
+  delay: 210
+- name: '[228ms] 🇺🇸_US_美国_17'
   type: vless
   server: registry.cyou
   port: 443
@@ -704,98 +721,15 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 153
-- name: '[169ms] 香港+阿里云'
-  type: trojan
-  server: 47.82.155.79
-  port: 8443
-  password: '8r<[9''l6hAO#8ZQi'
-  udp: true
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  network: ws
-  ws-opts:
-    path: '/trTelegram🇨🇳 @WangCai2'
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-  delay: 169
-- name: '[171ms] NL【机场推荐：https://a9a.xyz】8'
+  delay: 228
+- name: '[250ms] US【机场推荐：https://a9a.xyz】5'
   type: ss
-  server: 82.38.31.103
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-  delay: 171
-- name: '[181ms] RU【机场推荐：https://a9a.xyz】9'
-  type: ss
-  server: 45.139.25.43
-  port: 442
-  password: 6784aee2-0dfe-474f-8446-480259ff9918
+  server: chengbai02.ascwt179.com
+  port: 13223
+  password: JVrsLLN1tkN8oXZO
   cipher: aes-128-gcm
-  delay: 181
-- name: '[200ms] 安徽省马鞍山市+联通'
-  type: ss
-  server: 103.186.154.223
-  port: 38388
-  password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-  cipher: aes-256-cfb
-  delay: 200
-- name: '[200ms] 安徽省马鞍山市+联通_2'
-  type: ss
-  server: 103.186.155.42
-  port: 38388
-  password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-  cipher: aes-256-cfb
-  delay: 200
-- name: '[204ms] 安徽省马鞍山市+联通_3'
-  type: ss
-  server: 103.186.154.33
-  port: 38388
-  password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-  cipher: aes-256-cfb
-  delay: 204
-- name: '[209ms] 安徽省马鞍山市+联通_1'
-  type: ss
-  server: 103.186.155.47
-  port: 38388
-  password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-  cipher: aes-256-cfb
-  delay: 209
-- name: '[218ms] 🇺🇸_US_美国_12'
-  type: vless
-  server: cloudflare.182682.xyz
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 218
-- name: '[236ms] 🇺🇸_US_美国_3'
-  type: vless
-  server: blog.811520.xyz
-  port: 443
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  udp: true
-  tls: true
-  servername: snip.ere.de5.net
-  client-fingerprint: random
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: snip.ere.de5.net
-  delay: 236
-- name: '[350ms] RU【机场推荐：https://a9a.xyz】10'
+  delay: 250
+- name: '[370ms] RU【机场推荐：https://a9a.xyz】9'
   type: vless
   server: s28233.cdn.ngenix.net
   port: 443
@@ -807,11 +741,11 @@ proxies:
   encryption: none
   network: ws
   ws-opts:
-    path: fp=qq
+    path: /
     headers:
       Host: s28233.cdn.ngenix.net
-  delay: 350
-- name: '[356ms] 🇺🇸_US_美国_8'
+  delay: 370
+- name: '[408ms] 🇺🇸_US_美国_8'
   type: vless
   server: vip3.kaixincloud.top
   port: 443
@@ -827,8 +761,25 @@ proxies:
     path: '/x-aniu/?ed=2560'
     headers:
       Host: l.ayovo.netlib.re
-  delay: 356
-- name: '[401ms] 🇺🇸_US_美国_13'
+  delay: 408
+- name: '[420ms] 🇺🇸_US_美国_12'
+  type: vless
+  server: cloudflare.182682.xyz
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 420
+- name: '[447ms] 🇺🇸_US_美国_13'
   type: vless
   server: zrf.cf.090227.xyz
   port: 443
@@ -844,7 +795,41 @@ proxies:
     path: '/?ed=2560'
     headers:
       Host: snip.ere.de5.net
-  delay: 401
+  delay: 447
+- name: '[456ms] 🇺🇸_US_美国_3'
+  type: vless
+  server: blog.811520.xyz
+  port: 443
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  udp: true
+  tls: true
+  servername: snip.ere.de5.net
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: snip.ere.de5.net
+  delay: 456
+- name: '[728ms] 美国+CloudFlare节点_1'
+  type: vless
+  server: cf7.danfeng.eu.org
+  port: 2087
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  udp: true
+  tls: true
+  servername: juzi8186.qea.ccwu.cc
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/favs/collect/juzibaipiao?ed=2560'
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+  delay: 728
 proxy-groups:
 - name: 🚀 选择代理
   type: select
@@ -858,189 +843,192 @@ proxy-groups:
   url: 'https://www.google.com/'
   interval: 300
   proxies:
-  - '[0ms] 美国+加利福尼亚州旧金山市Amazon西海岸数据中心'
-  - '[1ms] 美国+CloudFlare节点_1'
-  - '[1ms] 🇺🇸 _US_美国_5'
-  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
-  - '[1ms] 美国+CloudFlare节点'
-  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
-  - '[1ms] 巴西圣保罗+CloudFlare节点'
-  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[1ms] 🇺🇸_US_美国'
-  - '[1ms] 🇺🇸_US_美国_1'
-  - '[1ms] 🇺🇸_US_美国_2'
-  - '[1ms] 🇺🇸_US_美国_5'
-  - '[1ms] 🇺🇸_US_美国_4'
-  - '[1ms] 🇺🇸_US_美国_7'
-  - '[1ms] 🇺🇸_US_美国_9'
-  - '[1ms] 🇲🇾_MY_马来西亚'
-  - '[1ms] 🇺🇸_US_美国_10'
-  - '[1ms] 🇲🇾_MY_马来西亚_1'
-  - '[1ms] 🇺🇸_US_美国_16'
-  - '[1ms] 🇺🇸_US_美国_14'
-  - '[1ms] 🇺🇸_US_美国_19'
-  - '[2ms] 斯洛文尼亚+V2CROSS.COM'
-  - '[2ms] 美国+Interland'
-  - '[2ms] 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司'
-  - '[2ms] 🇺🇸_US_美国_15'
-  - '[2ms] 🇺🇸_US_美国_18'
-  - '[2ms] 🇺🇸_US_美国_22'
-  - '[6ms] 🇺🇸_US_美国_6'
-  - '[6ms] 🇺🇸_US_美国_20'
-  - '[7ms] 🇺🇸_US_美国_21'
-  - '[8ms] 美国+theplanet'
-  - '[9ms] 美国+加利福尼亚州洛杉矶QuadraNet数据中心'
-  - '[17ms] US【机场推荐：https://a9a.xyz】2'
-  - '[17ms] US【机场推荐：https://a9a.xyz】4'
-  - '[18ms] US【机场推荐：https://a9a.xyz】1'
-  - '[18ms] US【机场推荐：https://a9a.xyz】6'
-  - '[19ms] US【机场推荐：https://a9a.xyz】3'
-  - '[23ms] US【机场推荐：https://a9a.xyz】5'
-  - '[28ms] 🇺🇸_US_美国_11'
-  - '[36ms] 北美地区+V2CROSS.COM'
-  - '[64ms] 美国+V2CROSS.COM'
-  - '[103ms] 日本+东京Digital+VM'
-  - '[112ms] 澳大利亚+V2CROSS.COM'
-  - '[147ms] 欧盟+V2CROSS.COM'
-  - '[149ms] 香港+电讯盈科有限公司'
-  - '[153ms] 🇺🇸_US_美国_17'
-  - '[169ms] 香港+阿里云'
-  - '[171ms] NL【机场推荐：https://a9a.xyz】8'
-  - '[181ms] RU【机场推荐：https://a9a.xyz】9'
-  - '[200ms] 安徽省马鞍山市+联通'
-  - '[200ms] 安徽省马鞍山市+联通_2'
-  - '[204ms] 安徽省马鞍山市+联通_3'
-  - '[209ms] 安徽省马鞍山市+联通_1'
-  - '[218ms] 🇺🇸_US_美国_12'
-  - '[236ms] 🇺🇸_US_美国_3'
-  - '[350ms] RU【机场推荐：https://a9a.xyz】10'
-  - '[356ms] 🇺🇸_US_美国_8'
-  - '[401ms] 🇺🇸_US_美国_13'
+  - '[8ms] US【机场推荐：https://a9a.xyz】1'
+  - '[8ms] US【机场推荐：https://a9a.xyz】2'
+  - '[8ms] US【机场推荐：https://a9a.xyz】3'
+  - '[8ms] 美国+CloudFlare节点'
+  - '[8ms] 立陶宛+V2CROSS.COM'
+  - '[8ms] 美国+V2CROSS.COM'
+  - '[8ms] 美国+CloudFlare节点_3'
+  - '[8ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  - '[8ms] 🇺🇸 _US_美国_5'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_2'
+  - '[8ms] 🇺🇸_US_美国_7'
+  - '[8ms] 🇺🇸_US_美国_10'
+  - '[8ms] 🇲🇾_MY_马来西亚_1'
+  - '[8ms] 🇺🇸_US_美国_15'
+  - '[8ms] 🇺🇸_US_美国_16'
+  - '[8ms] 🇺🇸_US_美国_18'
+  - '[8ms] 🇺🇸_US_美国_21'
+  - '[8ms] 🇺🇸_US_美国_22'
+  - '[9ms] 节点日期：2026-05-16'
+  - '[9ms] 美国+V2CROSS.COM_2'
+  - '[9ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
+  - '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[9ms] 🇺🇸_US_美国_9'
+  - '[9ms] 🇺🇸_US_美国_14'
+  - '[9ms] 🇺🇸_US_美国_19'
+  - '[9ms] 🇺🇸_US_美国_20'
+  - '[10ms] 🇺🇸_US_美国_5'
+  - '[11ms] 🇲🇾_MY_马来西亚'
+  - '[16ms] 🇺🇸_US_美国_1'
+  - '[16ms] 🇺🇸_US_美国_4'
+  - '[30ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[33ms] 美国+CloudFlare节点_2'
+  - '[55ms] 🇺🇸_US_美国_6'
+  - '[69ms] 🇺🇸_US_美国_11'
+  - '[82ms] CA【机场推荐：https://a9a.xyz】11'
+  - '[110ms] JP【机场推荐：https://a9a.xyz】4'
+  - '[145ms] 德国+V2CROSS.COM'
+  - '[149ms] NL【机场推荐：https://a9a.xyz】7'
+  - '[152ms] 美国+V2CROSS.COM_1'
+  - '[152ms] 香港+电讯盈科有限公司'
+  - '[163ms] 英国+V2CROSS.COM'
+  - '[164ms] LV【机场推荐：https://a9a.xyz】10'
+  - '[176ms] 香港+阿里云'
+  - '[185ms] TW【机场推荐：https://a9a.xyz】8'
+  - '[205ms] 安徽省马鞍山市+联通_3'
+  - '[205ms] 安徽省马鞍山市+联通_5'
+  - '[206ms] 安徽省马鞍山市+联通'
+  - '[208ms] 安徽省马鞍山市+联通_1'
+  - '[210ms] 安徽省马鞍山市+联通_2'
+  - '[210ms] 安徽省马鞍山市+联通_4'
+  - '[228ms] 🇺🇸_US_美国_17'
+  - '[250ms] US【机场推荐：https://a9a.xyz】5'
+  - '[370ms] RU【机场推荐：https://a9a.xyz】9'
+  - '[408ms] 🇺🇸_US_美国_8'
+  - '[420ms] 🇺🇸_US_美国_12'
+  - '[447ms] 🇺🇸_US_美国_13'
+  - '[456ms] 🇺🇸_US_美国_3'
+  - '[728ms] 美国+CloudFlare节点_1'
 - name: 🔰 延迟最低
   type: url-test
   url: 'https://www.google.com/'
   interval: 300
   tolerance: 20
   proxies:
-  - '[0ms] 美国+加利福尼亚州旧金山市Amazon西海岸数据中心'
-  - '[1ms] 美国+CloudFlare节点_1'
-  - '[1ms] 🇺🇸 _US_美国_5'
-  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
-  - '[1ms] 美国+CloudFlare节点'
-  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
-  - '[1ms] 巴西圣保罗+CloudFlare节点'
-  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[1ms] 🇺🇸_US_美国'
-  - '[1ms] 🇺🇸_US_美国_1'
-  - '[1ms] 🇺🇸_US_美国_2'
-  - '[1ms] 🇺🇸_US_美国_5'
-  - '[1ms] 🇺🇸_US_美国_4'
-  - '[1ms] 🇺🇸_US_美国_7'
-  - '[1ms] 🇺🇸_US_美国_9'
-  - '[1ms] 🇲🇾_MY_马来西亚'
-  - '[1ms] 🇺🇸_US_美国_10'
-  - '[1ms] 🇲🇾_MY_马来西亚_1'
-  - '[1ms] 🇺🇸_US_美国_16'
-  - '[1ms] 🇺🇸_US_美国_14'
-  - '[1ms] 🇺🇸_US_美国_19'
-  - '[2ms] 斯洛文尼亚+V2CROSS.COM'
-  - '[2ms] 美国+Interland'
-  - '[2ms] 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司'
-  - '[2ms] 🇺🇸_US_美国_15'
-  - '[2ms] 🇺🇸_US_美国_18'
-  - '[2ms] 🇺🇸_US_美国_22'
-  - '[6ms] 🇺🇸_US_美国_6'
-  - '[6ms] 🇺🇸_US_美国_20'
-  - '[7ms] 🇺🇸_US_美国_21'
-  - '[8ms] 美国+theplanet'
-  - '[9ms] 美国+加利福尼亚州洛杉矶QuadraNet数据中心'
-  - '[17ms] US【机场推荐：https://a9a.xyz】2'
-  - '[17ms] US【机场推荐：https://a9a.xyz】4'
-  - '[18ms] US【机场推荐：https://a9a.xyz】1'
-  - '[18ms] US【机场推荐：https://a9a.xyz】6'
-  - '[19ms] US【机场推荐：https://a9a.xyz】3'
-  - '[23ms] US【机场推荐：https://a9a.xyz】5'
-  - '[28ms] 🇺🇸_US_美国_11'
-  - '[36ms] 北美地区+V2CROSS.COM'
-  - '[64ms] 美国+V2CROSS.COM'
-  - '[103ms] 日本+东京Digital+VM'
-  - '[112ms] 澳大利亚+V2CROSS.COM'
-  - '[147ms] 欧盟+V2CROSS.COM'
-  - '[149ms] 香港+电讯盈科有限公司'
-  - '[153ms] 🇺🇸_US_美国_17'
-  - '[169ms] 香港+阿里云'
-  - '[171ms] NL【机场推荐：https://a9a.xyz】8'
-  - '[181ms] RU【机场推荐：https://a9a.xyz】9'
-  - '[200ms] 安徽省马鞍山市+联通'
-  - '[200ms] 安徽省马鞍山市+联通_2'
-  - '[204ms] 安徽省马鞍山市+联通_3'
-  - '[209ms] 安徽省马鞍山市+联通_1'
-  - '[218ms] 🇺🇸_US_美国_12'
-  - '[236ms] 🇺🇸_US_美国_3'
-  - '[350ms] RU【机场推荐：https://a9a.xyz】10'
-  - '[356ms] 🇺🇸_US_美国_8'
-  - '[401ms] 🇺🇸_US_美国_13'
+  - '[8ms] US【机场推荐：https://a9a.xyz】1'
+  - '[8ms] US【机场推荐：https://a9a.xyz】2'
+  - '[8ms] US【机场推荐：https://a9a.xyz】3'
+  - '[8ms] 美国+CloudFlare节点'
+  - '[8ms] 立陶宛+V2CROSS.COM'
+  - '[8ms] 美国+V2CROSS.COM'
+  - '[8ms] 美国+CloudFlare节点_3'
+  - '[8ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  - '[8ms] 🇺🇸 _US_美国_5'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_2'
+  - '[8ms] 🇺🇸_US_美国_7'
+  - '[8ms] 🇺🇸_US_美国_10'
+  - '[8ms] 🇲🇾_MY_马来西亚_1'
+  - '[8ms] 🇺🇸_US_美国_15'
+  - '[8ms] 🇺🇸_US_美国_16'
+  - '[8ms] 🇺🇸_US_美国_18'
+  - '[8ms] 🇺🇸_US_美国_21'
+  - '[8ms] 🇺🇸_US_美国_22'
+  - '[9ms] 节点日期：2026-05-16'
+  - '[9ms] 美国+V2CROSS.COM_2'
+  - '[9ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
+  - '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[9ms] 🇺🇸_US_美国_9'
+  - '[9ms] 🇺🇸_US_美国_14'
+  - '[9ms] 🇺🇸_US_美国_19'
+  - '[9ms] 🇺🇸_US_美国_20'
+  - '[10ms] 🇺🇸_US_美国_5'
+  - '[11ms] 🇲🇾_MY_马来西亚'
+  - '[16ms] 🇺🇸_US_美国_1'
+  - '[16ms] 🇺🇸_US_美国_4'
+  - '[30ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[33ms] 美国+CloudFlare节点_2'
+  - '[55ms] 🇺🇸_US_美国_6'
+  - '[69ms] 🇺🇸_US_美国_11'
+  - '[82ms] CA【机场推荐：https://a9a.xyz】11'
+  - '[110ms] JP【机场推荐：https://a9a.xyz】4'
+  - '[145ms] 德国+V2CROSS.COM'
+  - '[149ms] NL【机场推荐：https://a9a.xyz】7'
+  - '[152ms] 美国+V2CROSS.COM_1'
+  - '[152ms] 香港+电讯盈科有限公司'
+  - '[163ms] 英国+V2CROSS.COM'
+  - '[164ms] LV【机场推荐：https://a9a.xyz】10'
+  - '[176ms] 香港+阿里云'
+  - '[185ms] TW【机场推荐：https://a9a.xyz】8'
+  - '[205ms] 安徽省马鞍山市+联通_3'
+  - '[205ms] 安徽省马鞍山市+联通_5'
+  - '[206ms] 安徽省马鞍山市+联通'
+  - '[208ms] 安徽省马鞍山市+联通_1'
+  - '[210ms] 安徽省马鞍山市+联通_2'
+  - '[210ms] 安徽省马鞍山市+联通_4'
+  - '[228ms] 🇺🇸_US_美国_17'
+  - '[250ms] US【机场推荐：https://a9a.xyz】5'
+  - '[370ms] RU【机场推荐：https://a9a.xyz】9'
+  - '[408ms] 🇺🇸_US_美国_8'
+  - '[420ms] 🇺🇸_US_美国_12'
+  - '[447ms] 🇺🇸_US_美国_13'
+  - '[456ms] 🇺🇸_US_美国_3'
+  - '[728ms] 美国+CloudFlare节点_1'
 - name: ✅ 手动选择
   type: select
   proxies:
-  - '[0ms] 美国+加利福尼亚州旧金山市Amazon西海岸数据中心'
-  - '[1ms] 美国+CloudFlare节点_1'
-  - '[1ms] 🇺🇸 _US_美国_5'
-  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
-  - '[1ms] 美国+CloudFlare节点'
-  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
-  - '[1ms] 巴西圣保罗+CloudFlare节点'
-  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[1ms] 🇺🇸_US_美国'
-  - '[1ms] 🇺🇸_US_美国_1'
-  - '[1ms] 🇺🇸_US_美国_2'
-  - '[1ms] 🇺🇸_US_美国_5'
-  - '[1ms] 🇺🇸_US_美国_4'
-  - '[1ms] 🇺🇸_US_美国_7'
-  - '[1ms] 🇺🇸_US_美国_9'
-  - '[1ms] 🇲🇾_MY_马来西亚'
-  - '[1ms] 🇺🇸_US_美国_10'
-  - '[1ms] 🇲🇾_MY_马来西亚_1'
-  - '[1ms] 🇺🇸_US_美国_16'
-  - '[1ms] 🇺🇸_US_美国_14'
-  - '[1ms] 🇺🇸_US_美国_19'
-  - '[2ms] 斯洛文尼亚+V2CROSS.COM'
-  - '[2ms] 美国+Interland'
-  - '[2ms] 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司'
-  - '[2ms] 🇺🇸_US_美国_15'
-  - '[2ms] 🇺🇸_US_美国_18'
-  - '[2ms] 🇺🇸_US_美国_22'
-  - '[6ms] 🇺🇸_US_美国_6'
-  - '[6ms] 🇺🇸_US_美国_20'
-  - '[7ms] 🇺🇸_US_美国_21'
-  - '[8ms] 美国+theplanet'
-  - '[9ms] 美国+加利福尼亚州洛杉矶QuadraNet数据中心'
-  - '[17ms] US【机场推荐：https://a9a.xyz】2'
-  - '[17ms] US【机场推荐：https://a9a.xyz】4'
-  - '[18ms] US【机场推荐：https://a9a.xyz】1'
-  - '[18ms] US【机场推荐：https://a9a.xyz】6'
-  - '[19ms] US【机场推荐：https://a9a.xyz】3'
-  - '[23ms] US【机场推荐：https://a9a.xyz】5'
-  - '[28ms] 🇺🇸_US_美国_11'
-  - '[36ms] 北美地区+V2CROSS.COM'
-  - '[64ms] 美国+V2CROSS.COM'
-  - '[103ms] 日本+东京Digital+VM'
-  - '[112ms] 澳大利亚+V2CROSS.COM'
-  - '[147ms] 欧盟+V2CROSS.COM'
-  - '[149ms] 香港+电讯盈科有限公司'
-  - '[153ms] 🇺🇸_US_美国_17'
-  - '[169ms] 香港+阿里云'
-  - '[171ms] NL【机场推荐：https://a9a.xyz】8'
-  - '[181ms] RU【机场推荐：https://a9a.xyz】9'
-  - '[200ms] 安徽省马鞍山市+联通'
-  - '[200ms] 安徽省马鞍山市+联通_2'
-  - '[204ms] 安徽省马鞍山市+联通_3'
-  - '[209ms] 安徽省马鞍山市+联通_1'
-  - '[218ms] 🇺🇸_US_美国_12'
-  - '[236ms] 🇺🇸_US_美国_3'
-  - '[350ms] RU【机场推荐：https://a9a.xyz】10'
-  - '[356ms] 🇺🇸_US_美国_8'
-  - '[401ms] 🇺🇸_US_美国_13'
+  - '[8ms] US【机场推荐：https://a9a.xyz】1'
+  - '[8ms] US【机场推荐：https://a9a.xyz】2'
+  - '[8ms] US【机场推荐：https://a9a.xyz】3'
+  - '[8ms] 美国+CloudFlare节点'
+  - '[8ms] 立陶宛+V2CROSS.COM'
+  - '[8ms] 美国+V2CROSS.COM'
+  - '[8ms] 美国+CloudFlare节点_3'
+  - '[8ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  - '[8ms] 🇺🇸 _US_美国_5'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_2'
+  - '[8ms] 🇺🇸_US_美国_7'
+  - '[8ms] 🇺🇸_US_美国_10'
+  - '[8ms] 🇲🇾_MY_马来西亚_1'
+  - '[8ms] 🇺🇸_US_美国_15'
+  - '[8ms] 🇺🇸_US_美国_16'
+  - '[8ms] 🇺🇸_US_美国_18'
+  - '[8ms] 🇺🇸_US_美国_21'
+  - '[8ms] 🇺🇸_US_美国_22'
+  - '[9ms] 节点日期：2026-05-16'
+  - '[9ms] 美国+V2CROSS.COM_2'
+  - '[9ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
+  - '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[9ms] 🇺🇸_US_美国_9'
+  - '[9ms] 🇺🇸_US_美国_14'
+  - '[9ms] 🇺🇸_US_美国_19'
+  - '[9ms] 🇺🇸_US_美国_20'
+  - '[10ms] 🇺🇸_US_美国_5'
+  - '[11ms] 🇲🇾_MY_马来西亚'
+  - '[16ms] 🇺🇸_US_美国_1'
+  - '[16ms] 🇺🇸_US_美国_4'
+  - '[30ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[33ms] 美国+CloudFlare节点_2'
+  - '[55ms] 🇺🇸_US_美国_6'
+  - '[69ms] 🇺🇸_US_美国_11'
+  - '[82ms] CA【机场推荐：https://a9a.xyz】11'
+  - '[110ms] JP【机场推荐：https://a9a.xyz】4'
+  - '[145ms] 德国+V2CROSS.COM'
+  - '[149ms] NL【机场推荐：https://a9a.xyz】7'
+  - '[152ms] 美国+V2CROSS.COM_1'
+  - '[152ms] 香港+电讯盈科有限公司'
+  - '[163ms] 英国+V2CROSS.COM'
+  - '[164ms] LV【机场推荐：https://a9a.xyz】10'
+  - '[176ms] 香港+阿里云'
+  - '[185ms] TW【机场推荐：https://a9a.xyz】8'
+  - '[205ms] 安徽省马鞍山市+联通_3'
+  - '[205ms] 安徽省马鞍山市+联通_5'
+  - '[206ms] 安徽省马鞍山市+联通'
+  - '[208ms] 安徽省马鞍山市+联通_1'
+  - '[210ms] 安徽省马鞍山市+联通_2'
+  - '[210ms] 安徽省马鞍山市+联通_4'
+  - '[228ms] 🇺🇸_US_美国_17'
+  - '[250ms] US【机场推荐：https://a9a.xyz】5'
+  - '[370ms] RU【机场推荐：https://a9a.xyz】9'
+  - '[408ms] 🇺🇸_US_美国_8'
+  - '[420ms] 🇺🇸_US_美国_12'
+  - '[447ms] 🇺🇸_US_美国_13'
+  - '[456ms] 🇺🇸_US_美国_3'
+  - '[728ms] 美国+CloudFlare节点_1'
 - name: 🌐 突破锁区
   type: select
   proxies:
@@ -1074,81 +1062,78 @@ proxy-groups:
   - 🇯🇵 日本
   - 🇺🇸 美国
   - 🇬🇧 英国
+  - 🇩🇪 德国
   - 🇷🇺 俄罗斯
-  - 🇦🇺 澳大利亚
+  - 🇨🇦 加拿大
   - 🇮🇳 印度
-  - 🇧🇷 巴西
 - name: 🇯🇵 日本
   type: select
   proxies:
-  - '[103ms] 日本+东京Digital+VM'
+  - '[110ms] JP【机场推荐：https://a9a.xyz】4'
 - name: 🇺🇸 美国
   type: select
   proxies:
-  - '[0ms] 美国+加利福尼亚州旧金山市Amazon西海岸数据中心'
-  - '[1ms] 美国+CloudFlare节点_1'
-  - '[1ms] 🇺🇸 _US_美国_5'
-  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
-  - '[1ms] 美国+CloudFlare节点'
-  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
-  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[1ms] 🇺🇸_US_美国'
-  - '[1ms] 🇺🇸_US_美国_1'
-  - '[1ms] 🇺🇸_US_美国_2'
-  - '[1ms] 🇺🇸_US_美国_5'
-  - '[1ms] 🇺🇸_US_美国_4'
-  - '[1ms] 🇺🇸_US_美国_7'
-  - '[1ms] 🇺🇸_US_美国_9'
-  - '[1ms] 🇺🇸_US_美国_10'
-  - '[1ms] 🇺🇸_US_美国_16'
-  - '[1ms] 🇺🇸_US_美国_14'
-  - '[1ms] 🇺🇸_US_美国_19'
-  - '[2ms] 美国+Interland'
-  - '[2ms] 美国+亚利桑那州斯科茨代尔市Go+Daddy集团公司'
-  - '[2ms] 🇺🇸_US_美国_15'
-  - '[2ms] 🇺🇸_US_美国_18'
-  - '[2ms] 🇺🇸_US_美国_22'
-  - '[6ms] 🇺🇸_US_美国_6'
-  - '[6ms] 🇺🇸_US_美国_20'
-  - '[7ms] 🇺🇸_US_美国_21'
-  - '[8ms] 美国+theplanet'
-  - '[9ms] 美国+加利福尼亚州洛杉矶QuadraNet数据中心'
-  - '[17ms] US【机场推荐：https://a9a.xyz】2'
-  - '[17ms] US【机场推荐：https://a9a.xyz】4'
-  - '[18ms] US【机场推荐：https://a9a.xyz】1'
-  - '[18ms] US【机场推荐：https://a9a.xyz】6'
-  - '[19ms] US【机场推荐：https://a9a.xyz】3'
-  - '[23ms] US【机场推荐：https://a9a.xyz】5'
-  - '[28ms] 🇺🇸_US_美国_11'
-  - '[64ms] 美国+V2CROSS.COM'
-  - '[153ms] 🇺🇸_US_美国_17'
-  - '[218ms] 🇺🇸_US_美国_12'
-  - '[236ms] 🇺🇸_US_美国_3'
-  - '[356ms] 🇺🇸_US_美国_8'
-  - '[401ms] 🇺🇸_US_美国_13'
+  - '[8ms] US【机场推荐：https://a9a.xyz】1'
+  - '[8ms] US【机场推荐：https://a9a.xyz】2'
+  - '[8ms] US【机场推荐：https://a9a.xyz】3'
+  - '[8ms] 美国+CloudFlare节点'
+  - '[8ms] 美国+V2CROSS.COM'
+  - '[8ms] 美国+CloudFlare节点_3'
+  - '[8ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  - '[8ms] 🇺🇸 _US_美国_5'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_2'
+  - '[8ms] 🇺🇸_US_美国_7'
+  - '[8ms] 🇺🇸_US_美国_10'
+  - '[8ms] 🇺🇸_US_美国_15'
+  - '[8ms] 🇺🇸_US_美国_16'
+  - '[8ms] 🇺🇸_US_美国_18'
+  - '[8ms] 🇺🇸_US_美国_21'
+  - '[8ms] 🇺🇸_US_美国_22'
+  - '[9ms] 美国+V2CROSS.COM_2'
+  - '[9ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
+  - '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[9ms] 🇺🇸_US_美国_9'
+  - '[9ms] 🇺🇸_US_美国_14'
+  - '[9ms] 🇺🇸_US_美国_19'
+  - '[9ms] 🇺🇸_US_美国_20'
+  - '[10ms] 🇺🇸_US_美国_5'
+  - '[16ms] 🇺🇸_US_美国_1'
+  - '[16ms] 🇺🇸_US_美国_4'
+  - '[33ms] 美国+CloudFlare节点_2'
+  - '[55ms] 🇺🇸_US_美国_6'
+  - '[69ms] 🇺🇸_US_美国_11'
+  - '[152ms] 美国+V2CROSS.COM_1'
+  - '[228ms] 🇺🇸_US_美国_17'
+  - '[250ms] US【机场推荐：https://a9a.xyz】5'
+  - '[408ms] 🇺🇸_US_美国_8'
+  - '[420ms] 🇺🇸_US_美国_12'
+  - '[447ms] 🇺🇸_US_美国_13'
+  - '[456ms] 🇺🇸_US_美国_3'
+  - '[728ms] 美国+CloudFlare节点_1'
 - name: 🇬🇧 英国
   type: select
   proxies:
-  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[163ms] 英国+V2CROSS.COM'
+- name: 🇩🇪 德国
+  type: select
+  proxies:
+  - '[145ms] 德国+V2CROSS.COM'
 - name: 🇷🇺 俄罗斯
   type: select
   proxies:
-  - '[181ms] RU【机场推荐：https://a9a.xyz】9'
-  - '[350ms] RU【机场推荐：https://a9a.xyz】10'
-- name: 🇦🇺 澳大利亚
+  - '[370ms] RU【机场推荐：https://a9a.xyz】9'
+- name: 🇨🇦 加拿大
   type: select
   proxies:
-  - '[112ms] 澳大利亚+V2CROSS.COM'
+  - '[30ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[82ms] CA【机场推荐：https://a9a.xyz】11'
 - name: 🇮🇳 印度
   type: select
   proxies:
-  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
-  - '[1ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
-  - '[2ms] 美国+Interland'
-- name: 🇧🇷 巴西
-  type: select
-  proxies:
-  - '[1ms] 巴西圣保罗+CloudFlare节点'
+  - '[8ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_2'
+  - '[9ms] 🇮🇳 _US_美国->🇮🇳_IN_印度_1'
 rules:
 - 'DOMAIN-SUFFIX,ads.google.com,⛔ 广告拦截'
 - 'DOMAIN-SUFFIX,adservice.google.com,⛔ 广告拦截'
