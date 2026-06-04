@@ -1,4 +1,4 @@
-# Update: 2026-06-03 20:17
+# Update: 2026-06-04 19:22
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,56 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '[11ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+- name: '[8ms] 英国 V2CROSS.COM'
+  type: vmess
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国'
+  type: vmess
+  server: 82.198.246.214
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国_1'
+  type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 8
+- name: '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  type: vless
+  server: 208.103.161.170
+  port: 443
+  uuid: 2dc797c8-9588-48a6-bc4a-265c23d87cd6
+  udp: true
+  tls: true
+  servername: ava.game.naver.com.cyylr.eu.cc
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: ava.game.naver.com.cyylr.eu.cc
+  delay: 9
+- name: '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
   type: vless
   server: 104.17.147.22
   port: 8880
@@ -31,147 +80,52 @@ proxies:
     path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
     headers:
       Host: Fi.Parsashonam.CfD.
-  delay: 11
-- name: '[11ms] 🇺🇸_US_美国_1'
-  type: vless
-  server: 104.24.45.247
-  port: 80
-  uuid: 2e71d8fc-d2e8-44fc-89bd-c8a449a193aa
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: odd-bread-435d.ahmadrezasteamacc.workers.dev
-  delay: 11
-- name: '[13ms] 美国+CloudFlare节点'
-  type: vless
-  server: 172.67.211.74
-  port: 80
-  uuid: e84064cc-617f-4ba8-aa6f-13e920fd2610
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: main.boobie.eu.cc
-  delay: 13
-- name: '[14ms] 美国+V2CROSS.COM'
-  type: ss
-  server: 149.28.255.6
-  port: 816
-  password: GyZ5Xo0ht41vYmW3H4
-  cipher: chacha20-ietf-poly1305
-  delay: 14
-- name: '[14ms] 🇺🇸_US_美国->🇫🇮_FI_芬兰'
-  type: vless
-  server: 172.64.146.138
-  port: 443
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  udp: true
-  tls: true
-  servername: octopusss4.com
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /tsghdws
-    headers:
-      Host: octopusss4.com
-  delay: 14
-- name: '[24ms] 美国+Akamai科技公司CDN网络节点'
-  type: trojan
-  server: 172.237.145.189
-  port: 443
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  udp: true
-  skip-cert-verify: true
-  sni: 172.237.145.189
-  delay: 24
-- name: '[27ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  type: vless
-  server: sourceforge.net
-  port: 2087
-  uuid: 43b8ccaf-05ea-427c-a5f0-9faa0d6e0267
-  udp: true
-  tls: true
-  servername: bots.filezone.cfd
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /c
-    headers:
-      Host: bots.filezone.cfd
-  delay: 27
-- name: '[37ms] 🇺🇸_US_美国'
+  delay: 10
+- name: '[62ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
   type: vmess
-  server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  port: 6004
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   alterId: 0
   cipher: auto
   network: tcp
   tls: false
   udp: true
-  delay: 37
-- name: '[110ms] 俄罗斯+V2CROSS.COM_1'
+  delay: 62
+- name: '[131ms] 🇮🇷_IR_伊朗'
   type: vless
-  server: 85.234.114.53
-  port: 22231
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  server: 185.143.233.122
+  port: 80
+  uuid: 661f5954-7f13-4c5f-add8-a7c0b250aabd
   udp: true
-  tls: true
-  servername: r1.mizulina.top
-  client-fingerprint: edge
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
+  tls: false
   encryption: none
-  network: tcp
-  delay: 110
-- name: '[112ms] 俄罗斯+V2CROSS.COM'
-  type: vless
-  server: 85.234.114.53
-  port: 443
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  udp: true
-  tls: true
-  servername: r1.mizulina.top
-  client-fingerprint: edge
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
-  delay: 112
-- name: '[112ms] 🇫🇷_FR_法国'
-  type: vless
-  server: 185.212.117.34
-  port: 443
-  uuid: bb2b0112-577f-4862-886a-3c2ee004ca23
-  udp: true
-  tls: true
-  servername: www.scaleway.com
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
-  delay: 112
-- name: '[119ms] 美国+Akamai科技公司CDN网络节点_1'
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: gre.greentab.ir
+  delay: 131
+- name: '[139ms] 美国+Akamai科技公司CDN网络节点'
   type: trojan
   server: 172.236.220.10
   port: 443
   password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
   udp: true
   skip-cert-verify: true
+  sni: 172.236.220.10
   client-fingerprint: chrome
-  delay: 119
-- name: '[120ms] 罗马尼亚+V2CROSS.COM'
+  delay: 139
+- name: '[139ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡'
+  type: trojan
+  server: 211.76.176.97
+  port: 19128
+  password: gcuCpQfaiVeDBdWG
+  udp: true
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
+  delay: 139
+- name: '[141ms] 罗马尼亚+V2CROSS.COM'
   type: trojan
   server: 185.137.157.254
   port: 443
@@ -179,93 +133,29 @@ proxies:
   udp: true
   skip-cert-verify: true
   sni: www.directorypipeline.click
-  delay: 120
-- name: '[126ms] 🇳🇱_NL_荷兰->🇸🇰_SK_斯洛伐克'
+  delay: 141
+- name: '[142ms] 俄罗斯+V2CROSS.COM_1'
   type: vless
-  server: cdn7-39.vk-cdnvideo.com
-  port: 8443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  encryption: none
-  network: tcp
-  delay: 126
-- name: '[127ms] 🇩🇪_DE_德国_1'
-  type: vless
-  server: 87.120.93.69
+  server: 85.234.114.53
   port: 443
-  uuid: 2001daf3-5c56-4bef-8ea6-8dd0493c5a4c
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   udp: true
   tls: true
-  servername: www.deepl.com
+  servername: r1.mizulina.top
   client-fingerprint: chrome
   skip-cert-verify: true
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 127
-- name: '[132ms] FR【机场推荐：https://a9a.xyz】9'
+  delay: 142
+- name: '[144ms] TW【机场推荐：https://a9a.xyz】5'
   type: ss
-  server: 45.92.218.56
-  port: 1080
-  password: RjG_Pd534ZVJRMdODjCNMA
+  server: 61.231.18.14
+  port: 50099
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   cipher: chacha20-ietf-poly1305
-  delay: 132
-- name: '[132ms] 🇯🇵_JP_日本'
-  type: trojan
-  server: 18.181.199.223
-  port: 8066
-  password: d84665c37878196ecf983cf6910e3b44
-  udp: true
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  delay: 132
-- name: '[134ms] 🇯🇵_JP_日本->🇭🇰_HK_中国香港'
-  type: trojan
-  server: 18.183.163.141
-  port: 50712
-  password: BxceQaOe
-  udp: true
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  delay: 134
-- name: '[169ms] 🇮🇹_IT_意大利'
-  type: vless
-  server: ov-italy1.09vpn.com
-  port: 8443
-  uuid: dc0d0eda-2293-4001-aa03-bd6c9431ed24
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /vless/
-  delay: 169
-- name: '[175ms] HK【机场推荐：https://a9a.xyz】2'
-  type: vmess
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  port: 6001
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  delay: 175
-- name: '[175ms] HK【机场推荐：https://a9a.xyz】4'
-  type: vmess
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  port: 6003
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  delay: 175
-- name: '[176ms] 🇭🇰_HK_中国香港_1'
+  delay: 144
+- name: '[153ms] 🇭🇰_HK_中国香港_2'
   type: vmess
   server: 8.210.239.58
   port: 443
@@ -279,42 +169,35 @@ proxies:
   ws-opts:
     path: /
   udp: true
-  delay: 176
-- name: '[177ms] HK【机场推荐：https://a9a.xyz】3'
+  delay: 153
+- name: '[153ms] 🇭🇰_HK_中国香港_3'
   type: vmess
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  port: 6004
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  server: 47.244.120.197
+  port: 36703
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   tls: false
+  ws-opts:
+    path: '/arki?ed=2048'
   udp: true
-  delay: 177
-- name: '[179ms] 🇭🇰_HK_中国香港->🇺🇸_US_美国'
-  type: trojan
-  server: 95.40.68.192
-  port: 17801
-  password: BxceQaOe
+  delay: 153
+- name: '[156ms] 🇬🇧_GB_英国'
+  type: vless
+  server: 31.76.113.91
+  port: 443
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
   udp: true
+  tls: true
+  servername: it.s3-cloud.xyz
+  client-fingerprint: chrome
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  delay: 179
-- name: '[180ms] TW【机场推荐：https://a9a.xyz】12'
-  type: ss
-  server: 61.231.18.14
-  port: 50099
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  cipher: chacha20-ietf-poly1305
-  delay: 180
-- name: '[183ms] TW【机场推荐：https://a9a.xyz】1'
-  type: ss
-  server: r3mrcg001286ek2.cybervena.com
-  port: 50099
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  cipher: chacha20-ietf-poly1305
-  delay: 183
-- name: '[199ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司'
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 156
+- name: '[164ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司'
   type: trojan
   server: 130.94.107.171
   port: 443
@@ -322,51 +205,56 @@ proxies:
   udp: true
   skip-cert-verify: true
   sni: www.logger-guard.click
-  delay: 199
-- name: '[200ms] RU【机场推荐：https://a9a.xyz】10'
+  delay: 164
+- name: '[168ms] BG【机场推荐：https://a9a.xyz】4'
   type: vless
-  server: cdn3-87.vk-cdnvideo.com
-  port: 8443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  server: 45.39.241.51
+  port: 20607
+  uuid: 53860602-f0ea-4bb0-bc10-852a27606b87
   udp: true
   tls: true
-  servername: cdn3-87.vk-cdnvideo.com
+  servername: 45.39.241.51
+  client-fingerprint: chrome
   skip-cert-verify: true
   encryption: none
   network: tcp
-  delay: 200
-- name: '[212ms] FR【机场推荐：https://a9a.xyz】11'
+  delay: 168
+- name: '[190ms] 🇹🇼_TW_中国台湾'
+  type: ss
+  server: r3mrcg001286ek2.cybervena.com
+  port: 50099
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  cipher: chacha20-ietf-poly1305
+  delay: 190
+- name: '[210ms] 美国+V2CROSS.COM'
+  type: ss
+  server: 149.104.109.74
+  port: 21273
+  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
+  cipher: chacha20-ietf-poly1305
+  delay: 210
+- name: '[220ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司_1'
+  type: trojan
+  server: 130.94.97.11
+  port: 443
+  password: Z3_=ewk_+l1U4OT4usQ5=o2vFfk95yfy1V
+  udp: true
+  skip-cert-verify: true
+  sni: www.selectnet.click
+  delay: 220
+- name: '[228ms] 节点日期：2026-06-04'
   type: vless
   server: cdn3-25.vk-cdnvideo.com
   port: 8443
   uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
   udp: true
   tls: true
+  servername: cdn3-25.vk-cdnvideo.com
   skip-cert-verify: true
   encryption: none
   network: tcp
-  delay: 212
-- name: '[234ms] 🇹🇭_TH_泰国'
-  type: vless
-  server: 47.81.39.100
-  port: 443
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  udp: true
-  tls: true
-  servername: api.digital-help-prd.autodesk.com
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  encryption: none
-  network: tcp
-  delay: 234
-- name: '[240ms] ZA【机场推荐：https://a9a.xyz】8'
-  type: ss
-  server: 20.164.211.148
-  port: 443
-  password: zlTmn5qriTtBtDvc
-  cipher: chacha20-ietf-poly1305
-  delay: 240
-- name: '[261ms] 🇭🇰_HK_中国香港_3'
+  delay: 228
+- name: '[245ms] 🇭🇰_HK_中国香港_1'
   type: vmess
   server: v10.hdacd.com
   port: 30807
@@ -376,21 +264,79 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 261
-- name: '[266ms] 俄罗斯+V2CROSS.COM_2'
+  delay: 245
+- name: '[246ms] RU【机场推荐：https://a9a.xyz】2'
   type: vless
-  server: r1.mizulina.top
-  port: 22231
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  server: cdn9-33.vk-cdnvideo.com
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
   udp: true
   tls: true
-  client-fingerprint: chrome
+  servername: cdn9-33.vk-cdnvideo.com
   skip-cert-verify: true
-  flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 266
-- name: '[270ms] HK【机场推荐：https://a9a.xyz】6'
+  delay: 246
+- name: '[265ms] ZA【机场推荐：https://a9a.xyz】3'
+  type: ss
+  server: 20.164.45.116
+  port: 443
+  password: 7Gm1sdCSRWB46CrO
+  cipher: chacha20-ietf-poly1305
+  delay: 265
+- name: '[271ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
+  type: trojan
+  server: jpbgp.netvigor.cc
+  port: 19128
+  password: gcuCpQfaiVeDBdWG
+  udp: true
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
+  delay: 271
+- name: '[338ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
+  type: trojan
+  server: 90081bb25c.node.tro.cac.cab
+  port: 45553
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  udp: true
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  delay: 338
+- name: '[339ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
+  type: trojan
+  server: 90081bb25c.node.tro.cac.cab
+  port: 47909
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  udp: true
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  delay: 339
+- name: '[341ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  type: trojan
+  server: 90081bb25c.node.tro.cac.cab
+  port: 46424
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  udp: true
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  delay: 341
+- name: '[342ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
+  type: trojan
+  server: 90081bb25c.node.tro.cac.cab
+  port: 41943
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  udp: true
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  delay: 342
+- name: '[355ms] US【机场推荐：https://a9a.xyz】1'
+  type: ss
+  server: chengbai02.ascwt179.com
+  port: 13223
+  password: JVrsLLN1tkN8oXZO
+  cipher: aes-128-gcm
+  delay: 355
+- name: '[421ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
   type: vmess
   server: world.t.51guangtaobao.com
   port: 2510
@@ -400,73 +346,65 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 270
-- name: '[274ms] HK【机场推荐：https://a9a.xyz】5'
+  delay: 421
+- name: '[426ms] 俄罗斯+V2CROSS.COM'
+  type: vless
+  server: r1.mizulina.top
+  port: 22231
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  udp: true
+  tls: true
+  servername: r1.mizulina.top
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 426
+- name: '[426ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
   type: vmess
-  server: world.t.51guangtaobao.com
-  port: 2512
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-  alterId: 0
+  server: v9.hdacd.com
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
   network: tcp
   tls: false
   udp: true
-  delay: 274
-- name: '[283ms] 🇺🇸_US_美国->🇬🇭_GH_加纳'
-  type: trojan
-  server: 90081bb25c.node.tro.cac.cab
-  port: 48697
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  udp: true
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  delay: 283
-- name: '[284ms] 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆'
-  type: trojan
-  server: 90081bb25c.node.tro.cac.cab
-  port: 41943
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  udp: true
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  delay: 284
-- name: '[395ms] 🇭🇰_HK_中国香港'
-  type: ss
-  server: li.feng3d.com
-  port: 8388
-  password: 'feng3d@ss2025'
-  cipher: aes-256-gcm
-  delay: 395
-- name: '[459ms] SG【机场推荐：https://a9a.xyz】7'
+  delay: 426
+- name: '[443ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
   type: vmess
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  port: 10011
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
+  server: v36.hdacd.com
+  port: 30836
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
-  network: ws
+  network: tcp
   tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
   udp: true
-  delay: 459
-- name: '[777ms] UN【机场推荐：https://a9a.xyz】13'
+  delay: 443
+- name: '[577ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
   type: vmess
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  port: 10056
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  alterId: 0
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
-  network: ws
+  network: tcp
   tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
   udp: true
-  delay: 777
+  delay: 577
+- name: '[617ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
+  type: vmess
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 617
 proxy-groups:
 - name: 🚀 选择代理
   type: select
@@ -480,135 +418,123 @@ proxy-groups:
   url: 'https://www.google.com/'
   interval: 300
   proxies:
-  - '[11ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[11ms] 🇺🇸_US_美国_1'
-  - '[13ms] 美国+CloudFlare节点'
-  - '[14ms] 美国+V2CROSS.COM'
-  - '[14ms] 🇺🇸_US_美国->🇫🇮_FI_芬兰'
-  - '[24ms] 美国+Akamai科技公司CDN网络节点'
-  - '[27ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[37ms] 🇺🇸_US_美国'
-  - '[110ms] 俄罗斯+V2CROSS.COM_1'
-  - '[112ms] 俄罗斯+V2CROSS.COM'
-  - '[112ms] 🇫🇷_FR_法国'
-  - '[119ms] 美国+Akamai科技公司CDN网络节点_1'
-  - '[120ms] 罗马尼亚+V2CROSS.COM'
-  - '[126ms] 🇳🇱_NL_荷兰->🇸🇰_SK_斯洛伐克'
-  - '[127ms] 🇩🇪_DE_德国_1'
-  - '[132ms] FR【机场推荐：https://a9a.xyz】9'
-  - '[132ms] 🇯🇵_JP_日本'
-  - '[134ms] 🇯🇵_JP_日本->🇭🇰_HK_中国香港'
-  - '[169ms] 🇮🇹_IT_意大利'
-  - '[175ms] HK【机场推荐：https://a9a.xyz】2'
-  - '[175ms] HK【机场推荐：https://a9a.xyz】4'
-  - '[176ms] 🇭🇰_HK_中国香港_1'
-  - '[177ms] HK【机场推荐：https://a9a.xyz】3'
-  - '[179ms] 🇭🇰_HK_中国香港->🇺🇸_US_美国'
-  - '[180ms] TW【机场推荐：https://a9a.xyz】12'
-  - '[183ms] TW【机场推荐：https://a9a.xyz】1'
-  - '[199ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司'
-  - '[200ms] RU【机场推荐：https://a9a.xyz】10'
-  - '[212ms] FR【机场推荐：https://a9a.xyz】11'
-  - '[234ms] 🇹🇭_TH_泰国'
-  - '[240ms] ZA【机场推荐：https://a9a.xyz】8'
-  - '[261ms] 🇭🇰_HK_中国香港_3'
-  - '[266ms] 俄罗斯+V2CROSS.COM_2'
-  - '[270ms] HK【机场推荐：https://a9a.xyz】6'
-  - '[274ms] HK【机场推荐：https://a9a.xyz】5'
-  - '[283ms] 🇺🇸_US_美国->🇬🇭_GH_加纳'
-  - '[284ms] 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆'
-  - '[395ms] 🇭🇰_HK_中国香港'
-  - '[459ms] SG【机场推荐：https://a9a.xyz】7'
-  - '[777ms] UN【机场推荐：https://a9a.xyz】13'
+  - '[8ms] 英国 V2CROSS.COM'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_1'
+  - '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[62ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
+  - '[131ms] 🇮🇷_IR_伊朗'
+  - '[139ms] 美国+Akamai科技公司CDN网络节点'
+  - '[139ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡'
+  - '[141ms] 罗马尼亚+V2CROSS.COM'
+  - '[142ms] 俄罗斯+V2CROSS.COM_1'
+  - '[144ms] TW【机场推荐：https://a9a.xyz】5'
+  - '[153ms] 🇭🇰_HK_中国香港_2'
+  - '[153ms] 🇭🇰_HK_中国香港_3'
+  - '[156ms] 🇬🇧_GB_英国'
+  - '[164ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司'
+  - '[168ms] BG【机场推荐：https://a9a.xyz】4'
+  - '[190ms] 🇹🇼_TW_中国台湾'
+  - '[210ms] 美国+V2CROSS.COM'
+  - '[220ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司_1'
+  - '[228ms] 节点日期：2026-06-04'
+  - '[245ms] 🇭🇰_HK_中国香港_1'
+  - '[246ms] RU【机场推荐：https://a9a.xyz】2'
+  - '[265ms] ZA【机场推荐：https://a9a.xyz】3'
+  - '[271ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
+  - '[338ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
+  - '[339ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
+  - '[341ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[342ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
+  - '[355ms] US【机场推荐：https://a9a.xyz】1'
+  - '[421ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
+  - '[426ms] 俄罗斯+V2CROSS.COM'
+  - '[426ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  - '[443ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[577ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  - '[617ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
 - name: 🔰 延迟最低
   type: url-test
   url: 'https://www.google.com/'
   interval: 300
   tolerance: 20
   proxies:
-  - '[11ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[11ms] 🇺🇸_US_美国_1'
-  - '[13ms] 美国+CloudFlare节点'
-  - '[14ms] 美国+V2CROSS.COM'
-  - '[14ms] 🇺🇸_US_美国->🇫🇮_FI_芬兰'
-  - '[24ms] 美国+Akamai科技公司CDN网络节点'
-  - '[27ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[37ms] 🇺🇸_US_美国'
-  - '[110ms] 俄罗斯+V2CROSS.COM_1'
-  - '[112ms] 俄罗斯+V2CROSS.COM'
-  - '[112ms] 🇫🇷_FR_法国'
-  - '[119ms] 美国+Akamai科技公司CDN网络节点_1'
-  - '[120ms] 罗马尼亚+V2CROSS.COM'
-  - '[126ms] 🇳🇱_NL_荷兰->🇸🇰_SK_斯洛伐克'
-  - '[127ms] 🇩🇪_DE_德国_1'
-  - '[132ms] FR【机场推荐：https://a9a.xyz】9'
-  - '[132ms] 🇯🇵_JP_日本'
-  - '[134ms] 🇯🇵_JP_日本->🇭🇰_HK_中国香港'
-  - '[169ms] 🇮🇹_IT_意大利'
-  - '[175ms] HK【机场推荐：https://a9a.xyz】2'
-  - '[175ms] HK【机场推荐：https://a9a.xyz】4'
-  - '[176ms] 🇭🇰_HK_中国香港_1'
-  - '[177ms] HK【机场推荐：https://a9a.xyz】3'
-  - '[179ms] 🇭🇰_HK_中国香港->🇺🇸_US_美国'
-  - '[180ms] TW【机场推荐：https://a9a.xyz】12'
-  - '[183ms] TW【机场推荐：https://a9a.xyz】1'
-  - '[199ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司'
-  - '[200ms] RU【机场推荐：https://a9a.xyz】10'
-  - '[212ms] FR【机场推荐：https://a9a.xyz】11'
-  - '[234ms] 🇹🇭_TH_泰国'
-  - '[240ms] ZA【机场推荐：https://a9a.xyz】8'
-  - '[261ms] 🇭🇰_HK_中国香港_3'
-  - '[266ms] 俄罗斯+V2CROSS.COM_2'
-  - '[270ms] HK【机场推荐：https://a9a.xyz】6'
-  - '[274ms] HK【机场推荐：https://a9a.xyz】5'
-  - '[283ms] 🇺🇸_US_美国->🇬🇭_GH_加纳'
-  - '[284ms] 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆'
-  - '[395ms] 🇭🇰_HK_中国香港'
-  - '[459ms] SG【机场推荐：https://a9a.xyz】7'
-  - '[777ms] UN【机场推荐：https://a9a.xyz】13'
+  - '[8ms] 英国 V2CROSS.COM'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_1'
+  - '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[62ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
+  - '[131ms] 🇮🇷_IR_伊朗'
+  - '[139ms] 美国+Akamai科技公司CDN网络节点'
+  - '[139ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡'
+  - '[141ms] 罗马尼亚+V2CROSS.COM'
+  - '[142ms] 俄罗斯+V2CROSS.COM_1'
+  - '[144ms] TW【机场推荐：https://a9a.xyz】5'
+  - '[153ms] 🇭🇰_HK_中国香港_2'
+  - '[153ms] 🇭🇰_HK_中国香港_3'
+  - '[156ms] 🇬🇧_GB_英国'
+  - '[164ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司'
+  - '[168ms] BG【机场推荐：https://a9a.xyz】4'
+  - '[190ms] 🇹🇼_TW_中国台湾'
+  - '[210ms] 美国+V2CROSS.COM'
+  - '[220ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司_1'
+  - '[228ms] 节点日期：2026-06-04'
+  - '[245ms] 🇭🇰_HK_中国香港_1'
+  - '[246ms] RU【机场推荐：https://a9a.xyz】2'
+  - '[265ms] ZA【机场推荐：https://a9a.xyz】3'
+  - '[271ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
+  - '[338ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
+  - '[339ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
+  - '[341ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[342ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
+  - '[355ms] US【机场推荐：https://a9a.xyz】1'
+  - '[421ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
+  - '[426ms] 俄罗斯+V2CROSS.COM'
+  - '[426ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  - '[443ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[577ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  - '[617ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
 - name: ✅ 手动选择
   type: select
   proxies:
-  - '[11ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[11ms] 🇺🇸_US_美国_1'
-  - '[13ms] 美国+CloudFlare节点'
-  - '[14ms] 美国+V2CROSS.COM'
-  - '[14ms] 🇺🇸_US_美国->🇫🇮_FI_芬兰'
-  - '[24ms] 美国+Akamai科技公司CDN网络节点'
-  - '[27ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[37ms] 🇺🇸_US_美国'
-  - '[110ms] 俄罗斯+V2CROSS.COM_1'
-  - '[112ms] 俄罗斯+V2CROSS.COM'
-  - '[112ms] 🇫🇷_FR_法国'
-  - '[119ms] 美国+Akamai科技公司CDN网络节点_1'
-  - '[120ms] 罗马尼亚+V2CROSS.COM'
-  - '[126ms] 🇳🇱_NL_荷兰->🇸🇰_SK_斯洛伐克'
-  - '[127ms] 🇩🇪_DE_德国_1'
-  - '[132ms] FR【机场推荐：https://a9a.xyz】9'
-  - '[132ms] 🇯🇵_JP_日本'
-  - '[134ms] 🇯🇵_JP_日本->🇭🇰_HK_中国香港'
-  - '[169ms] 🇮🇹_IT_意大利'
-  - '[175ms] HK【机场推荐：https://a9a.xyz】2'
-  - '[175ms] HK【机场推荐：https://a9a.xyz】4'
-  - '[176ms] 🇭🇰_HK_中国香港_1'
-  - '[177ms] HK【机场推荐：https://a9a.xyz】3'
-  - '[179ms] 🇭🇰_HK_中国香港->🇺🇸_US_美国'
-  - '[180ms] TW【机场推荐：https://a9a.xyz】12'
-  - '[183ms] TW【机场推荐：https://a9a.xyz】1'
-  - '[199ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司'
-  - '[200ms] RU【机场推荐：https://a9a.xyz】10'
-  - '[212ms] FR【机场推荐：https://a9a.xyz】11'
-  - '[234ms] 🇹🇭_TH_泰国'
-  - '[240ms] ZA【机场推荐：https://a9a.xyz】8'
-  - '[261ms] 🇭🇰_HK_中国香港_3'
-  - '[266ms] 俄罗斯+V2CROSS.COM_2'
-  - '[270ms] HK【机场推荐：https://a9a.xyz】6'
-  - '[274ms] HK【机场推荐：https://a9a.xyz】5'
-  - '[283ms] 🇺🇸_US_美国->🇬🇭_GH_加纳'
-  - '[284ms] 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆'
-  - '[395ms] 🇭🇰_HK_中国香港'
-  - '[459ms] SG【机场推荐：https://a9a.xyz】7'
-  - '[777ms] UN【机场推荐：https://a9a.xyz】13'
+  - '[8ms] 英国 V2CROSS.COM'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_1'
+  - '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[62ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
+  - '[131ms] 🇮🇷_IR_伊朗'
+  - '[139ms] 美国+Akamai科技公司CDN网络节点'
+  - '[139ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡'
+  - '[141ms] 罗马尼亚+V2CROSS.COM'
+  - '[142ms] 俄罗斯+V2CROSS.COM_1'
+  - '[144ms] TW【机场推荐：https://a9a.xyz】5'
+  - '[153ms] 🇭🇰_HK_中国香港_2'
+  - '[153ms] 🇭🇰_HK_中国香港_3'
+  - '[156ms] 🇬🇧_GB_英国'
+  - '[164ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司'
+  - '[168ms] BG【机场推荐：https://a9a.xyz】4'
+  - '[190ms] 🇹🇼_TW_中国台湾'
+  - '[210ms] 美国+V2CROSS.COM'
+  - '[220ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司_1'
+  - '[228ms] 节点日期：2026-06-04'
+  - '[245ms] 🇭🇰_HK_中国香港_1'
+  - '[246ms] RU【机场推荐：https://a9a.xyz】2'
+  - '[265ms] ZA【机场推荐：https://a9a.xyz】3'
+  - '[271ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
+  - '[338ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
+  - '[339ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
+  - '[341ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[342ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
+  - '[355ms] US【机场推荐：https://a9a.xyz】1'
+  - '[421ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
+  - '[426ms] 俄罗斯+V2CROSS.COM'
+  - '[426ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  - '[443ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[577ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  - '[617ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
 - name: 🌐 突破锁区
   type: select
   proxies:
@@ -644,55 +570,64 @@ proxy-groups:
   - 🇸🇬 新加坡
   - 🇬🇧 英国
   - 🇩🇪 德国
-  - 🇫🇷 法国
   - 🇷🇺 俄罗斯
+  - 🇨🇦 加拿大
+  - 🇮🇳 印度
 - name: 🇯🇵 日本
   type: select
   proxies:
-  - '[132ms] 🇯🇵_JP_日本'
-  - '[134ms] 🇯🇵_JP_日本->🇭🇰_HK_中国香港'
+  - '[577ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
 - name: 🇺🇸 美国
   type: select
   proxies:
-  - '[11ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[11ms] 🇺🇸_US_美国_1'
-  - '[13ms] 美国+CloudFlare节点'
-  - '[14ms] 美国+V2CROSS.COM'
-  - '[14ms] 🇺🇸_US_美国->🇫🇮_FI_芬兰'
-  - '[24ms] 美国+Akamai科技公司CDN网络节点'
-  - '[27ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[37ms] 🇺🇸_US_美国'
-  - '[119ms] 美国+Akamai科技公司CDN网络节点_1'
-  - '[179ms] 🇭🇰_HK_中国香港->🇺🇸_US_美国'
-  - '[199ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司'
-  - '[283ms] 🇺🇸_US_美国->🇬🇭_GH_加纳'
-  - '[284ms] 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_1'
+  - '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[62ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
+  - '[139ms] 美国+Akamai科技公司CDN网络节点'
+  - '[164ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司'
+  - '[210ms] 美国+V2CROSS.COM'
+  - '[220ms] 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司_1'
+  - '[338ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
+  - '[339ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
+  - '[341ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[355ms] US【机场推荐：https://a9a.xyz】1'
+  - '[617ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
 - name: 🇸🇬 新加坡
   type: select
   proxies:
-  - '[459ms] SG【机场推荐：https://a9a.xyz】7'
+  - '[62ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
+  - '[139ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡'
+  - '[271ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
 - name: 🇬🇧 英国
   type: select
   proxies:
-  - '[11ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[8ms] 英国 V2CROSS.COM'
+  - '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[156ms] 🇬🇧_GB_英国'
+  - '[443ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
 - name: 🇩🇪 德国
   type: select
   proxies:
-  - '[27ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[127ms] 🇩🇪_DE_德国_1'
-- name: 🇫🇷 法国
-  type: select
-  proxies:
-  - '[112ms] 🇫🇷_FR_法国'
-  - '[132ms] FR【机场推荐：https://a9a.xyz】9'
-  - '[212ms] FR【机场推荐：https://a9a.xyz】11'
+  - '[341ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
 - name: 🇷🇺 俄罗斯
   type: select
   proxies:
-  - '[110ms] 俄罗斯+V2CROSS.COM_1'
-  - '[112ms] 俄罗斯+V2CROSS.COM'
-  - '[200ms] RU【机场推荐：https://a9a.xyz】10'
-  - '[266ms] 俄罗斯+V2CROSS.COM_2'
+  - '[142ms] 俄罗斯+V2CROSS.COM_1'
+  - '[246ms] RU【机场推荐：https://a9a.xyz】2'
+  - '[426ms] 俄罗斯+V2CROSS.COM'
+- name: 🇨🇦 加拿大
+  type: select
+  proxies:
+  - '[342ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
+- name: 🇮🇳 印度
+  type: select
+  proxies:
+  - '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[426ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  - '[443ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[617ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
 rules:
 - 'DOMAIN-SUFFIX,ads.google.com,⛔ 广告拦截'
 - 'DOMAIN-SUFFIX,adservice.google.com,⛔ 广告拦截'
