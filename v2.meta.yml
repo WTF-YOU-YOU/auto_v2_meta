@@ -1,4 +1,4 @@
-# Update: 2026-06-14 18:10
+# Update: 2026-06-15 20:23
 allow-lan: false
 dns:
   enable: true
@@ -18,68 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '[5ms] 美国+Fastly全球Anycast节点'
-  type: vless
-  server: 151.101.0.1
-  port: 80
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-  delay: 5
-- name: '[5ms] 美国+V2CROSS.COM'
-  type: vless
-  server: 167.82.0.1
-  port: 80
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560'
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-  delay: 5
-- name: '[6ms] 美国+CloudFlare节点'
-  type: vless
-  server: 104.17.108.189
-  port: 443
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  udp: true
-  tls: true
-  servername: octopusss4.com
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /tsghdws
-    headers:
-      Host: octopusss4.com
-  delay: 6
-- name: '[6ms] 美国+洛杉矶'
-  type: vless
-  server: 66.81.247.155
-  port: 443
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  udp: true
-  tls: true
-  servername: octopusss4.com
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /tsghdws
-    headers:
-      Host: octopusss4.com
-  delay: 6
-- name: '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+- name: '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
   type: vless
   server: 104.17.147.22
   port: 8880
@@ -92,8 +31,24 @@ proxies:
     path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
     headers:
       Host: Fi.Parsashonam.CfD.
-  delay: 6
-- name: '[6ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  delay: 2
+- name: '[2ms] 美国+CloudFlare节点'
+  type: vless
+  server: 172.64.32.75
+  port: 443
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  udp: true
+  tls: true
+  servername: octopusss4.com
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /tsghdws
+    headers:
+      Host: octopusss4.com
+  delay: 2
+- name: '[4ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
   type: vless
   server: 208.103.161.170
   port: 443
@@ -108,19 +63,8 @@ proxies:
     path: /id-pusat
     headers:
       Host: ava.game.naver.com.cyylr.eu.cc
-  delay: 6
-- name: '[52ms] 🇺🇸_US_美国'
-  type: vmess
-  server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  delay: 52
-- name: '[52ms] 🇺🇸_US_美国_1'
+  delay: 4
+- name: '[66ms] 🇺🇸_US_美国_1'
   type: vmess
   server: 82.198.246.214
   port: 180
@@ -130,8 +74,19 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 52
-- name: '[52ms] 🇺🇸_US_美国_2'
+  delay: 66
+- name: '[68ms] 🇺🇸_US_美国'
+  type: vmess
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 68
+- name: '[68ms] 🇺🇸_US_美国_2'
   type: vmess
   server: 82.198.246.250
   port: 180
@@ -141,8 +96,20 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 52
-- name: '[80ms] 🇮🇷_IR_伊朗'
+  delay: 68
+- name: '[85ms] 荷兰+V2CROSS.COM'
+  type: vless
+  server: 185.229.191.10
+  port: 8443
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  udp: true
+  tls: true
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 85
+- name: '[85ms] 🇮🇷_IR_伊朗'
   type: vless
   server: 185.143.233.122
   port: 80
@@ -155,29 +122,8 @@ proxies:
     path: /ws
     headers:
       Host: gre.greentab.ir
-  delay: 80
-- name: '[88ms] 美国+马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司'
-  type: vless
-  server: 207.211.214.42
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  udp: true
-  tls: true
-  servername: bru-be-01.fromblancwithlove.com
-  skip-cert-verify: true
-  encryption: none
-  network: tcp
-  delay: 88
-- name: '[88ms] 德国+V2CROSS.COM'
-  type: trojan
-  server: 91.233.8.25
-  port: 443
-  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
-  udp: true
-  skip-cert-verify: true
-  sni: fra34.tracker-ws.click
-  delay: 88
-- name: '[88ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
+  delay: 85
+- name: '[90ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
   type: vless
   server: 85.234.114.53
   port: 443
@@ -189,20 +135,26 @@ proxies:
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 88
-- name: '[97ms] 克罗地亚+V2CROSS.COM'
-  type: vless
-  server: 46.229.243.123
-  port: 8443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  delay: 90
+- name: '[91ms] 罗马尼亚+V2CROSS.COM'
+  type: trojan
+  server: 185.137.157.254
+  port: 443
+  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
   udp: true
-  tls: true
-  servername: cdn9-33.vk-cdnvideo.com
   skip-cert-verify: true
-  encryption: none
-  network: tcp
-  delay: 97
-- name: '[98ms] 🇬🇧_GB_英国'
+  sni: www.directorypipeline.click
+  delay: 91
+- name: '[98ms] 英国+V2CROSS.COM'
+  type: trojan
+  server: 185.126.236.44
+  port: 443
+  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
+  udp: true
+  skip-cert-verify: true
+  sni: www.mesaly.click
+  delay: 98
+- name: '[101ms] 🇬🇧_GB_英国'
   type: vless
   server: 31.76.113.91
   port: 443
@@ -215,49 +167,8 @@ proxies:
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 98
-- name: '[100ms] 美国+CloudFlare节点_2'
-  type: trojan
-  server: www.ignitelimit.com
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 100
-- name: '[102ms] 英国+社会保险安全部'
-  type: vless
-  server: 51.44.25.250
-  port: 44520
-  uuid: acd726d3-0128-44d8-a575-21013ff7740a
-  udp: true
-  tls: true
-  servername: yahoo.com
-  reality-opts:
-    public-key: MrLRcU_2S2CpUc7VT3ajIavX5NYUiQdP6J5QTDFNGFU
-    short-id: 8897c56a495b26cc
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
-  delay: 102
-- name: '[110ms] 🇫🇷_FR_法国'
-  type: vless
-  server: 194.226.169.36
-  port: 443
-  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
-  udp: true
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  encryption: none
-  network: tcp
-  delay: 110
-- name: '[188ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  delay: 101
+- name: '[125ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
   type: vless
   server: cdn9-33.vk-cdnvideo.com
   port: 8443
@@ -267,8 +178,68 @@ proxies:
   skip-cert-verify: true
   encryption: none
   network: tcp
-  delay: 188
-- name: '[205ms] 🇭🇰_HK_中国香港_3'
+  delay: 125
+- name: '[125ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
+  type: trojan
+  server: 90081bb25c.node.tro.cac.cab
+  port: 45553
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  udp: true
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  delay: 125
+- name: '[129ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
+  type: trojan
+  server: 90081bb25c.node.tro.cac.cab
+  port: 41943
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  udp: true
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  delay: 129
+- name: '[134ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
+  type: trojan
+  server: 90081bb25c.node.tro.cac.cab
+  port: 47909
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  udp: true
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  delay: 134
+- name: '[137ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  type: trojan
+  server: 90081bb25c.node.tro.cac.cab
+  port: 46424
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  udp: true
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  delay: 137
+- name: '[177ms] 伊拉克+V2CROSS.COM'
+  type: vless
+  server: de.srv.anti-zapret.com
+  port: 443
+  uuid: 8d1803b9-f9ff-4c09-a6d0-aceb98c4a019
+  udp: true
+  tls: true
+  servername: de.srv.anti-zapret.com
+  reality-opts:
+    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
+    short-id: 58fbcddfaae3ade9
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 177
+- name: '[193ms] 🇹🇼_TW_中国台湾'
+  type: ss
+  server: r3mrcg001286ek2.cybervena.com
+  port: 50099
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  cipher: chacha20-ietf-poly1305
+  delay: 193
+- name: '[203ms] 🇭🇰_HK_中国香港_3'
   type: vmess
   server: 47.244.120.197
   port: 36703
@@ -280,15 +251,8 @@ proxies:
   ws-opts:
     path: '/arki?ed=2048'
   udp: true
-  delay: 205
-- name: '[228ms] 🇹🇼_TW_中国台湾'
-  type: ss
-  server: r3mrcg001286ek2.cybervena.com
-  port: 50099
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  cipher: chacha20-ietf-poly1305
-  delay: 228
-- name: '[253ms] 🇭🇰_HK_中国香港_1'
+  delay: 203
+- name: '[276ms] 🇭🇰_HK_中国香港_1'
   type: vmess
   server: v10.hdacd.com
   port: 30807
@@ -298,40 +262,15 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 253
-- name: '[310ms] 节点日期：2026-06-13'
+  delay: 276
+- name: '[296ms] 节点日期：2026-06-13'
   type: ss
   server: chengbai02.ascwt179.com
   port: 13223
   password: JVrsLLN1tkN8oXZO
   cipher: aes-128-gcm
-  delay: 310
-- name: '[325ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
-  type: trojan
-  server: jpbgp.netvigor.cc
-  port: 19128
-  password: gcuCpQfaiVeDBdWG
-  udp: true
-  skip-cert-verify: true
-  sni: yazhou10.dynu.net
-  delay: 325
-- name: '[366ms] 美国+CloudFlare节点_1'
-  type: vless
-  server: josni.hoyes.cloudns.ch
-  port: 2053
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: josni.hoyes.cloudns.ch
-  delay: 366
-- name: '[372ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
+  delay: 296
+- name: '[350ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
   type: vmess
   server: world.t.51guangtaobao.com
   port: 2510
@@ -341,8 +280,17 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 372
-- name: '[411ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
+  delay: 350
+- name: '[360ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
+  type: trojan
+  server: jpbgp.netvigor.cc
+  port: 19128
+  password: gcuCpQfaiVeDBdWG
+  udp: true
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
+  delay: 360
+- name: '[557ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
   type: vmess
   server: v4.hdacd.com
   port: 30804
@@ -352,61 +300,19 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 411
-- name: '[501ms] 瑞士+V2CROSS.COM'
-  type: vless
-  server: 1.sdwan.realm-sync.com
-  port: 5454
-  uuid: 48959fe8-4a5e-4996-bc87-8d66398e6860
-  udp: true
-  tls: true
-  servername: swcdn.apple.com
-  reality-opts:
-    public-key: 7Mb18pl7fH3NvhVevIVTgRdPlAorUucOWMlUaTrDV0o
-    short-id: 4265cc8365
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  flow: xtls-rprx-vision
-  encryption: none
+  delay: 557
+- name: '[798ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  type: vmess
+  server: v9.hdacd.com
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
   network: tcp
-  delay: 501
-- name: '[506ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
-  type: trojan
-  server: 90081bb25c.node.tro.cac.cab
-  port: 45553
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  tls: false
   udp: true
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  delay: 506
-- name: '[508ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
-  type: trojan
-  server: 90081bb25c.node.tro.cac.cab
-  port: 41943
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  udp: true
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  delay: 508
-- name: '[508ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
-  type: trojan
-  server: 90081bb25c.node.tro.cac.cab
-  port: 47909
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  udp: true
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  delay: 508
-- name: '[510ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  type: trojan
-  server: 90081bb25c.node.tro.cac.cab
-  port: 46424
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  udp: true
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  delay: 510
-- name: '[587ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  delay: 798
+- name: '[803ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
   type: vmess
   server: v6.hdacd.com
   port: 30806
@@ -416,18 +322,20 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 587
-- name: '[826ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
-  type: vmess
-  server: v36.hdacd.com
-  port: 30836
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  tls: false
+  delay: 803
+- name: '[2158ms] 🇫🇷_FR_法国'
+  type: vless
+  server: 194.226.169.36
+  port: 443
+  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
   udp: true
-  delay: 826
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 2158
 proxy-groups:
 - name: 🚀 选择代理
   type: select
@@ -441,117 +349,99 @@ proxy-groups:
   url: 'https://www.google.com/'
   interval: 300
   proxies:
-  - '[5ms] 美国+Fastly全球Anycast节点'
-  - '[5ms] 美国+V2CROSS.COM'
-  - '[6ms] 美国+CloudFlare节点'
-  - '[6ms] 美国+洛杉矶'
-  - '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[6ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
-  - '[52ms] 🇺🇸_US_美国'
-  - '[52ms] 🇺🇸_US_美国_1'
-  - '[52ms] 🇺🇸_US_美国_2'
-  - '[80ms] 🇮🇷_IR_伊朗'
-  - '[88ms] 美国+马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司'
-  - '[88ms] 德国+V2CROSS.COM'
-  - '[88ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
-  - '[97ms] 克罗地亚+V2CROSS.COM'
-  - '[98ms] 🇬🇧_GB_英国'
-  - '[100ms] 美国+CloudFlare节点_2'
-  - '[102ms] 英国+社会保险安全部'
-  - '[110ms] 🇫🇷_FR_法国'
-  - '[188ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
-  - '[205ms] 🇭🇰_HK_中国香港_3'
-  - '[228ms] 🇹🇼_TW_中国台湾'
-  - '[253ms] 🇭🇰_HK_中国香港_1'
-  - '[310ms] 节点日期：2026-06-13'
-  - '[325ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
-  - '[366ms] 美国+CloudFlare节点_1'
-  - '[372ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
-  - '[411ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
-  - '[501ms] 瑞士+V2CROSS.COM'
-  - '[506ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
-  - '[508ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
-  - '[508ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
-  - '[510ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[587ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
-  - '[826ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[2ms] 美国+CloudFlare节点'
+  - '[4ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[66ms] 🇺🇸_US_美国_1'
+  - '[68ms] 🇺🇸_US_美国'
+  - '[68ms] 🇺🇸_US_美国_2'
+  - '[85ms] 荷兰+V2CROSS.COM'
+  - '[85ms] 🇮🇷_IR_伊朗'
+  - '[90ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
+  - '[91ms] 罗马尼亚+V2CROSS.COM'
+  - '[98ms] 英国+V2CROSS.COM'
+  - '[101ms] 🇬🇧_GB_英国'
+  - '[125ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[125ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
+  - '[129ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
+  - '[134ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
+  - '[137ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[177ms] 伊拉克+V2CROSS.COM'
+  - '[193ms] 🇹🇼_TW_中国台湾'
+  - '[203ms] 🇭🇰_HK_中国香港_3'
+  - '[276ms] 🇭🇰_HK_中国香港_1'
+  - '[296ms] 节点日期：2026-06-13'
+  - '[350ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
+  - '[360ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
+  - '[557ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
+  - '[798ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  - '[803ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  - '[2158ms] 🇫🇷_FR_法国'
 - name: 🔰 延迟最低
   type: url-test
   url: 'https://www.google.com/'
   interval: 300
   tolerance: 20
   proxies:
-  - '[5ms] 美国+Fastly全球Anycast节点'
-  - '[5ms] 美国+V2CROSS.COM'
-  - '[6ms] 美国+CloudFlare节点'
-  - '[6ms] 美国+洛杉矶'
-  - '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[6ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
-  - '[52ms] 🇺🇸_US_美国'
-  - '[52ms] 🇺🇸_US_美国_1'
-  - '[52ms] 🇺🇸_US_美国_2'
-  - '[80ms] 🇮🇷_IR_伊朗'
-  - '[88ms] 美国+马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司'
-  - '[88ms] 德国+V2CROSS.COM'
-  - '[88ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
-  - '[97ms] 克罗地亚+V2CROSS.COM'
-  - '[98ms] 🇬🇧_GB_英国'
-  - '[100ms] 美国+CloudFlare节点_2'
-  - '[102ms] 英国+社会保险安全部'
-  - '[110ms] 🇫🇷_FR_法国'
-  - '[188ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
-  - '[205ms] 🇭🇰_HK_中国香港_3'
-  - '[228ms] 🇹🇼_TW_中国台湾'
-  - '[253ms] 🇭🇰_HK_中国香港_1'
-  - '[310ms] 节点日期：2026-06-13'
-  - '[325ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
-  - '[366ms] 美国+CloudFlare节点_1'
-  - '[372ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
-  - '[411ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
-  - '[501ms] 瑞士+V2CROSS.COM'
-  - '[506ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
-  - '[508ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
-  - '[508ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
-  - '[510ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[587ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
-  - '[826ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[2ms] 美国+CloudFlare节点'
+  - '[4ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[66ms] 🇺🇸_US_美国_1'
+  - '[68ms] 🇺🇸_US_美国'
+  - '[68ms] 🇺🇸_US_美国_2'
+  - '[85ms] 荷兰+V2CROSS.COM'
+  - '[85ms] 🇮🇷_IR_伊朗'
+  - '[90ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
+  - '[91ms] 罗马尼亚+V2CROSS.COM'
+  - '[98ms] 英国+V2CROSS.COM'
+  - '[101ms] 🇬🇧_GB_英国'
+  - '[125ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[125ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
+  - '[129ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
+  - '[134ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
+  - '[137ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[177ms] 伊拉克+V2CROSS.COM'
+  - '[193ms] 🇹🇼_TW_中国台湾'
+  - '[203ms] 🇭🇰_HK_中国香港_3'
+  - '[276ms] 🇭🇰_HK_中国香港_1'
+  - '[296ms] 节点日期：2026-06-13'
+  - '[350ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
+  - '[360ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
+  - '[557ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
+  - '[798ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  - '[803ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  - '[2158ms] 🇫🇷_FR_法国'
 - name: ✅ 手动选择
   type: select
   proxies:
-  - '[5ms] 美国+Fastly全球Anycast节点'
-  - '[5ms] 美国+V2CROSS.COM'
-  - '[6ms] 美国+CloudFlare节点'
-  - '[6ms] 美国+洛杉矶'
-  - '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[6ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
-  - '[52ms] 🇺🇸_US_美国'
-  - '[52ms] 🇺🇸_US_美国_1'
-  - '[52ms] 🇺🇸_US_美国_2'
-  - '[80ms] 🇮🇷_IR_伊朗'
-  - '[88ms] 美国+马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司'
-  - '[88ms] 德国+V2CROSS.COM'
-  - '[88ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
-  - '[97ms] 克罗地亚+V2CROSS.COM'
-  - '[98ms] 🇬🇧_GB_英国'
-  - '[100ms] 美国+CloudFlare节点_2'
-  - '[102ms] 英国+社会保险安全部'
-  - '[110ms] 🇫🇷_FR_法国'
-  - '[188ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
-  - '[205ms] 🇭🇰_HK_中国香港_3'
-  - '[228ms] 🇹🇼_TW_中国台湾'
-  - '[253ms] 🇭🇰_HK_中国香港_1'
-  - '[310ms] 节点日期：2026-06-13'
-  - '[325ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
-  - '[366ms] 美国+CloudFlare节点_1'
-  - '[372ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
-  - '[411ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
-  - '[501ms] 瑞士+V2CROSS.COM'
-  - '[506ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
-  - '[508ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
-  - '[508ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
-  - '[510ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[587ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
-  - '[826ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[2ms] 美国+CloudFlare节点'
+  - '[4ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[66ms] 🇺🇸_US_美国_1'
+  - '[68ms] 🇺🇸_US_美国'
+  - '[68ms] 🇺🇸_US_美国_2'
+  - '[85ms] 荷兰+V2CROSS.COM'
+  - '[85ms] 🇮🇷_IR_伊朗'
+  - '[90ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
+  - '[91ms] 罗马尼亚+V2CROSS.COM'
+  - '[98ms] 英国+V2CROSS.COM'
+  - '[101ms] 🇬🇧_GB_英国'
+  - '[125ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[125ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
+  - '[129ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
+  - '[134ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
+  - '[137ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[177ms] 伊拉克+V2CROSS.COM'
+  - '[193ms] 🇹🇼_TW_中国台湾'
+  - '[203ms] 🇭🇰_HK_中国香港_3'
+  - '[276ms] 🇭🇰_HK_中国香港_1'
+  - '[296ms] 节点日期：2026-06-13'
+  - '[350ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
+  - '[360ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
+  - '[557ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
+  - '[798ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  - '[803ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  - '[2158ms] 🇫🇷_FR_法国'
 - name: 🌐 突破锁区
   type: select
   proxies:
@@ -594,63 +484,54 @@ proxy-groups:
 - name: 🇯🇵 日本
   type: select
   proxies:
-  - '[587ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  - '[803ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
 - name: 🇺🇸 美国
   type: select
   proxies:
-  - '[5ms] 美国+Fastly全球Anycast节点'
-  - '[5ms] 美国+V2CROSS.COM'
-  - '[6ms] 美国+CloudFlare节点'
-  - '[6ms] 美国+洛杉矶'
-  - '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[6ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
-  - '[52ms] 🇺🇸_US_美国'
-  - '[52ms] 🇺🇸_US_美国_1'
-  - '[52ms] 🇺🇸_US_美国_2'
-  - '[88ms] 美国+马萨诸塞州埃塞克斯县安多弗镇ClearBlue科技公司'
-  - '[100ms] 美国+CloudFlare节点_2'
-  - '[366ms] 美国+CloudFlare节点_1'
-  - '[411ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
-  - '[506ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
-  - '[508ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
-  - '[510ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[2ms] 美国+CloudFlare节点'
+  - '[4ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[66ms] 🇺🇸_US_美国_1'
+  - '[68ms] 🇺🇸_US_美国'
+  - '[68ms] 🇺🇸_US_美国_2'
+  - '[125ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
+  - '[134ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
+  - '[137ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[557ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
 - name: 🇸🇬 新加坡
   type: select
   proxies:
-  - '[325ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
+  - '[360ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
 - name: 🇬🇧 英国
   type: select
   proxies:
-  - '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[88ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
-  - '[98ms] 🇬🇧_GB_英国'
-  - '[102ms] 英国+社会保险安全部'
-  - '[826ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[90ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
+  - '[98ms] 英国+V2CROSS.COM'
+  - '[101ms] 🇬🇧_GB_英国'
 - name: 🇩🇪 德国
   type: select
   proxies:
-  - '[88ms] 德国+V2CROSS.COM'
-  - '[188ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
-  - '[510ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[125ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[137ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
 - name: 🇫🇷 法国
   type: select
   proxies:
-  - '[110ms] 🇫🇷_FR_法国'
+  - '[2158ms] 🇫🇷_FR_法国'
 - name: 🇷🇺 俄罗斯
   type: select
   proxies:
-  - '[188ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[125ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
 - name: 🇨🇦 加拿大
   type: select
   proxies:
-  - '[5ms] 美国+Fastly全球Anycast节点'
-  - '[508ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
+  - '[129ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
 - name: 🇮🇳 印度
   type: select
   proxies:
-  - '[6ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
-  - '[411ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
-  - '[826ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[4ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[557ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
+  - '[798ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
 rules:
 - 'DOMAIN-SUFFIX,ads.google.com,⛔ 广告拦截'
 - 'DOMAIN-SUFFIX,adservice.google.com,⛔ 广告拦截'
