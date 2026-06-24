@@ -1,4 +1,4 @@
-# Update: 2026-06-23 19:11
+# Update: 2026-06-24 18:50
 allow-lan: false
 dns:
   enable: true
@@ -18,7 +18,788 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '[1ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+- name: '[7ms] CA【机场推荐：https://a9a.xyz】22'
+  type: vless
+  server: 151.101.194.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] CA【机场推荐：https://a9a.xyz】28'
+  type: vless
+  server: 151.101.194.219
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】88'
+  type: vless
+  server: 151.101.37.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】102'
+  type: vless
+  server: 151.101.1.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】105'
+  type: vless
+  server: 151.101.64.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】109'
+  type: vless
+  server: 151.101.33.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】108'
+  type: vless
+  server: 151.101.66.219
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】112'
+  type: vless
+  server: 151.101.26.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】114'
+  type: vless
+  server: 151.101.214.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】115'
+  type: vless
+  server: 151.101.102.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】120'
+  type: vless
+  server: 151.101.109.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】122'
+  type: vless
+  server: 151.101.117.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】123'
+  type: vless
+  server: 151.101.169.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】125'
+  type: vless
+  server: 151.101.170.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】129'
+  type: vless
+  server: 199.232.197.131
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】130'
+  type: vless
+  server: 151.101.34.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】133'
+  type: vless
+  server: 151.101.109.223
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】136'
+  type: vless
+  server: 151.101.130.219
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】137'
+  type: vless
+  server: 151.101.2.219
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】142'
+  type: vless
+  server: 151.101.2.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】143'
+  type: vless
+  server: 151.101.110.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[7ms] UN【机场推荐：https://a9a.xyz】144'
+  type: vless
+  server: 151.101.38.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 7
+- name: '[8ms] US【机场推荐：https://a9a.xyz】2'
+  type: vless
+  server: 151.101.24.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] CA【机场推荐：https://a9a.xyz】12'
+  type: vless
+  server: 151.101.3.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] CA【机场推荐：https://a9a.xyz】25'
+  type: vless
+  server: 151.101.0.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】50'
+  type: vless
+  server: 151.101.73.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】72'
+  type: vless
+  server: 151.101.74.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】91'
+  type: vless
+  server: 151.101.192.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】99'
+  type: vless
+  server: 151.101.193.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】100'
+  type: vless
+  server: 151.101.215.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】106'
+  type: vless
+  server: 151.101.99.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】107'
+  type: vless
+  server: 151.101.128.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】111'
+  type: vless
+  server: 151.101.212.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】113'
+  type: vless
+  server: 151.101.96.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】117'
+  type: vless
+  server: 151.101.103.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】118'
+  type: vless
+  server: 151.101.108.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】121'
+  type: vless
+  server: 151.101.213.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】124'
+  type: vless
+  server: 151.101.111.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】127'
+  type: vless
+  server: 151.101.97.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】128'
+  type: vless
+  server: 151.101.58.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】131'
+  type: vless
+  server: 151.101.56.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】132'
+  type: vless
+  server: 151.101.25.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】135'
+  type: vless
+  server: 151.101.118.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】139'
+  type: vless
+  server: 151.101.0.1
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】140'
+  type: vless
+  server: 151.101.171.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] UN【机场推荐：https://a9a.xyz】141'
+  type: vless
+  server: 151.101.57.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 8
+- name: '[8ms] 美国+V2CROSS.COM'
+  type: trojan
+  server: 199.232.237.245
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /usa=mitivpn
+    headers:
+      Host: cdn2-mitivpn.global.ssl.fastly.net
+  client-fingerprint: chrome
+  delay: 8
+- name: '[8ms] 日本+东京Fastly节点'
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: MiTiVPN
+  udp: true
+  skip-cert-verify: true
+  sni: global.fastly.com
+  network: ws
+  ws-opts:
+    path: /nl=mitivpn
+    headers:
+      Host: cdn2-mitivpn.global.ssl.fastly.net
+  client-fingerprint: chrome
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  type: vless
+  server: 104.17.147.22
+  port: 8880
+  uuid: Parsashonam-Bot-32
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
+    headers:
+      Host: Fi.Parsashonam.CfD.
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国'
+  type: vmess
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 8
+- name: '[8ms] 🇺🇸_US_美国_2'
+  type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 8
+- name: '[9ms] 节点日期：2026-06-24'
+  type: vmess
+  server: 69.84.182.49
+  port: 80
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+  udp: true
+  delay: 9
+- name: '[9ms] CA【机场推荐：https://a9a.xyz】8'
+  type: vless
+  server: 151.101.131.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 9
+- name: '[9ms] CA【机场推荐：https://a9a.xyz】9'
+  type: vless
+  server: 151.101.65.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 9
+- name: '[9ms] CA【机场推荐：https://a9a.xyz】37'
+  type: vless
+  server: speedtest.net
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 9
+- name: '[9ms] UN【机场推荐：https://a9a.xyz】57'
+  type: vless
+  server: 151.101.197.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 9
+- name: '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
   type: vless
   server: 208.103.161.170
   port: 443
@@ -33,10 +814,122 @@ proxies:
     path: /id-pusat
     headers:
       Host: ava.game.naver.com.cyylr.eu.cc
-  delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】4'
+  delay: 9
+- name: '[10ms] UN【机场推荐：https://a9a.xyz】55'
   type: vless
-  server: 151.101.0.1
+  server: 151.101.196.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 10
+- name: '[10ms] UN【机场推荐：https://a9a.xyz】56'
+  type: vless
+  server: 151.101.199.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 10
+- name: '[10ms] UN【机场推荐：https://a9a.xyz】69'
+  type: vless
+  server: 151.101.198.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 10
+- name: '[15ms] UN【机场推荐：https://a9a.xyz】47'
+  type: vless
+  server: 151.101.201.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 15
+- name: '[15ms] UN【机场推荐：https://a9a.xyz】59'
+  type: vless
+  server: 151.101.200.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 15
+- name: '[15ms] UN【机场推荐：https://a9a.xyz】62'
+  type: vless
+  server: 151.101.203.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 15
+- name: '[15ms] UN【机场推荐：https://a9a.xyz】80'
+  type: vless
+  server: 151.101.42.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 15
+- name: '[15ms] UN【机场推荐：https://a9a.xyz】110'
+  type: vless
+  server: 151.101.69.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 15
+- name: '[15ms] UN【机场推荐：https://a9a.xyz】126'
+  type: vless
+  server: 151.101.70.151
   port: 80
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
@@ -47,10 +940,10 @@ proxies:
     path: /
     headers:
       Host: max-gb1.global.ssl.fastly.net
-  delay: 1
-- name: '[1ms] 美国+加利福尼亚州洛杉矶Fastly节点'
+  delay: 15
+- name: '[16ms] US【机场推荐：https://a9a.xyz】7'
   type: vless
-  server: 151.101.27.151
+  server: 151.101.48.151
   port: 80
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
@@ -58,13 +951,13 @@ proxies:
   encryption: none
   network: ws
   ws-opts:
-    path: '/?ed=2560'
+    path: '/?https://t.me/WangCai2🇨🇳'
     headers:
       Host: max-gb1.global.ssl.fastly.net
-  delay: 1
-- name: '[1ms] 节点日期：2026-06-23'
+  delay: 16
+- name: '[16ms] UN【机场推荐：https://a9a.xyz】45'
   type: vless
-  server: 151.101.109.223
+  server: 151.101.49.151
   port: 80
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
@@ -72,64 +965,11 @@ proxies:
   encryption: none
   network: ws
   ws-opts:
-    path: /
+    path: '/?https://t.me/WangCai2🇨🇳'
     headers:
       Host: max-gb1.global.ssl.fastly.net
-  delay: 1
-- name: '[1ms] DE【机场推荐：https://a9a.xyz】13'
-  type: vless
-  server: 31.185.108.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime23.workers.dev
-  delay: 1
-- name: '[1ms] 美国+Fastly全球Anycast节点'
-  type: trojan
-  server: 151.101.1.194
-  port: 80
-  password: MITIVPN
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ed=mitivpn
-    headers:
-      Host: mitivpn--3.global.ssl.fastly.net
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  type: vless
-  server: 104.17.147.22
-  port: 8880
-  uuid: Parsashonam-Bot-32
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
-    headers:
-      Host: Fi.Parsashonam.CfD.
-  delay: 1
-- name: '[1ms] ES【机场推荐：https://a9a.xyz】22'
-  type: trojan
-  server: 185.18.250.252
-  port: 443
-  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
-  udp: true
-  skip-cert-verify: true
-  sni: unnes.ac.id.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /au-mt
-  delay: 1
-- name: '[1ms] US【机场推荐：https://a9a.xyz】5'
+  delay: 16
+- name: '[23ms] US【机场推荐：https://a9a.xyz】43'
   type: vless
   server: 167.82.0.1
   port: 80
@@ -142,26 +982,234 @@ proxies:
     path: /
     headers:
       Host: max-gb1.global.ssl.fastly.net
-  delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】16'
+  delay: 23
+- name: '[24ms] US【机场推荐：https://a9a.xyz】13'
   type: vless
-  server: 173.245.59.35
-  port: 443
-  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
+  server: 151.101.160.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
-  tls: true
-  servername: ld.235231.xyz
-  skip-cert-verify: true
+  tls: false
   encryption: none
   network: ws
   ws-opts:
-    path: /
+    path: '/?https://t.me/WangCai2🇨🇳'
     headers:
-      Host: ld.235231.xyz
-  delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】2'
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 24
+- name: '[24ms] UN【机场推荐：https://a9a.xyz】84'
   type: vless
-  server: 151.101.2.219
+  server: 151.101.115.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 24
+- name: '[25ms] US【机场推荐：https://a9a.xyz】31'
+  type: vless
+  server: 151.101.162.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 25
+- name: '[25ms] UN【机场推荐：https://a9a.xyz】61'
+  type: vless
+  server: 151.101.114.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 25
+- name: '[25ms] UN【机场推荐：https://a9a.xyz】73'
+  type: vless
+  server: 151.101.112.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 25
+- name: '[26ms] US【机场推荐：https://a9a.xyz】15'
+  type: vless
+  server: 151.101.180.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 26
+- name: '[26ms] UN【机场推荐：https://a9a.xyz】30'
+  type: vless
+  server: 151.101.161.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 26
+- name: '[26ms] US【机场推荐：https://a9a.xyz】35'
+  type: vless
+  server: 151.101.182.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 26
+- name: '[29ms] US【机场推荐：https://a9a.xyz】33'
+  type: vless
+  server: 151.101.155.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 29
+- name: '[31ms] US【机场推荐：https://a9a.xyz】32'
+  type: vless
+  server: 151.101.152.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 31
+- name: '[31ms] UN【机场推荐：https://a9a.xyz】65'
+  type: vless
+  server: 151.101.153.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 31
+- name: '[32ms] UN【机场推荐：https://a9a.xyz】54'
+  type: vless
+  server: 151.101.21.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 32
+- name: '[32ms] UN【机场推荐：https://a9a.xyz】58'
+  type: vless
+  server: 151.101.22.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 32
+- name: '[33ms] US【机场推荐：https://a9a.xyz】39'
+  type: vless
+  server: 151.101.23.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 33
+- name: '[39ms] US【机场推荐：https://a9a.xyz】16'
+  type: vless
+  server: 151.101.19.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 39
+- name: '[39ms] UN【机场推荐：https://a9a.xyz】89'
+  type: vless
+  server: 151.101.55.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 39
+- name: '[42ms] UN【机场推荐：https://a9a.xyz】79'
+  type: vless
+  server: 151.101.17.151
   port: 80
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
@@ -172,101 +1220,115 @@ proxies:
     path: /
     headers:
       Host: max-gb1.global.ssl.fastly.net
-  delay: 1
-- name: '[1ms] US【机场推荐：https://a9a.xyz】14'
+  delay: 42
+- name: '[43ms] US【机场推荐：https://a9a.xyz】24'
   type: vless
-  server: 155.46.167.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime50.workers.dev
-  delay: 1
-- name: '[2ms] US【机场推荐：https://a9a.xyz】11'
-  type: vless
-  server: 50.62.198.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime39.workers.dev
-  delay: 2
-- name: '[2ms] CA【机场推荐：https://a9a.xyz】15'
-  type: vless
-  server: 162.159.81.177
+  server: 151.101.12.151
   port: 80
-  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
   tls: false
   encryption: none
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoibHFUM0pwRHZXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
+    path: '/?https://t.me/WangCai2🇨🇳'
     headers:
-      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
-  delay: 2
-- name: '[2ms] CA【机场推荐：https://a9a.xyz】24'
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 43
+- name: '[43ms] UN【机场推荐：https://a9a.xyz】60'
   type: vless
-  server: 198.41.207.201
-  port: 8080
-  uuid: SoonTeam
-  udp: true
-  tls: false
-  encryption: none
-  network: xhttp
-  delay: 2
-- name: '[2ms] CA【机场推荐：https://a9a.xyz】23'
-  type: vless
-  server: 104.27.194.143
-  port: 8080
-  uuid: SoonTeam
-  udp: true
-  tls: false
-  encryption: none
-  network: xhttp
-  delay: 2
-- name: '[2ms] DE【机场推荐：https://a9a.xyz】12'
-  type: vless
-  server: 185.135.9.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime50.workers.dev
-  delay: 2
-- name: '[2ms] US【机场推荐：https://a9a.xyz】17'
-  type: vmess
-  server: 69.84.182.49
+  server: 151.101.15.151
   port: 80
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
-  delay: 2
-- name: '[2ms] CA【机场推荐：https://a9a.xyz】3'
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 43
+- name: '[45ms] US【机场推荐：https://a9a.xyz】18'
   type: vless
-  server: 151.101.194.219
+  server: 151.101.16.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 45
+- name: '[45ms] UN【机场推荐：https://a9a.xyz】87'
+  type: vless
+  server: 151.101.85.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 45
+- name: '[47ms] US【机场推荐：https://a9a.xyz】11'
+  type: vless
+  server: 151.101.86.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 47
+- name: '[48ms] US【机场推荐：https://a9a.xyz】10'
+  type: vless
+  server: 151.101.84.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 48
+- name: '[50ms] 美国+Akamai科技公司CDN网络节点'
+  type: ss
+  server: 172.234.202.34
+  port: 24833
+  password: hRd=IXkjozMEKLeGR_0q09jtwly5J2la2O
+  cipher: chacha20-ietf-poly1305
+  delay: 50
+- name: '[51ms] US【机场推荐：https://a9a.xyz】17'
+  type: vless
+  server: 151.101.255.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 51
+- name: '[51ms] US【机场推荐：https://a9a.xyz】26'
+  type: vless
+  server: 151.101.253.151
   port: 80
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
@@ -277,10 +1339,10 @@ proxies:
     path: /
     headers:
       Host: max-gb1.global.ssl.fastly.net
-  delay: 2
-- name: '[2ms] CA【机场推荐：https://a9a.xyz】1'
+  delay: 51
+- name: '[53ms] UN【机场推荐：https://a9a.xyz】64'
   type: vless
-  server: 199.232.197.131
+  server: 151.101.150.151
   port: 80
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
@@ -288,13 +1350,13 @@ proxies:
   encryption: none
   network: ws
   ws-opts:
-    path: /
+    path: '/?https://t.me/WangCai2🇨🇳'
     headers:
       Host: max-gb1.global.ssl.fastly.net
-  delay: 2
-- name: '[3ms] 美国+乔治亚洲亚特兰大Fastly节点'
+  delay: 53
+- name: '[53ms] UN【机场推荐：https://a9a.xyz】70'
   type: vless
-  server: 151.101.57.151
+  server: 151.101.148.151
   port: 80
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
@@ -302,13 +1364,13 @@ proxies:
   encryption: none
   network: ws
   ws-opts:
-    path: '/?ed=2560'
+    path: '/?https://t.me/WangCai2🇨🇳'
     headers:
       Host: max-gb1.global.ssl.fastly.net
-  delay: 3
-- name: '[3ms] 美国+Fastly节点'
+  delay: 53
+- name: '[57ms] US【机场推荐：https://a9a.xyz】14'
   type: vless
-  server: 151.101.103.151
+  server: 151.101.151.151
   port: 80
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
@@ -316,86 +1378,193 @@ proxies:
   encryption: none
   network: ws
   ws-opts:
-    path: '/?ed=2560'
+    path: '/?https://t.me/WangCai2🇨🇳'
     headers:
       Host: max-gb1.global.ssl.fastly.net
-  delay: 3
-- name: '[3ms] 亚太地区+V2CROSS.COM'
-  type: vless
-  server: 103.133.1.140
-  port: 80
-  uuid: f9255507-1b65-433f-bfd8-193b35e068e2
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/Telegram🇨🇳 @WangCai2'
-    headers:
-      Host: s5.868001.xyz
-  delay: 3
-- name: '[4ms] 俄罗斯+V2CROSS.COM'
-  type: vless
-  server: 193.233.21.140
-  port: 80
-  uuid: f9255507-1b65-433f-bfd8-193b35e068e2
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/Telegram🇨🇳+@WangCai2'
-    headers:
-      Host: s5.868001.xyz
-  delay: 4
-- name: '[15ms] GB【机场推荐：https://a9a.xyz】7'
-  type: vless
-  server: speedtest.net
-  port: 80
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-  delay: 15
-- name: '[57ms] 🇺🇸_US_美国'
-  type: vmess
-  server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
   delay: 57
-- name: '[64ms] 🇺🇸_US_美国_1'
-  type: vmess
-  server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
+- name: '[60ms] US【机场推荐：https://a9a.xyz】19'
+  type: vless
+  server: 151.101.145.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
-  delay: 64
-- name: '[64ms] 🇺🇸_US_美国_2'
-  type: vmess
-  server: 82.198.246.250
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
   tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 60
+- name: '[60ms] UN【机场推荐：https://a9a.xyz】83'
+  type: vless
+  server: 151.101.44.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
-  delay: 64
-- name: '[85ms] 🇮🇷_IR_伊朗'
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 60
+- name: '[61ms] US【机场推荐：https://a9a.xyz】23'
+  type: vless
+  server: 151.101.146.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 61
+- name: '[61ms] US【机场推荐：https://a9a.xyz】29'
+  type: vless
+  server: 151.101.147.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 61
+- name: '[61ms] CA【机场推荐：https://a9a.xyz】38'
+  type: vless
+  server: 151.101.124.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 61
+- name: '[61ms] US【机场推荐：https://a9a.xyz】44'
+  type: vless
+  server: 151.101.144.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 61
+- name: '[63ms] CA【机场推荐：https://a9a.xyz】36'
+  type: vless
+  server: 151.101.126.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 63
+- name: '[65ms] UN【机场推荐：https://a9a.xyz】71'
+  type: vless
+  server: 151.101.127.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 65
+- name: '[65ms] UN【机场推荐：https://a9a.xyz】77'
+  type: vless
+  server: 151.101.125.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 65
+- name: '[66ms] UN【机场推荐：https://a9a.xyz】63'
+  type: vless
+  server: 151.101.46.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 66
+- name: '[67ms] UN【机场推荐：https://a9a.xyz】66'
+  type: vless
+  server: 151.101.136.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 67
+- name: '[70ms] CA【机场推荐：https://a9a.xyz】40'
+  type: vless
+  server: 151.101.139.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 70
+- name: '[70ms] UN【机场推荐：https://a9a.xyz】76'
+  type: vless
+  server: 151.101.137.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 70
+- name: '[123ms] 🇮🇷_IR_伊朗'
   type: vless
   server: 185.143.233.122
   port: 80
@@ -408,24 +1577,415 @@ proxies:
     path: /ws
     headers:
       Host: gre.greentab.ir
-  delay: 85
-- name: '[87ms] DE【机场推荐：https://a9a.xyz】18'
+  delay: 123
+- name: '[133ms] NL【机场推荐：https://a9a.xyz】34'
   type: vless
-  server: 95.85.233.181
+  server: 151.101.205.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 133
+- name: '[134ms] UN【机场推荐：https://a9a.xyz】48'
+  type: vless
+  server: 151.101.60.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 134
+- name: '[134ms] UN【机场推荐：https://a9a.xyz】51'
+  type: vless
+  server: 151.101.63.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 134
+- name: '[134ms] UN【机场推荐：https://a9a.xyz】78'
+  type: vless
+  server: 151.101.188.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 134
+- name: '[134ms] UN【机场推荐：https://a9a.xyz】93'
+  type: vless
+  server: 151.101.190.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 134
+- name: '[135ms] UN【机场推荐：https://a9a.xyz】96'
+  type: vless
+  server: 151.101.191.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 135
+- name: '[135ms] UN【机场推荐：https://a9a.xyz】104'
+  type: vless
+  server: 151.101.8.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 135
+- name: '[137ms] UN【机场推荐：https://a9a.xyz】49'
+  type: vless
+  server: 151.101.61.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 137
+- name: '[137ms] UN【机场推荐：https://a9a.xyz】103'
+  type: vless
+  server: 151.101.134.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 137
+- name: '[138ms] UN【机场推荐：https://a9a.xyz】52'
+  type: vless
+  server: 151.101.206.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 138
+- name: '[138ms] 希腊+V2CROSS.COM'
+  type: trojan
+  server: 92.119.35.93
   port: 443
-  uuid: e0bb3250-1873-4b9d-b9b5-7aa6c863885f
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  udp: true
+  skip-cert-verify: true
+  delay: 138
+- name: '[139ms] UN【机场推荐：https://a9a.xyz】75'
+  type: vless
+  server: 151.101.10.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 139
+- name: '[139ms] 罗马尼亚+V2CROSS.COM'
+  type: trojan
+  server: 185.137.157.142
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  udp: true
+  skip-cert-verify: true
+  delay: 139
+- name: '[140ms] UN【机场推荐：https://a9a.xyz】116'
+  type: vless
+  server: 151.101.120.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 140
+- name: '[141ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
+  type: vless
+  server: 85.234.114.53
+  port: 443
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   udp: true
   tls: true
-  servername: c.primarymaster.online
-  reality-opts:
-    public-key: S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y
-    short-id: c56c3ba3b9f676c5
-  client-fingerprint: chrome
-  skip-cert-verify: false
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
   encryption: none
-  network: grpc
-  delay: 87
-- name: '[92ms] 🇬🇧_GB_英国'
+  network: tcp
+  delay: 141
+- name: '[142ms] UN【机场推荐：https://a9a.xyz】90'
+  type: vless
+  server: 151.101.9.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 142
+- name: '[142ms] UN【机场推荐：https://a9a.xyz】95'
+  type: vless
+  server: 151.101.133.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 142
+- name: '[142ms] UN【机场推荐：https://a9a.xyz】119'
+  type: vless
+  server: 151.101.132.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 142
+- name: '[143ms] UN【机场推荐：https://a9a.xyz】68'
+  type: vless
+  server: 151.101.122.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 143
+- name: '[146ms] UN【机场推荐：https://a9a.xyz】92'
+  type: vless
+  server: 151.101.241.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 146
+- name: '[150ms] UN【机场推荐：https://a9a.xyz】101'
+  type: vless
+  server: 151.101.242.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 150
+- name: '[151ms] HK【机场推荐：https://a9a.xyz】20'
+  type: vless
+  server: 151.101.76.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 151
+- name: '[151ms] UN【机场推荐：https://a9a.xyz】86'
+  type: vless
+  server: 151.101.77.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 151
+- name: '[151ms] UN【机场推荐：https://a9a.xyz】134'
+  type: trojan
+  server: 103.219.194.43
+  port: 443
+  password: '114514'
+  udp: true
+  skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+  delay: 151
+- name: '[152ms] HK【机场推荐：https://a9a.xyz】21'
+  type: vless
+  server: 151.101.79.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 152
+- name: '[152ms] UN【机场推荐：https://a9a.xyz】82'
+  type: vless
+  server: 151.101.7.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 152
+- name: '[152ms] UN【机场推荐：https://a9a.xyz】85'
+  type: vless
+  server: 151.101.78.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 152
+- name: '[153ms] UN【机场推荐：https://a9a.xyz】81'
+  type: vless
+  server: 151.101.6.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 153
+- name: '[153ms] UN【机场推荐：https://a9a.xyz】97'
+  type: vless
+  server: 151.101.245.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 153
+- name: '[154ms] UN【机场推荐：https://a9a.xyz】74'
+  type: vless
+  server: 151.101.244.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 154
+- name: '[155ms] 🇬🇧_GB_英国'
   type: vless
   server: 31.76.113.91
   port: 443
@@ -438,128 +1998,8 @@ proxies:
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 92
-- name: '[93ms] 法国+Fastly节点'
-  type: vless
-  server: 151.101.120.151
-  port: 80
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/?ed=2560'
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-  delay: 93
-- name: '[94ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
-  type: vless
-  server: 85.234.114.53
-  port: 443
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  udp: true
-  tls: true
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
-  delay: 94
-- name: '[97ms] 伊拉克+V2CROSS.COM'
-  type: vless
-  server: 81.90.29.53
-  port: 8443
-  uuid: cf038a28-8f85-41fc-9e86-ba99a3fdd0d9
-  udp: true
-  tls: true
-  servername: mishaduck.duckdns.org
-  reality-opts:
-    public-key: -FQM2tUbpiBjwjgla2mwkSkFhFIKQU0FQOvRi0ZD_mY
-    short-id: 540f5784c2481b5a
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
-  delay: 97
-- name: '[99ms] 英国+V2CROSS.COM'
-  type: trojan
-  server: 185.126.236.190
-  port: 443
-  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
-  udp: true
-  skip-cert-verify: true
-  sni: 185.126.236.190
-  delay: 99
-- name: '[123ms] 俄罗斯+V2CROSS.COM_1'
-  type: vless
-  server: 109.73.194.240
-  port: 443
-  uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
-  udp: true
-  tls: true
-  servername: sellflow.org
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
-  delay: 123
-- name: '[163ms] US【机场推荐：https://a9a.xyz】9'
-  type: vless
-  server: assets.trorays.com
-  port: 443
-  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
-  udp: true
-  tls: true
-  servername: assets.trorays.com
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  flow: xtls-rprx-vision-udp443
-  encryption: none
-  network: tcp
-  delay: 163
-- name: '[168ms] IR【机场推荐：https://a9a.xyz】19'
-  type: vmess
-  server: 81.12.34.222
-  port: 443
-  uuid: 78cc237d-e9a1-400a-be89-c38db037b911
-  alterId: 0
-  cipher: auto
-  network: xhttp
-  tls: true
-  servername: Em89VtEPfy06EhEQnxNA.zynaras.ir
-  skip-cert-verify: true
-  udp: true
-  delay: 168
-- name: '[168ms] IR【机场推荐：https://a9a.xyz】21'
-  type: ss
-  server: 103.130.147.40
-  port: 1122
-  password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
-  cipher: aes-256-gcm
-  delay: 168
-- name: '[190ms] RU【机场推荐：https://a9a.xyz】10'
-  type: vless
-  server: 176.109.94.202
-  port: 9443
-  uuid: 71b03803-5dfe-4dac-8406-a06e94b1bd70
-  udp: true
-  tls: true
-  servername: mms-2tets.hysteria.ltd
-  client-fingerprint: qq
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: mms-2tets.hysteria.ltd
-  delay: 190
-- name: '[200ms] 🇭🇰_HK_中国香港_3'
+  delay: 155
+- name: '[155ms] 🇭🇰_HK_中国香港_3'
   type: vmess
   server: 47.244.120.197
   port: 36703
@@ -571,53 +2011,112 @@ proxies:
   ws-opts:
     path: '/arki?ed=2048'
   udp: true
-  delay: 200
-- name: '[213ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
-  type: trojan
-  server: 90081bb25c.node.tro.cac.cab
-  port: 45553
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  delay: 155
+- name: '[157ms] LT【机场推荐：https://a9a.xyz】1'
+  type: vless
+  server: 5.199.170.105
+  port: 443
+  uuid: fd47216b-4217-4ec1-85b9-98304634a391
   udp: true
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  delay: 213
-- name: '[215ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
-  type: trojan
-  server: 90081bb25c.node.tro.cac.cab
-  port: 47909
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  tls: true
+  servername: amd.com
+  reality-opts:
+    public-key: xFUmqmEPEKyv-5ReppEM1oTkc04HQcBUfySH-EwPBlE
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 157
+- name: '[159ms] UN【机场推荐：https://a9a.xyz】67'
+  type: vless
+  server: 151.101.247.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  delay: 215
-- name: '[216ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
-  type: trojan
-  server: 90081bb25c.node.tro.cac.cab
-  port: 41943
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 159
+- name: '[159ms] 🇹🇼_TW_中国台湾'
+  type: ss
+  server: r3mrcg001286ek2.cybervena.com
+  port: 50099
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  cipher: chacha20-ietf-poly1305
+  delay: 159
+- name: '[160ms] UN【机场推荐：https://a9a.xyz】98'
+  type: vless
+  server: 151.101.246.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  delay: 216
-- name: '[236ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  type: trojan
-  server: 90081bb25c.node.tro.cac.cab
-  port: 46424
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 160
+- name: '[166ms] 🇫🇷_FR_法国'
+  type: vless
+  server: 194.226.169.36
+  port: 443
+  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
   udp: true
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
   skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  delay: 236
-- name: '[244ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
+  encryption: none
+  network: tcp
+  delay: 166
+- name: '[175ms] UN【机场推荐：https://a9a.xyz】94'
+  type: vless
+  server: 151.101.239.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 175
+- name: '[178ms] RU【机场推荐：https://a9a.xyz】6'
+  type: vless
+  server: 5.129.194.22
+  port: 443
+  uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
+  udp: true
+  tls: true
+  servername: sellflow.org
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 178
+- name: '[182ms] HK【机场推荐：https://a9a.xyz】3'
   type: trojan
   server: jpbgp.netvigor.cc
   port: 19128
-  password: gcuCpQfaiVeDBdWG
+  password: OccIqeORGQwiNkwS
   udp: true
   skip-cert-verify: true
   sni: yazhou10.dynu.net
-  delay: 244
-- name: '[246ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  delay: 182
+- name: '[196ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
   type: vless
   server: cdn9-33.vk-cdnvideo.com
   port: 8443
@@ -627,8 +2126,39 @@ proxies:
   skip-cert-verify: true
   encryption: none
   network: tcp
-  delay: 246
-- name: '[261ms] 🇭🇰_HK_中国香港_1'
+  delay: 196
+- name: '[207ms] IN【机场推荐：https://a9a.xyz】46'
+  type: vless
+  server: 151.101.158.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 207
+- name: '[226ms] UN【机场推荐：https://a9a.xyz】138'
+  type: vless
+  server: fh1.freechatup2.com
+  port: 443
+  uuid: 27f914c5-bdcc-441a-9459-368daf552606
+  udp: true
+  tls: true
+  servername: m.media-amazon.com
+  reality-opts:
+    public-key: zCeRZCK7gCGFmPlOzBaTWHVkmysMFJlPqgDTPZRjRx0
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 226
+- name: '[237ms] 🇭🇰_HK_中国香港_1'
   type: vmess
   server: v10.hdacd.com
   port: 30807
@@ -638,43 +2168,74 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 261
-- name: '[273ms] 🇹🇼_TW_中国台湾'
-  type: ss
-  server: r3mrcg001286ek2.cybervena.com
-  port: 50099
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  cipher: chacha20-ietf-poly1305
-  delay: 273
-- name: '[279ms] TW【机场推荐：https://a9a.xyz】6'
+  delay: 237
+- name: '[244ms] AE【机场推荐：https://a9a.xyz】27'
   type: vless
-  server: tw3.miyazono-kaori.com
-  port: 443
-  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
+  server: 151.101.140.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
-  tls: true
-  servername: dlcdnets.asus.com
-  reality-opts:
-    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    short-id: 473277e2
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  flow: xtls-rprx-vision
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 244
+- name: '[255ms] US【机场推荐：https://a9a.xyz】4'
+  type: vless
+  server: 206.82.3.131
+  port: 443
+  uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+  udp: true
+  tls: false
   encryption: none
   network: tcp
-  delay: 279
-- name: '[425ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  tls: false
+  delay: 255
+- name: '[255ms] IN【机场推荐：https://a9a.xyz】41'
+  type: vless
+  server: 151.101.105.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   udp: true
-  delay: 425
-- name: '[428ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 255
+- name: '[257ms] UN【机场推荐：https://a9a.xyz】53'
+  type: vless
+  server: 151.101.104.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 257
+- name: '[262ms] IN【机场推荐：https://a9a.xyz】42'
+  type: vless
+  server: 151.101.106.151
+  port: 80
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?https://t.me/WangCai2🇨🇳'
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  delay: 262
+- name: '[316ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
   type: vmess
   server: world.t.51guangtaobao.com
   port: 2510
@@ -684,19 +2245,19 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 428
-- name: '[463ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  delay: 316
+- name: '[358ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
   type: vmess
-  server: v9.hdacd.com
-  port: 30809
+  server: v4.hdacd.com
+  port: 30804
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
   network: tcp
   tls: false
   udp: true
-  delay: 463
-- name: '[500ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  delay: 358
+- name: '[413ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
   type: vmess
   server: v36.hdacd.com
   port: 30836
@@ -706,8 +2267,19 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 500
-- name: '[531ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  delay: 413
+- name: '[451ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  type: vmess
+  server: v9.hdacd.com
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 451
+- name: '[681ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
   type: vmess
   server: v6.hdacd.com
   port: 30806
@@ -717,31 +2289,24 @@ proxies:
   network: tcp
   tls: false
   udp: true
-  delay: 531
-- name: '[593ms] UN【机场推荐：https://a9a.xyz】8'
+  delay: 681
+- name: '[692ms] UN【机场推荐：https://a9a.xyz】145'
   type: vless
-  server: 1.sdwan.realm-sync.com
-  port: 5457
-  uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
+  server: grinoree.ru
+  port: 8443
+  uuid: 360c46b7-afe1-4e86-bfe1-ba09b5fcd8a6
   udp: true
   tls: true
-  servername: swcdn.apple.com
+  servername: storage.yandex.net
   reality-opts:
-    public-key: 8Ct9wBZLha-ePZMWbSau9ViKgbwlCgEsbGMjNnoVDzw
-    short-id: 9da3779ceafd
-  client-fingerprint: chrome
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  client-fingerprint: firefox
   skip-cert-verify: false
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 593
-- name: '[4818ms] IR【机场推荐：https://a9a.xyz】20'
-  type: ss
-  server: e2.cover20.ir
-  port: 30874
-  password: pf1BozsIFaJeK9yVaraePPMdOMO5iauFm23w4+Ffqck=
-  cipher: chacha20-ietf-poly1305
-  delay: 4818
+  delay: 692
 proxy-groups:
 - name: 🚀 选择代理
   type: select
@@ -755,186 +2320,516 @@ proxy-groups:
   url: 'https://www.google.com/'
   interval: 300
   proxies:
-  - '[1ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】4'
-  - '[1ms] 美国+加利福尼亚州洛杉矶Fastly节点'
-  - '[1ms] 节点日期：2026-06-23'
-  - '[1ms] DE【机场推荐：https://a9a.xyz】13'
-  - '[1ms] 美国+Fastly全球Anycast节点'
-  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[1ms] ES【机场推荐：https://a9a.xyz】22'
-  - '[1ms] US【机场推荐：https://a9a.xyz】5'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】16'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】2'
-  - '[1ms] US【机场推荐：https://a9a.xyz】14'
-  - '[2ms] US【机场推荐：https://a9a.xyz】11'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】15'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】24'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】23'
-  - '[2ms] DE【机场推荐：https://a9a.xyz】12'
-  - '[2ms] US【机场推荐：https://a9a.xyz】17'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】3'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】1'
-  - '[3ms] 美国+乔治亚洲亚特兰大Fastly节点'
-  - '[3ms] 美国+Fastly节点'
-  - '[3ms] 亚太地区+V2CROSS.COM'
-  - '[4ms] 俄罗斯+V2CROSS.COM'
-  - '[15ms] GB【机场推荐：https://a9a.xyz】7'
-  - '[57ms] 🇺🇸_US_美国'
-  - '[64ms] 🇺🇸_US_美国_1'
-  - '[64ms] 🇺🇸_US_美国_2'
-  - '[85ms] 🇮🇷_IR_伊朗'
-  - '[87ms] DE【机场推荐：https://a9a.xyz】18'
-  - '[92ms] 🇬🇧_GB_英国'
-  - '[93ms] 法国+Fastly节点'
-  - '[94ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
-  - '[97ms] 伊拉克+V2CROSS.COM'
-  - '[99ms] 英国+V2CROSS.COM'
-  - '[123ms] 俄罗斯+V2CROSS.COM_1'
-  - '[163ms] US【机场推荐：https://a9a.xyz】9'
-  - '[168ms] IR【机场推荐：https://a9a.xyz】19'
-  - '[168ms] IR【机场推荐：https://a9a.xyz】21'
-  - '[190ms] RU【机场推荐：https://a9a.xyz】10'
-  - '[200ms] 🇭🇰_HK_中国香港_3'
-  - '[213ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
-  - '[215ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
-  - '[216ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
-  - '[236ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[244ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
-  - '[246ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
-  - '[261ms] 🇭🇰_HK_中国香港_1'
-  - '[273ms] 🇹🇼_TW_中国台湾'
-  - '[279ms] TW【机场推荐：https://a9a.xyz】6'
-  - '[425ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
-  - '[428ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
-  - '[463ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
-  - '[500ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
-  - '[531ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
-  - '[593ms] UN【机场推荐：https://a9a.xyz】8'
-  - '[4818ms] IR【机场推荐：https://a9a.xyz】20'
+  - '[7ms] CA【机场推荐：https://a9a.xyz】22'
+  - '[7ms] CA【机场推荐：https://a9a.xyz】28'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】88'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】102'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】105'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】109'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】108'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】112'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】114'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】115'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】120'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】122'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】123'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】125'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】129'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】130'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】133'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】136'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】137'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】142'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】143'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】144'
+  - '[8ms] US【机场推荐：https://a9a.xyz】2'
+  - '[8ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[8ms] CA【机场推荐：https://a9a.xyz】25'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】50'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】72'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】91'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】99'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】100'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】106'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】107'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】111'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】113'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】117'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】118'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】121'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】124'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】127'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】128'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】131'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】132'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】135'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】139'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】140'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】141'
+  - '[8ms] 美国+V2CROSS.COM'
+  - '[8ms] 日本+东京Fastly节点'
+  - '[8ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_2'
+  - '[9ms] 节点日期：2026-06-24'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】8'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】9'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】37'
+  - '[9ms] UN【机场推荐：https://a9a.xyz】57'
+  - '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[10ms] UN【机场推荐：https://a9a.xyz】55'
+  - '[10ms] UN【机场推荐：https://a9a.xyz】56'
+  - '[10ms] UN【机场推荐：https://a9a.xyz】69'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】47'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】59'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】62'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】80'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】110'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】126'
+  - '[16ms] US【机场推荐：https://a9a.xyz】7'
+  - '[16ms] UN【机场推荐：https://a9a.xyz】45'
+  - '[23ms] US【机场推荐：https://a9a.xyz】43'
+  - '[24ms] US【机场推荐：https://a9a.xyz】13'
+  - '[24ms] UN【机场推荐：https://a9a.xyz】84'
+  - '[25ms] US【机场推荐：https://a9a.xyz】31'
+  - '[25ms] UN【机场推荐：https://a9a.xyz】61'
+  - '[25ms] UN【机场推荐：https://a9a.xyz】73'
+  - '[26ms] US【机场推荐：https://a9a.xyz】15'
+  - '[26ms] UN【机场推荐：https://a9a.xyz】30'
+  - '[26ms] US【机场推荐：https://a9a.xyz】35'
+  - '[29ms] US【机场推荐：https://a9a.xyz】33'
+  - '[31ms] US【机场推荐：https://a9a.xyz】32'
+  - '[31ms] UN【机场推荐：https://a9a.xyz】65'
+  - '[32ms] UN【机场推荐：https://a9a.xyz】54'
+  - '[32ms] UN【机场推荐：https://a9a.xyz】58'
+  - '[33ms] US【机场推荐：https://a9a.xyz】39'
+  - '[39ms] US【机场推荐：https://a9a.xyz】16'
+  - '[39ms] UN【机场推荐：https://a9a.xyz】89'
+  - '[42ms] UN【机场推荐：https://a9a.xyz】79'
+  - '[43ms] US【机场推荐：https://a9a.xyz】24'
+  - '[43ms] UN【机场推荐：https://a9a.xyz】60'
+  - '[45ms] US【机场推荐：https://a9a.xyz】18'
+  - '[45ms] UN【机场推荐：https://a9a.xyz】87'
+  - '[47ms] US【机场推荐：https://a9a.xyz】11'
+  - '[48ms] US【机场推荐：https://a9a.xyz】10'
+  - '[50ms] 美国+Akamai科技公司CDN网络节点'
+  - '[51ms] US【机场推荐：https://a9a.xyz】17'
+  - '[51ms] US【机场推荐：https://a9a.xyz】26'
+  - '[53ms] UN【机场推荐：https://a9a.xyz】64'
+  - '[53ms] UN【机场推荐：https://a9a.xyz】70'
+  - '[57ms] US【机场推荐：https://a9a.xyz】14'
+  - '[60ms] US【机场推荐：https://a9a.xyz】19'
+  - '[60ms] UN【机场推荐：https://a9a.xyz】83'
+  - '[61ms] US【机场推荐：https://a9a.xyz】23'
+  - '[61ms] US【机场推荐：https://a9a.xyz】29'
+  - '[61ms] CA【机场推荐：https://a9a.xyz】38'
+  - '[61ms] US【机场推荐：https://a9a.xyz】44'
+  - '[63ms] CA【机场推荐：https://a9a.xyz】36'
+  - '[65ms] UN【机场推荐：https://a9a.xyz】71'
+  - '[65ms] UN【机场推荐：https://a9a.xyz】77'
+  - '[66ms] UN【机场推荐：https://a9a.xyz】63'
+  - '[67ms] UN【机场推荐：https://a9a.xyz】66'
+  - '[70ms] CA【机场推荐：https://a9a.xyz】40'
+  - '[70ms] UN【机场推荐：https://a9a.xyz】76'
+  - '[123ms] 🇮🇷_IR_伊朗'
+  - '[133ms] NL【机场推荐：https://a9a.xyz】34'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】48'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】51'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】78'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】93'
+  - '[135ms] UN【机场推荐：https://a9a.xyz】96'
+  - '[135ms] UN【机场推荐：https://a9a.xyz】104'
+  - '[137ms] UN【机场推荐：https://a9a.xyz】49'
+  - '[137ms] UN【机场推荐：https://a9a.xyz】103'
+  - '[138ms] UN【机场推荐：https://a9a.xyz】52'
+  - '[138ms] 希腊+V2CROSS.COM'
+  - '[139ms] UN【机场推荐：https://a9a.xyz】75'
+  - '[139ms] 罗马尼亚+V2CROSS.COM'
+  - '[140ms] UN【机场推荐：https://a9a.xyz】116'
+  - '[141ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】90'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】95'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】119'
+  - '[143ms] UN【机场推荐：https://a9a.xyz】68'
+  - '[146ms] UN【机场推荐：https://a9a.xyz】92'
+  - '[150ms] UN【机场推荐：https://a9a.xyz】101'
+  - '[151ms] HK【机场推荐：https://a9a.xyz】20'
+  - '[151ms] UN【机场推荐：https://a9a.xyz】86'
+  - '[151ms] UN【机场推荐：https://a9a.xyz】134'
+  - '[152ms] HK【机场推荐：https://a9a.xyz】21'
+  - '[152ms] UN【机场推荐：https://a9a.xyz】82'
+  - '[152ms] UN【机场推荐：https://a9a.xyz】85'
+  - '[153ms] UN【机场推荐：https://a9a.xyz】81'
+  - '[153ms] UN【机场推荐：https://a9a.xyz】97'
+  - '[154ms] UN【机场推荐：https://a9a.xyz】74'
+  - '[155ms] 🇬🇧_GB_英国'
+  - '[155ms] 🇭🇰_HK_中国香港_3'
+  - '[157ms] LT【机场推荐：https://a9a.xyz】1'
+  - '[159ms] UN【机场推荐：https://a9a.xyz】67'
+  - '[159ms] 🇹🇼_TW_中国台湾'
+  - '[160ms] UN【机场推荐：https://a9a.xyz】98'
+  - '[166ms] 🇫🇷_FR_法国'
+  - '[175ms] UN【机场推荐：https://a9a.xyz】94'
+  - '[178ms] RU【机场推荐：https://a9a.xyz】6'
+  - '[182ms] HK【机场推荐：https://a9a.xyz】3'
+  - '[196ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[207ms] IN【机场推荐：https://a9a.xyz】46'
+  - '[226ms] UN【机场推荐：https://a9a.xyz】138'
+  - '[237ms] 🇭🇰_HK_中国香港_1'
+  - '[244ms] AE【机场推荐：https://a9a.xyz】27'
+  - '[255ms] US【机场推荐：https://a9a.xyz】4'
+  - '[255ms] IN【机场推荐：https://a9a.xyz】41'
+  - '[257ms] UN【机场推荐：https://a9a.xyz】53'
+  - '[262ms] IN【机场推荐：https://a9a.xyz】42'
+  - '[316ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
+  - '[358ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
+  - '[413ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[451ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  - '[681ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  - '[692ms] UN【机场推荐：https://a9a.xyz】145'
 - name: 🔰 延迟最低
   type: url-test
   url: 'https://www.google.com/'
   interval: 300
   tolerance: 20
   proxies:
-  - '[1ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】4'
-  - '[1ms] 美国+加利福尼亚州洛杉矶Fastly节点'
-  - '[1ms] 节点日期：2026-06-23'
-  - '[1ms] DE【机场推荐：https://a9a.xyz】13'
-  - '[1ms] 美国+Fastly全球Anycast节点'
-  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[1ms] ES【机场推荐：https://a9a.xyz】22'
-  - '[1ms] US【机场推荐：https://a9a.xyz】5'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】16'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】2'
-  - '[1ms] US【机场推荐：https://a9a.xyz】14'
-  - '[2ms] US【机场推荐：https://a9a.xyz】11'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】15'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】24'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】23'
-  - '[2ms] DE【机场推荐：https://a9a.xyz】12'
-  - '[2ms] US【机场推荐：https://a9a.xyz】17'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】3'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】1'
-  - '[3ms] 美国+乔治亚洲亚特兰大Fastly节点'
-  - '[3ms] 美国+Fastly节点'
-  - '[3ms] 亚太地区+V2CROSS.COM'
-  - '[4ms] 俄罗斯+V2CROSS.COM'
-  - '[15ms] GB【机场推荐：https://a9a.xyz】7'
-  - '[57ms] 🇺🇸_US_美国'
-  - '[64ms] 🇺🇸_US_美国_1'
-  - '[64ms] 🇺🇸_US_美国_2'
-  - '[85ms] 🇮🇷_IR_伊朗'
-  - '[87ms] DE【机场推荐：https://a9a.xyz】18'
-  - '[92ms] 🇬🇧_GB_英国'
-  - '[93ms] 法国+Fastly节点'
-  - '[94ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
-  - '[97ms] 伊拉克+V2CROSS.COM'
-  - '[99ms] 英国+V2CROSS.COM'
-  - '[123ms] 俄罗斯+V2CROSS.COM_1'
-  - '[163ms] US【机场推荐：https://a9a.xyz】9'
-  - '[168ms] IR【机场推荐：https://a9a.xyz】19'
-  - '[168ms] IR【机场推荐：https://a9a.xyz】21'
-  - '[190ms] RU【机场推荐：https://a9a.xyz】10'
-  - '[200ms] 🇭🇰_HK_中国香港_3'
-  - '[213ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
-  - '[215ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
-  - '[216ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
-  - '[236ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[244ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
-  - '[246ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
-  - '[261ms] 🇭🇰_HK_中国香港_1'
-  - '[273ms] 🇹🇼_TW_中国台湾'
-  - '[279ms] TW【机场推荐：https://a9a.xyz】6'
-  - '[425ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
-  - '[428ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
-  - '[463ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
-  - '[500ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
-  - '[531ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
-  - '[593ms] UN【机场推荐：https://a9a.xyz】8'
-  - '[4818ms] IR【机场推荐：https://a9a.xyz】20'
+  - '[7ms] CA【机场推荐：https://a9a.xyz】22'
+  - '[7ms] CA【机场推荐：https://a9a.xyz】28'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】88'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】102'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】105'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】109'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】108'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】112'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】114'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】115'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】120'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】122'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】123'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】125'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】129'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】130'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】133'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】136'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】137'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】142'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】143'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】144'
+  - '[8ms] US【机场推荐：https://a9a.xyz】2'
+  - '[8ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[8ms] CA【机场推荐：https://a9a.xyz】25'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】50'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】72'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】91'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】99'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】100'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】106'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】107'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】111'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】113'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】117'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】118'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】121'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】124'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】127'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】128'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】131'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】132'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】135'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】139'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】140'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】141'
+  - '[8ms] 美国+V2CROSS.COM'
+  - '[8ms] 日本+东京Fastly节点'
+  - '[8ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_2'
+  - '[9ms] 节点日期：2026-06-24'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】8'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】9'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】37'
+  - '[9ms] UN【机场推荐：https://a9a.xyz】57'
+  - '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[10ms] UN【机场推荐：https://a9a.xyz】55'
+  - '[10ms] UN【机场推荐：https://a9a.xyz】56'
+  - '[10ms] UN【机场推荐：https://a9a.xyz】69'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】47'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】59'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】62'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】80'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】110'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】126'
+  - '[16ms] US【机场推荐：https://a9a.xyz】7'
+  - '[16ms] UN【机场推荐：https://a9a.xyz】45'
+  - '[23ms] US【机场推荐：https://a9a.xyz】43'
+  - '[24ms] US【机场推荐：https://a9a.xyz】13'
+  - '[24ms] UN【机场推荐：https://a9a.xyz】84'
+  - '[25ms] US【机场推荐：https://a9a.xyz】31'
+  - '[25ms] UN【机场推荐：https://a9a.xyz】61'
+  - '[25ms] UN【机场推荐：https://a9a.xyz】73'
+  - '[26ms] US【机场推荐：https://a9a.xyz】15'
+  - '[26ms] UN【机场推荐：https://a9a.xyz】30'
+  - '[26ms] US【机场推荐：https://a9a.xyz】35'
+  - '[29ms] US【机场推荐：https://a9a.xyz】33'
+  - '[31ms] US【机场推荐：https://a9a.xyz】32'
+  - '[31ms] UN【机场推荐：https://a9a.xyz】65'
+  - '[32ms] UN【机场推荐：https://a9a.xyz】54'
+  - '[32ms] UN【机场推荐：https://a9a.xyz】58'
+  - '[33ms] US【机场推荐：https://a9a.xyz】39'
+  - '[39ms] US【机场推荐：https://a9a.xyz】16'
+  - '[39ms] UN【机场推荐：https://a9a.xyz】89'
+  - '[42ms] UN【机场推荐：https://a9a.xyz】79'
+  - '[43ms] US【机场推荐：https://a9a.xyz】24'
+  - '[43ms] UN【机场推荐：https://a9a.xyz】60'
+  - '[45ms] US【机场推荐：https://a9a.xyz】18'
+  - '[45ms] UN【机场推荐：https://a9a.xyz】87'
+  - '[47ms] US【机场推荐：https://a9a.xyz】11'
+  - '[48ms] US【机场推荐：https://a9a.xyz】10'
+  - '[50ms] 美国+Akamai科技公司CDN网络节点'
+  - '[51ms] US【机场推荐：https://a9a.xyz】17'
+  - '[51ms] US【机场推荐：https://a9a.xyz】26'
+  - '[53ms] UN【机场推荐：https://a9a.xyz】64'
+  - '[53ms] UN【机场推荐：https://a9a.xyz】70'
+  - '[57ms] US【机场推荐：https://a9a.xyz】14'
+  - '[60ms] US【机场推荐：https://a9a.xyz】19'
+  - '[60ms] UN【机场推荐：https://a9a.xyz】83'
+  - '[61ms] US【机场推荐：https://a9a.xyz】23'
+  - '[61ms] US【机场推荐：https://a9a.xyz】29'
+  - '[61ms] CA【机场推荐：https://a9a.xyz】38'
+  - '[61ms] US【机场推荐：https://a9a.xyz】44'
+  - '[63ms] CA【机场推荐：https://a9a.xyz】36'
+  - '[65ms] UN【机场推荐：https://a9a.xyz】71'
+  - '[65ms] UN【机场推荐：https://a9a.xyz】77'
+  - '[66ms] UN【机场推荐：https://a9a.xyz】63'
+  - '[67ms] UN【机场推荐：https://a9a.xyz】66'
+  - '[70ms] CA【机场推荐：https://a9a.xyz】40'
+  - '[70ms] UN【机场推荐：https://a9a.xyz】76'
+  - '[123ms] 🇮🇷_IR_伊朗'
+  - '[133ms] NL【机场推荐：https://a9a.xyz】34'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】48'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】51'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】78'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】93'
+  - '[135ms] UN【机场推荐：https://a9a.xyz】96'
+  - '[135ms] UN【机场推荐：https://a9a.xyz】104'
+  - '[137ms] UN【机场推荐：https://a9a.xyz】49'
+  - '[137ms] UN【机场推荐：https://a9a.xyz】103'
+  - '[138ms] UN【机场推荐：https://a9a.xyz】52'
+  - '[138ms] 希腊+V2CROSS.COM'
+  - '[139ms] UN【机场推荐：https://a9a.xyz】75'
+  - '[139ms] 罗马尼亚+V2CROSS.COM'
+  - '[140ms] UN【机场推荐：https://a9a.xyz】116'
+  - '[141ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】90'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】95'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】119'
+  - '[143ms] UN【机场推荐：https://a9a.xyz】68'
+  - '[146ms] UN【机场推荐：https://a9a.xyz】92'
+  - '[150ms] UN【机场推荐：https://a9a.xyz】101'
+  - '[151ms] HK【机场推荐：https://a9a.xyz】20'
+  - '[151ms] UN【机场推荐：https://a9a.xyz】86'
+  - '[151ms] UN【机场推荐：https://a9a.xyz】134'
+  - '[152ms] HK【机场推荐：https://a9a.xyz】21'
+  - '[152ms] UN【机场推荐：https://a9a.xyz】82'
+  - '[152ms] UN【机场推荐：https://a9a.xyz】85'
+  - '[153ms] UN【机场推荐：https://a9a.xyz】81'
+  - '[153ms] UN【机场推荐：https://a9a.xyz】97'
+  - '[154ms] UN【机场推荐：https://a9a.xyz】74'
+  - '[155ms] 🇬🇧_GB_英国'
+  - '[155ms] 🇭🇰_HK_中国香港_3'
+  - '[157ms] LT【机场推荐：https://a9a.xyz】1'
+  - '[159ms] UN【机场推荐：https://a9a.xyz】67'
+  - '[159ms] 🇹🇼_TW_中国台湾'
+  - '[160ms] UN【机场推荐：https://a9a.xyz】98'
+  - '[166ms] 🇫🇷_FR_法国'
+  - '[175ms] UN【机场推荐：https://a9a.xyz】94'
+  - '[178ms] RU【机场推荐：https://a9a.xyz】6'
+  - '[182ms] HK【机场推荐：https://a9a.xyz】3'
+  - '[196ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[207ms] IN【机场推荐：https://a9a.xyz】46'
+  - '[226ms] UN【机场推荐：https://a9a.xyz】138'
+  - '[237ms] 🇭🇰_HK_中国香港_1'
+  - '[244ms] AE【机场推荐：https://a9a.xyz】27'
+  - '[255ms] US【机场推荐：https://a9a.xyz】4'
+  - '[255ms] IN【机场推荐：https://a9a.xyz】41'
+  - '[257ms] UN【机场推荐：https://a9a.xyz】53'
+  - '[262ms] IN【机场推荐：https://a9a.xyz】42'
+  - '[316ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
+  - '[358ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
+  - '[413ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[451ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  - '[681ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  - '[692ms] UN【机场推荐：https://a9a.xyz】145'
 - name: ✅ 手动选择
   type: select
   proxies:
-  - '[1ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】4'
-  - '[1ms] 美国+加利福尼亚州洛杉矶Fastly节点'
-  - '[1ms] 节点日期：2026-06-23'
-  - '[1ms] DE【机场推荐：https://a9a.xyz】13'
-  - '[1ms] 美国+Fastly全球Anycast节点'
-  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[1ms] ES【机场推荐：https://a9a.xyz】22'
-  - '[1ms] US【机场推荐：https://a9a.xyz】5'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】16'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】2'
-  - '[1ms] US【机场推荐：https://a9a.xyz】14'
-  - '[2ms] US【机场推荐：https://a9a.xyz】11'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】15'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】24'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】23'
-  - '[2ms] DE【机场推荐：https://a9a.xyz】12'
-  - '[2ms] US【机场推荐：https://a9a.xyz】17'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】3'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】1'
-  - '[3ms] 美国+乔治亚洲亚特兰大Fastly节点'
-  - '[3ms] 美国+Fastly节点'
-  - '[3ms] 亚太地区+V2CROSS.COM'
-  - '[4ms] 俄罗斯+V2CROSS.COM'
-  - '[15ms] GB【机场推荐：https://a9a.xyz】7'
-  - '[57ms] 🇺🇸_US_美国'
-  - '[64ms] 🇺🇸_US_美国_1'
-  - '[64ms] 🇺🇸_US_美国_2'
-  - '[85ms] 🇮🇷_IR_伊朗'
-  - '[87ms] DE【机场推荐：https://a9a.xyz】18'
-  - '[92ms] 🇬🇧_GB_英国'
-  - '[93ms] 法国+Fastly节点'
-  - '[94ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
-  - '[97ms] 伊拉克+V2CROSS.COM'
-  - '[99ms] 英国+V2CROSS.COM'
-  - '[123ms] 俄罗斯+V2CROSS.COM_1'
-  - '[163ms] US【机场推荐：https://a9a.xyz】9'
-  - '[168ms] IR【机场推荐：https://a9a.xyz】19'
-  - '[168ms] IR【机场推荐：https://a9a.xyz】21'
-  - '[190ms] RU【机场推荐：https://a9a.xyz】10'
-  - '[200ms] 🇭🇰_HK_中国香港_3'
-  - '[213ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
-  - '[215ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
-  - '[216ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
-  - '[236ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[244ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
-  - '[246ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
-  - '[261ms] 🇭🇰_HK_中国香港_1'
-  - '[273ms] 🇹🇼_TW_中国台湾'
-  - '[279ms] TW【机场推荐：https://a9a.xyz】6'
-  - '[425ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
-  - '[428ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
-  - '[463ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
-  - '[500ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
-  - '[531ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
-  - '[593ms] UN【机场推荐：https://a9a.xyz】8'
-  - '[4818ms] IR【机场推荐：https://a9a.xyz】20'
+  - '[7ms] CA【机场推荐：https://a9a.xyz】22'
+  - '[7ms] CA【机场推荐：https://a9a.xyz】28'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】88'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】102'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】105'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】109'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】108'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】112'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】114'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】115'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】120'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】122'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】123'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】125'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】129'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】130'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】133'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】136'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】137'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】142'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】143'
+  - '[7ms] UN【机场推荐：https://a9a.xyz】144'
+  - '[8ms] US【机场推荐：https://a9a.xyz】2'
+  - '[8ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[8ms] CA【机场推荐：https://a9a.xyz】25'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】50'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】72'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】91'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】99'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】100'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】106'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】107'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】111'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】113'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】117'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】118'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】121'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】124'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】127'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】128'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】131'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】132'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】135'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】139'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】140'
+  - '[8ms] UN【机场推荐：https://a9a.xyz】141'
+  - '[8ms] 美国+V2CROSS.COM'
+  - '[8ms] 日本+东京Fastly节点'
+  - '[8ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_2'
+  - '[9ms] 节点日期：2026-06-24'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】8'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】9'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】37'
+  - '[9ms] UN【机场推荐：https://a9a.xyz】57'
+  - '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[10ms] UN【机场推荐：https://a9a.xyz】55'
+  - '[10ms] UN【机场推荐：https://a9a.xyz】56'
+  - '[10ms] UN【机场推荐：https://a9a.xyz】69'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】47'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】59'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】62'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】80'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】110'
+  - '[15ms] UN【机场推荐：https://a9a.xyz】126'
+  - '[16ms] US【机场推荐：https://a9a.xyz】7'
+  - '[16ms] UN【机场推荐：https://a9a.xyz】45'
+  - '[23ms] US【机场推荐：https://a9a.xyz】43'
+  - '[24ms] US【机场推荐：https://a9a.xyz】13'
+  - '[24ms] UN【机场推荐：https://a9a.xyz】84'
+  - '[25ms] US【机场推荐：https://a9a.xyz】31'
+  - '[25ms] UN【机场推荐：https://a9a.xyz】61'
+  - '[25ms] UN【机场推荐：https://a9a.xyz】73'
+  - '[26ms] US【机场推荐：https://a9a.xyz】15'
+  - '[26ms] UN【机场推荐：https://a9a.xyz】30'
+  - '[26ms] US【机场推荐：https://a9a.xyz】35'
+  - '[29ms] US【机场推荐：https://a9a.xyz】33'
+  - '[31ms] US【机场推荐：https://a9a.xyz】32'
+  - '[31ms] UN【机场推荐：https://a9a.xyz】65'
+  - '[32ms] UN【机场推荐：https://a9a.xyz】54'
+  - '[32ms] UN【机场推荐：https://a9a.xyz】58'
+  - '[33ms] US【机场推荐：https://a9a.xyz】39'
+  - '[39ms] US【机场推荐：https://a9a.xyz】16'
+  - '[39ms] UN【机场推荐：https://a9a.xyz】89'
+  - '[42ms] UN【机场推荐：https://a9a.xyz】79'
+  - '[43ms] US【机场推荐：https://a9a.xyz】24'
+  - '[43ms] UN【机场推荐：https://a9a.xyz】60'
+  - '[45ms] US【机场推荐：https://a9a.xyz】18'
+  - '[45ms] UN【机场推荐：https://a9a.xyz】87'
+  - '[47ms] US【机场推荐：https://a9a.xyz】11'
+  - '[48ms] US【机场推荐：https://a9a.xyz】10'
+  - '[50ms] 美国+Akamai科技公司CDN网络节点'
+  - '[51ms] US【机场推荐：https://a9a.xyz】17'
+  - '[51ms] US【机场推荐：https://a9a.xyz】26'
+  - '[53ms] UN【机场推荐：https://a9a.xyz】64'
+  - '[53ms] UN【机场推荐：https://a9a.xyz】70'
+  - '[57ms] US【机场推荐：https://a9a.xyz】14'
+  - '[60ms] US【机场推荐：https://a9a.xyz】19'
+  - '[60ms] UN【机场推荐：https://a9a.xyz】83'
+  - '[61ms] US【机场推荐：https://a9a.xyz】23'
+  - '[61ms] US【机场推荐：https://a9a.xyz】29'
+  - '[61ms] CA【机场推荐：https://a9a.xyz】38'
+  - '[61ms] US【机场推荐：https://a9a.xyz】44'
+  - '[63ms] CA【机场推荐：https://a9a.xyz】36'
+  - '[65ms] UN【机场推荐：https://a9a.xyz】71'
+  - '[65ms] UN【机场推荐：https://a9a.xyz】77'
+  - '[66ms] UN【机场推荐：https://a9a.xyz】63'
+  - '[67ms] UN【机场推荐：https://a9a.xyz】66'
+  - '[70ms] CA【机场推荐：https://a9a.xyz】40'
+  - '[70ms] UN【机场推荐：https://a9a.xyz】76'
+  - '[123ms] 🇮🇷_IR_伊朗'
+  - '[133ms] NL【机场推荐：https://a9a.xyz】34'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】48'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】51'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】78'
+  - '[134ms] UN【机场推荐：https://a9a.xyz】93'
+  - '[135ms] UN【机场推荐：https://a9a.xyz】96'
+  - '[135ms] UN【机场推荐：https://a9a.xyz】104'
+  - '[137ms] UN【机场推荐：https://a9a.xyz】49'
+  - '[137ms] UN【机场推荐：https://a9a.xyz】103'
+  - '[138ms] UN【机场推荐：https://a9a.xyz】52'
+  - '[138ms] 希腊+V2CROSS.COM'
+  - '[139ms] UN【机场推荐：https://a9a.xyz】75'
+  - '[139ms] 罗马尼亚+V2CROSS.COM'
+  - '[140ms] UN【机场推荐：https://a9a.xyz】116'
+  - '[141ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】90'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】95'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】119'
+  - '[143ms] UN【机场推荐：https://a9a.xyz】68'
+  - '[146ms] UN【机场推荐：https://a9a.xyz】92'
+  - '[150ms] UN【机场推荐：https://a9a.xyz】101'
+  - '[151ms] HK【机场推荐：https://a9a.xyz】20'
+  - '[151ms] UN【机场推荐：https://a9a.xyz】86'
+  - '[151ms] UN【机场推荐：https://a9a.xyz】134'
+  - '[152ms] HK【机场推荐：https://a9a.xyz】21'
+  - '[152ms] UN【机场推荐：https://a9a.xyz】82'
+  - '[152ms] UN【机场推荐：https://a9a.xyz】85'
+  - '[153ms] UN【机场推荐：https://a9a.xyz】81'
+  - '[153ms] UN【机场推荐：https://a9a.xyz】97'
+  - '[154ms] UN【机场推荐：https://a9a.xyz】74'
+  - '[155ms] 🇬🇧_GB_英国'
+  - '[155ms] 🇭🇰_HK_中国香港_3'
+  - '[157ms] LT【机场推荐：https://a9a.xyz】1'
+  - '[159ms] UN【机场推荐：https://a9a.xyz】67'
+  - '[159ms] 🇹🇼_TW_中国台湾'
+  - '[160ms] UN【机场推荐：https://a9a.xyz】98'
+  - '[166ms] 🇫🇷_FR_法国'
+  - '[175ms] UN【机场推荐：https://a9a.xyz】94'
+  - '[178ms] RU【机场推荐：https://a9a.xyz】6'
+  - '[182ms] HK【机场推荐：https://a9a.xyz】3'
+  - '[196ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[207ms] IN【机场推荐：https://a9a.xyz】46'
+  - '[226ms] UN【机场推荐：https://a9a.xyz】138'
+  - '[237ms] 🇭🇰_HK_中国香港_1'
+  - '[244ms] AE【机场推荐：https://a9a.xyz】27'
+  - '[255ms] US【机场推荐：https://a9a.xyz】4'
+  - '[255ms] IN【机场推荐：https://a9a.xyz】41'
+  - '[257ms] UN【机场推荐：https://a9a.xyz】53'
+  - '[262ms] IN【机场推荐：https://a9a.xyz】42'
+  - '[316ms] 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾'
+  - '[358ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
+  - '[413ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[451ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
+  - '[681ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  - '[692ms] UN【机场推荐：https://a9a.xyz】145'
 - name: 🌐 突破锁区
   type: select
   proxies:
@@ -967,7 +2862,6 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本
   - 🇺🇸 美国
-  - 🇸🇬 新加坡
   - 🇬🇧 英国
   - 🇩🇪 德国
   - 🇫🇷 法国
@@ -977,80 +2871,84 @@ proxy-groups:
 - name: 🇯🇵 日本
   type: select
   proxies:
-  - '[531ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
+  - '[8ms] 日本+东京Fastly节点'
+  - '[681ms] 🇲🇾_MY_马来西亚->🇯🇵_JP_日本'
 - name: 🇺🇸 美国
   type: select
   proxies:
-  - '[1ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
-  - '[1ms] 美国+加利福尼亚州洛杉矶Fastly节点'
-  - '[1ms] 美国+Fastly全球Anycast节点'
-  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[1ms] US【机场推荐：https://a9a.xyz】5'
-  - '[1ms] US【机场推荐：https://a9a.xyz】14'
-  - '[2ms] US【机场推荐：https://a9a.xyz】11'
-  - '[2ms] US【机场推荐：https://a9a.xyz】17'
-  - '[3ms] 美国+乔治亚洲亚特兰大Fastly节点'
-  - '[3ms] 美国+Fastly节点'
-  - '[57ms] 🇺🇸_US_美国'
-  - '[64ms] 🇺🇸_US_美国_1'
-  - '[64ms] 🇺🇸_US_美国_2'
-  - '[163ms] US【机场推荐：https://a9a.xyz】9'
-  - '[213ms] 🇺🇸_US_美国->🇨🇭_CH_瑞士'
-  - '[215ms] 🇺🇸_US_美国->🇮🇸_IS_冰岛'
-  - '[236ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[425ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
-- name: 🇸🇬 新加坡
-  type: select
-  proxies:
-  - '[244ms] 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1'
+  - '[8ms] US【机场推荐：https://a9a.xyz】2'
+  - '[8ms] 美国+V2CROSS.COM'
+  - '[8ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[8ms] 🇺🇸_US_美国'
+  - '[8ms] 🇺🇸_US_美国_2'
+  - '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[16ms] US【机场推荐：https://a9a.xyz】7'
+  - '[23ms] US【机场推荐：https://a9a.xyz】43'
+  - '[24ms] US【机场推荐：https://a9a.xyz】13'
+  - '[25ms] US【机场推荐：https://a9a.xyz】31'
+  - '[26ms] US【机场推荐：https://a9a.xyz】15'
+  - '[26ms] US【机场推荐：https://a9a.xyz】35'
+  - '[29ms] US【机场推荐：https://a9a.xyz】33'
+  - '[31ms] US【机场推荐：https://a9a.xyz】32'
+  - '[33ms] US【机场推荐：https://a9a.xyz】39'
+  - '[39ms] US【机场推荐：https://a9a.xyz】16'
+  - '[43ms] US【机场推荐：https://a9a.xyz】24'
+  - '[45ms] US【机场推荐：https://a9a.xyz】18'
+  - '[47ms] US【机场推荐：https://a9a.xyz】11'
+  - '[48ms] US【机场推荐：https://a9a.xyz】10'
+  - '[50ms] 美国+Akamai科技公司CDN网络节点'
+  - '[51ms] US【机场推荐：https://a9a.xyz】17'
+  - '[51ms] US【机场推荐：https://a9a.xyz】26'
+  - '[57ms] US【机场推荐：https://a9a.xyz】14'
+  - '[60ms] US【机场推荐：https://a9a.xyz】19'
+  - '[61ms] US【机场推荐：https://a9a.xyz】23'
+  - '[61ms] US【机场推荐：https://a9a.xyz】29'
+  - '[61ms] US【机场推荐：https://a9a.xyz】44'
+  - '[255ms] US【机场推荐：https://a9a.xyz】4'
+  - '[358ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
 - name: 🇬🇧 英国
   type: select
   proxies:
-  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[15ms] GB【机场推荐：https://a9a.xyz】7'
-  - '[92ms] 🇬🇧_GB_英国'
-  - '[94ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
-  - '[99ms] 英国+V2CROSS.COM'
-  - '[500ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[8ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[141ms] 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚'
+  - '[155ms] 🇬🇧_GB_英国'
+  - '[413ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
 - name: 🇩🇪 德国
   type: select
   proxies:
-  - '[1ms] DE【机场推荐：https://a9a.xyz】13'
-  - '[2ms] DE【机场推荐：https://a9a.xyz】12'
-  - '[87ms] DE【机场推荐：https://a9a.xyz】18'
-  - '[236ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
-  - '[246ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[196ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
 - name: 🇫🇷 法国
   type: select
   proxies:
-  - '[93ms] 法国+Fastly节点'
+  - '[166ms] 🇫🇷_FR_法国'
 - name: 🇷🇺 俄罗斯
   type: select
   proxies:
-  - '[4ms] 俄罗斯+V2CROSS.COM'
-  - '[123ms] 俄罗斯+V2CROSS.COM_1'
-  - '[190ms] RU【机场推荐：https://a9a.xyz】10'
-  - '[246ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[178ms] RU【机场推荐：https://a9a.xyz】6'
+  - '[196ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
 - name: 🇨🇦 加拿大
   type: select
   proxies:
-  - '[1ms] CA【机场推荐：https://a9a.xyz】4'
-  - '[1ms] 美国+Fastly全球Anycast节点'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】16'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】2'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】15'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】24'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】23'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】3'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】1'
-  - '[216ms] 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆'
+  - '[7ms] CA【机场推荐：https://a9a.xyz】22'
+  - '[7ms] CA【机场推荐：https://a9a.xyz】28'
+  - '[8ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[8ms] CA【机场推荐：https://a9a.xyz】25'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】8'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】9'
+  - '[9ms] CA【机场推荐：https://a9a.xyz】37'
+  - '[61ms] CA【机场推荐：https://a9a.xyz】38'
+  - '[63ms] CA【机场推荐：https://a9a.xyz】36'
+  - '[70ms] CA【机场推荐：https://a9a.xyz】40'
 - name: 🇮🇳 印度
   type: select
   proxies:
-  - '[1ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
-  - '[425ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
-  - '[463ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
-  - '[500ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[9ms] 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚'
+  - '[207ms] IN【机场推荐：https://a9a.xyz】46'
+  - '[255ms] IN【机场推荐：https://a9a.xyz】41'
+  - '[262ms] IN【机场推荐：https://a9a.xyz】42'
+  - '[358ms] 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国'
+  - '[413ms] 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国'
+  - '[451ms] 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港'
 rules:
 - 'DOMAIN-SUFFIX,ads.google.com,⛔ 广告拦截'
 - 'DOMAIN-SUFFIX,adservice.google.com,⛔ 广告拦截'
